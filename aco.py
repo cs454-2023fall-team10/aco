@@ -1,10 +1,13 @@
 from collections import namedtuple
 import sys
+import time
 import networkx as nx
 import matplotlib.pyplot as plt
 import random
+import numpy as np
 import pydot
 from networkx.drawing.nx_pydot import graphviz_layout
+from transformation_graph import make_transformation_graph
 
 Edge = namedtuple("Edge", ["start", "end", "data"])
 
@@ -13,11 +16,11 @@ class Ant:
     alpha = 1
     beta = 2
     evaporate_coeff = 0.4
-    budget = 5
+    budget = 22
 
     def __init__(self, id):
         self.id = id
-        self.current_node = random.randrange(10)
+        self.current_node = "START"
         self.route = []
         self.travel_distance = 0
 
@@ -25,7 +28,7 @@ class Ant:
         return f"{self.id}, {self.route}, {self.travel_distance}"
 
     def reset(self):
-        self.current_node = random.randrange(10)
+        self.current_node = "START"
         self.route = []
         self.travel_distance = 0
 
@@ -49,10 +52,6 @@ class Ant:
         """
         probabilities = []
         for edge in edges:
-            # For now, allow to revisit nodes
-            # if edge in self.route:
-            #     probabilities.append(0)
-
             pheromone = edge.data["pheromone"]
             importance = 1 / edge.data["weight"]
             probabilities.append(pheromone**self.alpha * importance**self.beta)
@@ -105,6 +104,11 @@ class Ant:
             ]
             G[start][end]["pheromone"] += 1 / cost if (start, end) in visited else 0
 
+        print(f"ant: {self.id}")
+        for edge in self.route:
+            print(edge)
+        print(cost)
+
 
 class AntColony:
     initial_pheromone = 1
@@ -113,15 +117,10 @@ class AntColony:
         self.G = G
 
     def init_pheromone(self):
-        """
-        For testing
-        """
+        for node in list(self.G.nodes()):
+            self.G.add_edge("START", node, weight=1)
+
         for start, end in self.G.edges():
-            if (start, end) in [(1, 3), (3, 4), (4, 5), (5, 7), (7, 9)]:
-                # 1 -> 2 -> 4 -> 5 -> 7 -> 9
-                self.G[start][end]["weight"] = -1
-            else:
-                self.G[start][end]["weight"] = 10
             self.G[start][end]["pheromone"] = self.initial_pheromone
 
     def aco(self):
@@ -133,10 +132,11 @@ class AntColony:
         shortest_path = []
         best_ant = ants[0]
 
-        budget = 50
+        budget = 1_000
         count = 0
         while count < budget:
             count += 1
+            start = time.time()
             for ant in ants:
                 """
                 TODO: traverse in parallel?
@@ -153,6 +153,8 @@ class AntColony:
             for ant in ants:
                 ant.reset()
 
+            print(f"{count}: elasped time: {time.time() - start:.4f}s")
+
         print("shortest: ")
         for edge in shortest_path:
             print(edge)
@@ -160,8 +162,24 @@ class AntColony:
         return shortest_path
 
 
-def make_transformation_graph():
-    trans_G = nx.complete_graph(10, nx.DiGraph())
+def make_transformation_graph_test():
+    trans_G = nx.complete_graph(100, nx.DiGraph())
+    trans_G.add_weighted_edges_from([(u, v, 10) for u, v in trans_G.edges])
+
+    for start, end in trans_G.edges():
+        if (start, end) in [
+            (1, 2),
+            (2, 5),
+            (5, 7),
+            (7, 10),
+            (23, 53),
+            (48, 75),
+            (34, 35),
+            (10, 38),
+            (4, 11),
+            (38, 96),
+        ]:
+            trans_G[start][end]["weight"] = -1
 
     return trans_G
 
@@ -176,6 +194,7 @@ def print_graph(G):
 
 if __name__ == "__main__":
     G = make_transformation_graph()
+    # G = make_transformation_graph_test()
     ant_colony = AntColony(G)
     shortest_path = ant_colony.aco()
     # print_graph(G)

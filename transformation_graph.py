@@ -20,7 +20,7 @@ def make_transformation_graph():
             nodes.append("ADD_EDGE " + id1 + " " + id2)
 
     TG = nx.complete_graph(nodes, nx.DiGraph())
-    TG.add_weighted_edges_from([(u, v, 1) for u, v in TG.edges])
+    TG.add_weighted_edges_from([(u, v, 10) for u, v in TG.edges])
 
     valid_nodes = [
         "REMOVE_EDGE Q J",
@@ -51,6 +51,6 @@ def make_transformation_graph():
         for node2 in valid_nodes:
             if node1 == node2:
                 continue
-            TG[node1][node2]["weight"] = -1
+            TG[node1][node2]["weight"] = -10
 
     return TG
