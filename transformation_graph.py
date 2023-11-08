@@ -4,7 +4,7 @@ import json
 
 
 def make_transformation_graph():
-    file_path = "../chatbot-dataset/examples/general-homepage.json"
+    file_path = "chatbot-dataset/examples/general-homepage.json"
     with open(file_path, "r") as file:
         data = json.load(file)["sections"]
 
@@ -14,14 +14,14 @@ def make_transformation_graph():
         nodes.append("REMOVE_NODE " + id)
     for id1 in ids:
         for id2 in ids:
-            if (id1 == id2):
+            if id1 == id2:
                 continue
             nodes.append("REMOVE_EDGE " + id1 + " " + id2)
             nodes.append("ADD_EDGE " + id1 + " " + id2)
-    
+
     TG = nx.complete_graph(nodes, nx.DiGraph())
     TG.add_weighted_edges_from([(u, v, 1) for u, v in TG.edges])
-    
+
     valid_nodes = [
         "REMOVE_EDGE Q J",
         "REMOVE_EDGE Q K",
@@ -46,7 +46,7 @@ def make_transformation_graph():
         "ADD_EDGE U V",
         "ADD_EDGE U R",
     ]
-    
+
     for node1 in valid_nodes:
         for node2 in valid_nodes:
             if node1 == node2:

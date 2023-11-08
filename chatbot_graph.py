@@ -5,16 +5,10 @@ import json
 import random
 
 
-# for section in data:
-#     print(type(section))
-#     print(section)
-#     print()
-
-
 def make_chatbot_graph():
     random.seed(42)
 
-    file_path = "../chatbot-dataset/examples/general-homepage.json"
+    file_path = "chatbot-dataset/examples/general-homepage.json"
     with open(file_path, "r") as file:
         data = json.load(file)["sections"]
 
