@@ -1,0 +1,3 @@
+[submodule "chatbot-dataset"]
+	path = chatbot-dataset
+	url = git@github.com:cs454-2023fall-team10/chatbot-dataset.git
