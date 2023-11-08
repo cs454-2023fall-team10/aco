@@ -1,3 +1,4 @@
+from collections import namedtuple
 import sys
 import networkx as nx
 import matplotlib.pyplot as plt
@@ -5,89 +6,123 @@ import random
 import pydot
 from networkx.drawing.nx_pydot import graphviz_layout
 
-
-class Edge:
-    def __init__(self, start, end, pheromone, weight):
-        self.start = start
-        self.end = end
-        self.pheromone = pheromone
-        self.weight = weight
+Edge = namedtuple("Edge", ["start", "end", "data"])
 
 
 class Ant:
-    alpha = 0.5
+    alpha = 1
+    beta = 2
     evaporate_coeff = 0.4
+    budget = 5
 
     def __init__(self, id):
         self.id = id
-        self.current_node = 0
+        self.current_node = random.randrange(10)
         self.route = []
         self.travel_distance = 0
-        self.visited = set()
 
     def __str__(self):
         return f"{self.id}, {self.route}, {self.travel_distance}"
 
     def reset(self):
-        self.current_node = 0
+        self.current_node = random.randrange(10)
         self.route = []
         self.travel_distance = 0
-        self.visited = set()  # 대신 Budget을 두는게 맞지 않을까?
 
     def traverse(self, G: nx.DiGraph):
-        while True:
-            if self.current_node in self.visited:
-                break
+        count = 0
+        while count < self.budget:
+            count += 1
 
-            self.route.append(self.current_node)
-            self.visited.add(self.current_node)
-            children = list(
-                nx.bfs_tree(G, source=self.current_node, depth_limit=1).edges()
-            )
-            if not children:
-                break
-
-            next_edge = self.select()
+            next_edge = self.select(G)
+            self.route.append(next_edge)
             self.current_node = next_edge.end
-            self.travel_distance += next_edge.weight
+            self.travel_distance += next_edge.data["weight"]
 
-    def select(self):
-        edges = list(nx.bfs_tree(G, source=self.current_node, depth_limit=1).edges())
-        edges = [
-            Edge(
-                start=start,
-                end=end,
-                pheromone=G.get_edge_data(start, end, "pheromone")["pheromone"],
-                weight=G.get_edge_data(start, end, "weight")["weight"],
-            )
-            for start, end in edges
-        ]
-        edges.sort(key=lambda n: n.pheromone, reverse=True)
+    def _calc_probabilities(self, edges):
+        """
+        p_ij <- tau_ij^alpha * eta^beta / sigma p_ij
 
-        if random.random() < self.alpha:
-            next_edge = edges[0]
+        p_ij: probability of select node i to j
+        eta: 1 / c_ij
+            c_ij: weight of node i to j
+        """
+        probabilities = []
+        for edge in edges:
+            # For now, allow to revisit nodes
+            # if edge in self.route:
+            #     probabilities.append(0)
+
+            pheromone = edge.data["pheromone"]
+            importance = 1 / edge.data["weight"]
+            probabilities.append(pheromone**self.alpha * importance**self.beta)
+
+        sum_p = sum(probabilities)
+        return [p / sum_p for p in probabilities]
+
+    def select(self, G) -> Edge:
+        edges = list(G.edges.data(data=True, nbunch=self.current_node))
+        edges = [Edge(*e) for e in edges]
+
+        if random.random() < 0.5:
+            probabilities = self._calc_probabilities(edges)
+
+            next_edge = random.choices(population=edges, weights=probabilities, k=1)[0]
         else:
             next_edge = random.choice(edges)
 
-        self.update_pheromone_locally()
+        self.update_pheromone_locally(G, next_edge)
 
         return next_edge
 
-    def update_pheromone_locally(self):
-        pass
+    def update_pheromone_locally(self, G, edge):
+        """
+        tau_xy <- (1-rho) * tau_xy + rho * tau_0
 
-    def update_pheromone_globally(self):
-        pass
+        tau_xy: pheromone for node x to y
+        rho: coefficient of evaporation
+        """
+        G[edge.start][edge.end]["pheromone"] = (1 - self.evaporate_coeff) * G[
+            edge.start
+        ][edge.end]["pheromone"]
+        G[edge.start][edge.end]["pheromone"] += (
+            self.evaporate_coeff * AntColony.initial_pheromone
+        )
+
+    def update_pheromone_globally(self, G):
+        """
+        tau_xy <- (1-rho) * tau_xy + delta tau_xy_k
+            delta tau_xy_k = Q / L_k
+
+        tau_xy: pheromone for node x to y
+        rho: coefficient of evaporation
+        """
+        visited = [(edge.start, edge.end) for edge in self.route]
+        cost = sum([data["weight"] for _, _, data in self.route])
+        for start, end in G.edges():
+            G[start][end]["pheromone"] = (1 - self.evaporate_coeff) * G[start][end][
+                "pheromone"
+            ]
+            G[start][end]["pheromone"] += 1 / cost if (start, end) in visited else 0
 
 
 class AntColony:
-    def __init__(self, G):
+    initial_pheromone = 1
+
+    def __init__(self, G: nx.Graph):
         self.G = G
 
     def init_pheromone(self):
+        """
+        For testing
+        """
         for start, end in self.G.edges():
-            self.G[start][end]["weight"] = random.randrange(0, 10)
-            self.G[start][end]["pheromone"] = 0
+            if (start, end) in [(1, 3), (3, 4), (4, 5), (5, 7), (7, 9)]:
+                # 1 -> 2 -> 4 -> 5 -> 7 -> 9
+                self.G[start][end]["weight"] = -1
+            else:
+                self.G[start][end]["weight"] = 10
+            self.G[start][end]["pheromone"] = self.initial_pheromone
 
     def aco(self):
         self.init_pheromone()
@@ -98,7 +133,7 @@ class AntColony:
         shortest_path = []
         best_ant = ants[0]
 
-        budget = 1
+        budget = 50
         count = 0
         while count < budget:
             count += 1
@@ -106,56 +141,27 @@ class AntColony:
                 """
                 TODO: traverse in parallel?
                 """
-                ant.traverse(G)
+                ant.traverse(self.G)
 
                 if ant.travel_distance < shortest_distance:
                     shortest_distance = ant.travel_distance
                     shortest_path = ant.route
                     best_ant = ant
 
-            best_ant.update_pheromone_globally()
+            best_ant.update_pheromone_globally(G)
 
             for ant in ants:
                 ant.reset()
 
-        print("shortest: ", shortest_path, shortest_distance)
+        print("shortest: ")
+        for edge in shortest_path:
+            print(edge)
+        print(shortest_distance)
         return shortest_path
 
 
 def make_transformation_graph():
-    trans_G = nx.DiGraph()
-    trans_G.add_edge(0, 1, weight=2, pheromone=0)
-    trans_G.add_edge(0, 2, weight=3, pheromone=0)
-    trans_G.add_edge(0, 3, weight=4, pheromone=0)
-    trans_G.add_edge(0, 4, weight=5, pheromone=0)
-
-    trans_G.add_edge(1, 5, weight=2, pheromone=0)
-    trans_G.add_edge(1, 6, weight=3, pheromone=0)
-    trans_G.add_edge(2, 7, weight=4, pheromone=0)
-    trans_G.add_edge(2, 8, weight=5, pheromone=0)
-    trans_G.add_edge(3, 9, weight=2, pheromone=0)
-    trans_G.add_edge(3, 10, weight=3, pheromone=0)
-    trans_G.add_edge(4, 11, weight=4, pheromone=0)
-    trans_G.add_edge(4, 12, weight=5, pheromone=0)
-
-    trans_G.add_edge(5, 13, weight=2, pheromone=0)
-    trans_G.add_edge(6, 14, weight=3, pheromone=0)
-    trans_G.add_edge(7, 15, weight=4, pheromone=0)
-    trans_G.add_edge(8, 16, weight=5, pheromone=0)
-    trans_G.add_edge(9, 17, weight=2, pheromone=0)
-    trans_G.add_edge(10, 18, weight=3, pheromone=0)
-    trans_G.add_edge(11, 19, weight=4, pheromone=0)
-    trans_G.add_edge(12, 20, weight=5, pheromone=0)
-
-    trans_G.add_edge(5, 21, weight=2, pheromone=0)
-    trans_G.add_edge(6, 22, weight=3, pheromone=0)
-    trans_G.add_edge(7, 23, weight=4, pheromone=0)
-    trans_G.add_edge(8, 24, weight=5, pheromone=0)
-    trans_G.add_edge(9, 25, weight=2, pheromone=0)
-    trans_G.add_edge(10, 26, weight=3, pheromone=0)
-    trans_G.add_edge(11, 27, weight=4, pheromone=0)
-    trans_G.add_edge(12, 28, weight=5, pheromone=0)
-    # trans_G = nx.random_geometric_graph(20, radius=0.4, seed=3)
+    trans_G = nx.complete_graph(10, nx.DiGraph())
 
     return trans_G
 
@@ -172,4 +178,4 @@ if __name__ == "__main__":
     G = make_transformation_graph()
     ant_colony = AntColony(G)
     shortest_path = ant_colony.aco()
-    print_graph(G)
+    # print_graph(G)
