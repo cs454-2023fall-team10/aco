@@ -1,5 +1,6 @@
 # TransformationGraph, ActColony
 WEIGHT = 1
+NODE_DISTANCE_THRESHOLD = 4
 
 # Ant
 ALPHA = 1
