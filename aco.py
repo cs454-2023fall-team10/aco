@@ -115,6 +115,7 @@ class AntColony:
 
     def __init__(self, CG: ChatbotGraph):
         self.CG = CG
+        self.CG.evaluate()
         self.TG = TransformationGraph(CG)
 
     def init_pheromone(self):
@@ -129,7 +130,7 @@ class AntColony:
 
         ants = [Ant(i) for i in range(constants.ANT_COUNT)]
 
-        shortest_distance = sys.maxsize
+        fitness = self.CG.fitness
         shortest_path = []
         best_ant = ants[0]
 
@@ -138,16 +139,13 @@ class AntColony:
             count += 1
             start = time.time()
             for ant in ants:
-                """
-                TODO: traverse in parallel?
-                """
                 ant.traverse(self.TG.graph)
 
-                if ant.travel_distance < shortest_distance:
-                    """
-                    TODO: evaluate ant and compare fitness between best_ant
-                    """
-                    shortest_distance = ant.travel_distance
+                new_CG = self.CG.copy()
+                new_CG.transform(ant.route)
+
+                if new_CG.fitness < fitness:
+                    fitness = new_CG.fitness
                     shortest_path = ant.route
                     best_ant = ant
 
@@ -161,7 +159,7 @@ class AntColony:
         print("shortest: ")
         for edge in shortest_path:
             print(edge)
-        print(shortest_distance)
+        print(fitness)
         return shortest_path
 
 

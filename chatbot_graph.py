@@ -6,8 +6,9 @@ from graph import Graph
 
 class ChatbotGraph(Graph):
     def __init__(self, file_path):
+        self.file_path = file_path
         self.graph: nx.DiGraph = self.create(file_path)
-        self.fitness = self.evaluate()
+        self.fitness = 0
 
     def __str__(self):
         return f"CG: {self.graph}"
@@ -63,13 +64,20 @@ class ChatbotGraph(Graph):
 
     def evaluate(self):
         """
-        Evaluate ChatbotGraph
+        TODO: Evaluate ChatbotGraph
         """
-        pass
+        self.fitness = 0
+
+    def copy(self):
+        copied = ChatbotGraph(self.file_path)
+        copied.graph = self.graph.copy()
+        return copied
 
 
 if __name__ == "__main__":
     CG = ChatbotGraph("general-homepage")
+    CG_copy = CG.copy()
+
     CG.draw()
     print(CG)
     CG.transform(["REMOVE_NODE A"])
@@ -78,3 +86,5 @@ if __name__ == "__main__":
     CG.transform(["REMOVE_EDGE I K"])
     CG.draw()
     print(CG)
+
+    print(CG_copy)
