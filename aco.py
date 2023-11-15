@@ -2,21 +2,20 @@ from collections import namedtuple
 import sys
 import time
 import networkx as nx
-import matplotlib.pyplot as plt
 import random
-import numpy as np
-import pydot
-from networkx.drawing.nx_pydot import graphviz_layout
-from transformation_graph import make_transformation_graph
+
+import constants
+from chatbot_graph import ChatbotGraph
+from transformation_graph import TransformationGraph
 
 Edge = namedtuple("Edge", ["start", "end", "data"])
 
 
 class Ant:
-    alpha = 1
-    beta = 2
-    evaporate_coeff = 0.4
-    budget = 22
+    alpha = constants.ALPHA
+    beta = constants.BETA
+    evaporation_rate = constants.EVAPORATION_RATE
+    budget = constants.LENGTH_OF_PATH
 
     def __init__(self, id):
         self.id = id
@@ -63,7 +62,7 @@ class Ant:
         edges = list(G.edges.data(data=True, nbunch=self.current_node))
         edges = [Edge(*e) for e in edges]
 
-        if random.random() < 0.5:
+        if random.random() < constants.RANDOM_CHOICE_RATE:
             probabilities = self._calc_probabilities(edges)
 
             next_edge = random.choices(population=edges, weights=probabilities, k=1)[0]
@@ -81,11 +80,11 @@ class Ant:
         tau_xy: pheromone for node x to y
         rho: coefficient of evaporation
         """
-        G[edge.start][edge.end]["pheromone"] = (1 - self.evaporate_coeff) * G[
+        G[edge.start][edge.end]["pheromone"] = (1 - self.evaporation_rate) * G[
             edge.start
         ][edge.end]["pheromone"]
         G[edge.start][edge.end]["pheromone"] += (
-            self.evaporate_coeff * AntColony.initial_pheromone
+            self.evaporation_rate * AntColony.initial_pheromone
         )
 
     def update_pheromone_globally(self, G):
@@ -99,7 +98,7 @@ class Ant:
         visited = [(edge.start, edge.end) for edge in self.route]
         cost = sum([data["weight"] for _, _, data in self.route])
         for start, end in G.edges():
-            G[start][end]["pheromone"] = (1 - self.evaporate_coeff) * G[start][end][
+            G[start][end]["pheromone"] = (1 - self.evaporation_rate) * G[start][end][
                 "pheromone"
             ]
             G[start][end]["pheromone"] += 1 / cost if (start, end) in visited else 0
@@ -111,44 +110,48 @@ class Ant:
 
 
 class AntColony:
-    initial_pheromone = 1
+    initial_pheromone = constants.INITIAL_PHEROMONE
+    budget = constants.ITERATION_BUDGET
 
-    def __init__(self, G: nx.Graph):
-        self.G = G
+    def __init__(self, CG: ChatbotGraph):
+        self.CG = CG
+        self.TG = TransformationGraph(CG)
 
     def init_pheromone(self):
-        for node in list(self.G.nodes()):
-            self.G.add_edge("START", node, weight=1)
+        for node in list(self.TG.graph.nodes()):
+            self.TG.graph.add_edge("START", node, weight=constants.WEIGHT)
 
-        for start, end in self.G.edges():
-            self.G[start][end]["pheromone"] = self.initial_pheromone
+        for start, end in self.TG.graph.edges():
+            self.TG.graph[start][end]["pheromone"] = self.initial_pheromone
 
     def aco(self):
         self.init_pheromone()
 
-        ants = [Ant(i) for i in range(50)]
+        ants = [Ant(i) for i in range(constants.ANT_COUNT)]
 
         shortest_distance = sys.maxsize
         shortest_path = []
         best_ant = ants[0]
 
-        budget = 1_000
         count = 0
-        while count < budget:
+        while count < self.budget:
             count += 1
             start = time.time()
             for ant in ants:
                 """
                 TODO: traverse in parallel?
                 """
-                ant.traverse(self.G)
+                ant.traverse(self.TG.graph)
 
                 if ant.travel_distance < shortest_distance:
+                    """
+                    TODO: evaluate ant and compare fitness between best_ant
+                    """
                     shortest_distance = ant.travel_distance
                     shortest_path = ant.route
                     best_ant = ant
 
-            best_ant.update_pheromone_globally(G)
+            best_ant.update_pheromone_globally(self.TG.graph)
 
             for ant in ants:
                 ant.reset()
@@ -162,39 +165,8 @@ class AntColony:
         return shortest_path
 
 
-def make_transformation_graph_test():
-    trans_G = nx.complete_graph(100, nx.DiGraph())
-    trans_G.add_weighted_edges_from([(u, v, 10) for u, v in trans_G.edges])
-
-    for start, end in trans_G.edges():
-        if (start, end) in [
-            (1, 2),
-            (2, 5),
-            (5, 7),
-            (7, 10),
-            (23, 53),
-            (48, 75),
-            (34, 35),
-            (10, 38),
-            (4, 11),
-            (38, 96),
-        ]:
-            trans_G[start][end]["weight"] = -1
-
-    return trans_G
-
-
-def print_graph(G):
-    pos = graphviz_layout(G, prog="dot")
-    nx.draw(G, pos, with_labels=True)
-    labels = nx.get_edge_attributes(G, "weight")
-    nx.draw_networkx_edge_labels(G, pos, edge_labels=labels)
-    plt.show()
-
-
 if __name__ == "__main__":
-    G = make_transformation_graph()
-    # G = make_transformation_graph_test()
-    ant_colony = AntColony(G)
+    CG = ChatbotGraph("general-homepage")
+    ant_colony = AntColony(CG)
     shortest_path = ant_colony.aco()
-    # print_graph(G)
+    CG.transform(shortest_path)

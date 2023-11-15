@@ -7,6 +7,7 @@ from graph import Graph
 class ChatbotGraph(Graph):
     def __init__(self, file_path):
         self.graph: nx.DiGraph = self.create(file_path)
+        self.fitness = self.evaluate()
 
     def __str__(self):
         return f"CG: {self.graph}"
@@ -29,52 +30,6 @@ class ChatbotGraph(Graph):
                 CG.add_edge(section["id"], button["nextSectionId"])
 
         return CG
-
-    def messup(self):
-        messed_CG = nx.DiGraph()
-        # Mess up the original graph randomly.
-        # size = len(DG.nodes)
-        # for node in DG.nodes:
-        #     num_of_indices = random.randrange(size)
-        #     messed_DG.add_node(node)
-        #     messed_DG.nodes[node]['text'] = f"\"{DG.nodes[node]['text']}\""
-        #     for neighbor in random.sample(list(DG.nodes), num_of_indices):
-        #         messed_DG.add_edge(node, neighbor)
-        #         if not messed_DG.nodes[node]['text']:
-        #             messed_DG.nodes[neighbor]['text'] = f"\"{DG.nodes[neighbor]['text']}\""
-
-        # Hard-coded messed chatbot graph to make transforamtion graph conveniently.
-        messed_CG = self.graph.copy()
-        removed_edges = [
-            ("Q", "R"),
-            ("Q", "V"),
-            ("R", "S"),
-            ("R", "T"),
-            ("R", "U"),
-            ("O", "P"),
-            ("O", "A"),
-            ("S", "V"),
-            ("S", "R"),
-            ("T", "V"),
-            ("T", "R"),
-            ("U", "V"),
-            ("U", "R"),
-        ]
-        added_edges = [
-            ("Q", "J"),
-            ("Q", "K"),
-            ("J", "S"),
-            ("J", "T"),
-            ("K", "U"),
-            ("I", "R"),
-            ("I", "V"),
-            ("M", "O"),
-            ("N", "P"),
-        ]
-        messed_CG.remove_edges_from(removed_edges)
-        messed_CG.add_edges_from(added_edges)
-
-        self.graph = messed_CG
 
     def transform(self, transformation_paths):
         """
@@ -106,7 +61,7 @@ class ChatbotGraph(Graph):
             """
             self.graph = nx.DiGraph()
 
-    def evaluate():
+    def evaluate(self):
         """
         Evaluate ChatbotGraph
         """
@@ -115,9 +70,6 @@ class ChatbotGraph(Graph):
 
 if __name__ == "__main__":
     CG = ChatbotGraph("general-homepage")
-    # CG2 = ChatbotGraph("general-homepage")
-    # CG2.messup()
-    # Graph.draw_graphs(CG.graph, CG2.graph)
     CG.draw()
     print(CG)
     CG.transform(["REMOVE_NODE A"])
