@@ -15,14 +15,17 @@ class Graph:
     @staticmethod
     def draw_graphs(g1, g2):
         plt.subplot(1, 2, 1)
-        pos1 = graphviz_layout(g1, prog="dot")
-        nx.draw(g1, with_labels=True, pos=pos1)
+        pos1 = graphviz_layout(g1.graph, prog="dot")
+        nx.draw(g1.graph, with_labels=True, pos=pos1)
+        labels = nx.get_edge_attributes(g1.graph, "weight")
+        nx.draw_networkx_edge_labels(g1.graph, pos1, edge_labels=labels)
         plt.title("Graph 1")
 
         plt.subplot(1, 2, 2)
-        # pos2 = nx.spring_layout(messed_DG)
-        pos2 = graphviz_layout(g2, prog="dot")
-        nx.draw(g2, with_labels=True, pos=pos2)
+        pos2 = graphviz_layout(g2.graph, prog="dot")
+        nx.draw(g2.graph, with_labels=True, pos=pos2)
+        labels = nx.get_edge_attributes(g2.graph, "weight")
+        nx.draw_networkx_edge_labels(g2.graph, pos1, edge_labels=labels)
         plt.title("Graph 2")
 
         plt.show()

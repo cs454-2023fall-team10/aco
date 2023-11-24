@@ -6,6 +6,7 @@ import random
 
 import constants
 from chatbot_graph import ChatbotGraph
+from graph import Graph
 from transformation_graph import TransformationGraph
 
 Edge = namedtuple("Edge", ["start", "end", "data"])
@@ -166,5 +167,9 @@ class AntColony:
 if __name__ == "__main__":
     CG = ChatbotGraph("general-homepage")
     ant_colony = AntColony(CG)
+
     shortest_path = ant_colony.aco()
-    CG.transform(shortest_path)
+    optimized_CG = CG.copy()
+    optimized_CG.transform(shortest_path)
+
+    Graph.draw_graphs(CG, optimized_CG)
