@@ -109,6 +109,24 @@ class Ant:
             print(edge)
         print(cost)
 
+    def convert_route_to_transformation_path(self):
+        """
+        EX)
+        route:
+        [Edge(start='START', end='REMOVE_NODE I', data={'weight': 1, 'pheromone': 0.5464705452296552}),
+         Edge(start='REMOVE_NODE I', end='REMOVE_EDGE H J', data={'weight': 1, 'pheromone': 0.39553318404096}),
+         Edge(start='REMOVE_EDGE H J', end='REMOVE_NODE C', data={'weight': 1, 'pheromone': 0.3867572576256})]
+
+        ->
+        transformation_path:
+        ["REMOVE_NODE I", "REMOVE_EDGE H J", "REMOVE_NODE C]
+        """
+        transformation_path = []
+        for path in self.route:
+            transformation_path.append(path.end)
+
+        return transformation_path
+
 
 class AntColony:
     initial_pheromone = constants.INITIAL_PHEROMONE
@@ -143,14 +161,17 @@ class AntColony:
                 ant.traverse(self.TG.graph)
 
                 new_CG = self.CG.copy()
-                new_CG.transform(ant.route)
+                transformation_path = ant.convert_route_to_transformation_path()
+                new_CG.transform(transformation_path)
+                new_CG.evaluate()
 
-                if new_CG.fitness < fitness:
+                if new_CG.fitness > fitness:
                     fitness = new_CG.fitness
-                    shortest_path = ant.route
+                    shortest_path = transformation_path
                     best_ant = ant
 
             best_ant.update_pheromone_globally(self.TG.graph)
+            print("fitness:", fitness)
 
             for ant in ants:
                 ant.reset()
@@ -165,7 +186,7 @@ class AntColony:
 
 
 if __name__ == "__main__":
-    CG = ChatbotGraph("general-homepage")
+    CG = ChatbotGraph("lead-homepage")
     ant_colony = AntColony(CG)
 
     shortest_path = ant_colony.aco()

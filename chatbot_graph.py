@@ -74,7 +74,7 @@ class ChatbotGraph(Graph):
 
 
 if __name__ == "__main__":
-    CG = ChatbotGraph("jobs-homepage")
+    CG = ChatbotGraph("lead-homepage")
     CG.evaluate()
     CG_copy = CG.copy()
 
