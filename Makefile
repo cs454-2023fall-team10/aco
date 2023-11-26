@@ -1,6 +1,7 @@
 init_submodule:
-	git submodule update --init
-	cd fitness && git submodule update --init
+	git submodule update --init --remote
+	cd fitness && git submodule update --init --remote && pip install -r requirements.txt
+
 
 
 clean_submodule:
