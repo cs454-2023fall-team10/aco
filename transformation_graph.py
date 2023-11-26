@@ -24,7 +24,9 @@ class TransformationGraph(Graph):
         CG_nodes = CG.graph.nodes.data()
         TG_nodes = []
         for node1 in CG_nodes:
-            TG_nodes.append("REMOVE_NODE " + node1[0])
+            if node1[0] != "A":
+                # Start Node can not removed
+                TG_nodes.append("REMOVE_NODE " + node1[0])
             for node2 in CG_nodes:
                 if node1 == node2:
                     continue
@@ -36,7 +38,12 @@ class TransformationGraph(Graph):
                         nx.shortest_path_length(CG.graph, node1[0], node2[0])
                         < constants.NODE_DISTANCE_THRESHOLD
                     ):
-                        TG_nodes.append("ADD_EDGE " + node1[0] + " " + node2[0])
+                        """
+                        @FIX
+                        How to add text?
+                        """
+                        # TG_nodes.append("ADD_EDGE " + node1[0] + " " + node2[0])
+                        pass
 
         TG = nx.complete_graph(TG_nodes)
         TG.add_weighted_edges_from([(u, v, constants.WEIGHT) for u, v in TG.edges])
@@ -45,7 +52,7 @@ class TransformationGraph(Graph):
 
 
 if __name__ == "__main__":
-    CG = ChatbotGraph("general-homepage")
+    CG = ChatbotGraph("lead-homepage")
     print(CG)
     TG = TransformationGraph(CG)
     print(TG)
