@@ -28,7 +28,7 @@ class ChatbotGraph(Graph):
             if section["type"] == "stop":
                 continue
             for button in section["buttons"]:
-                CG.add_edge(section["id"], button["nextSectionId"])
+                CG.add_edge(section["id"], button["nextSectionId"], text=button["text"])
 
         return CG
 
@@ -63,10 +63,9 @@ class ChatbotGraph(Graph):
             self.graph = nx.DiGraph()
 
     def evaluate(self):
-        """
-        TODO: Evaluate ChatbotGraph
-        """
-        self.fitness = 0
+        from fitness import fitness
+
+        self.fitness = fitness.fitness(self.graph, self.file_path)
 
     def copy(self):
         copied = ChatbotGraph(self.file_path)
@@ -75,7 +74,8 @@ class ChatbotGraph(Graph):
 
 
 if __name__ == "__main__":
-    CG = ChatbotGraph("general-homepage")
+    CG = ChatbotGraph("jobs-homepage")
+    CG.evaluate()
     CG_copy = CG.copy()
 
     CG.draw()
