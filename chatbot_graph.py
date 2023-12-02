@@ -47,8 +47,12 @@ class ChatbotGraph(Graph):
                     l, r = operands.split()
                     self.graph.remove_edge(l, r)
                 case "ADD_EDGE":
-                    l, r = operands.split()
-                    self.graph.add_edge(l, r)
+                    l, r, text = operands.split(maxsplit=2)
+                    if not (self.graph[l] and self.graph[r]):
+                        # If node l or r are already removed, peanlize.
+                        raise Exception()
+
+                    self.graph.add_edge(l, r, text=text)
                 case _:
                     pass
 
@@ -76,6 +80,7 @@ class ChatbotGraph(Graph):
 if __name__ == "__main__":
     CG = ChatbotGraph("lead-homepage")
     CG.evaluate()
+    print(CG.fitness)
     CG_copy = CG.copy()
 
     CG.draw()

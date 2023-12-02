@@ -38,17 +38,33 @@ class TransformationGraph(Graph):
                         nx.shortest_path_length(CG.graph, node1[0], node2[0])
                         < constants.NODE_DISTANCE_THRESHOLD
                     ):
-                        """
-                        @FIX
-                        How to add text?
-                        """
-                        # TG_nodes.append("ADD_EDGE " + node1[0] + " " + node2[0])
-                        pass
+                        texts = self.get_incoming_texts(CG.graph, node2)
+                        text = random.choice(texts)
+                        TG_nodes.append(
+                            "ADD_EDGE " + node1[0] + " " + node2[0] + " " + text
+                        )
 
         TG = nx.complete_graph(TG_nodes)
         TG.add_weighted_edges_from([(u, v, constants.WEIGHT) for u, v in TG.edges])
 
         return TG
+
+    @staticmethod
+    def get_incoming_texts(graph, node):
+        """
+        Extract unique incoming edges's text of the node.
+
+        To prevent cycle, exclude some texts.
+        """
+        exclude = ["이전 단계로", "이전단계"]
+
+        texts = [
+            data["text"]
+            for _, _, data in graph.in_edges(node[0], data=True)
+            if data["text"] not in exclude
+        ]
+
+        return list(set(texts))
 
 
 if __name__ == "__main__":
