@@ -48,7 +48,7 @@ class ChatbotGraph(Graph):
                     self.graph.remove_edge(l, r)
                 case "ADD_EDGE":
                     l, r, text = operands.split(maxsplit=2)
-                    if not (self.graph[l] and self.graph[r]):
+                    if l not in self.graph or r not in self.graph:
                         # If node l or r are already removed, peanlize.
                         raise Exception()
 
