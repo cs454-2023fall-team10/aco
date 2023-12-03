@@ -178,7 +178,7 @@ class AntColony:
                 self.TG.graph[s][e]["pheromone"] *= 1 - constants.EVAPORATION_RATE
 
             print(
-                f"Iteration {count}: best_fitness = {best_fitness}, elasped time: {time.time() - start:.4f}s"
+                f"Iteration {count}: best_fitness = {best_fitness}, best_fitness_in_epoch: {max_fitness}, elasped time: {time.time() - start:.4f}s"
             )
 
             if count % 5 == 0:

@@ -1,2 +1,4 @@
 file_name,dataset,initial_fitness,final_fitness,admin,user,evaporation_rate,length_of_path,random_coice_rate,initial_pheromone,iterations,ants
 001.png,kakaotalk-faq-231129-small-mingled-003,0.597599446773529,0.662323534488678,0,final_similarity,0.4,8,0.3,1,50,300
+002.png,kakaotalk-faq-231129-small-mingled-003,0.5456512570381165,0.6317023634910583,0,final_similarity - path_length * 0.03,0.4,8,0.3,1,50,300
+003.png,kakaotalk-faq-231129-small-mingled-003,0.4763866066932678,0.5912637710571289,0,final_similarity - path_length * 0.07,0.4,8,0.3,1,50,300
