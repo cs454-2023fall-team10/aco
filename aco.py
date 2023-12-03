@@ -1,5 +1,4 @@
 from collections import namedtuple
-import sys
 import time
 import networkx as nx
 import random
@@ -10,6 +9,14 @@ from graph import Graph
 from transformation_graph import TransformationGraph
 
 Edge = namedtuple("Edge", ["start", "end", "data"])
+
+
+DEBUG = True
+
+
+def debug(*args):
+    if DEBUG:
+        print("[DEBUG]", *args)
 
 
 class Ant:
@@ -61,7 +68,9 @@ class Ant:
 
     def select(self, G) -> Edge:
         edges = list(G.edges.data(data=True, nbunch=self.current_node))
-        edges = [Edge(*e) for e in edges]
+        edges = [
+            Edge(*e) for e in edges if e[1] != "START"
+        ]  # Exclude edge when end is "START".
 
         if random.random() < constants.RANDOM_CHOICE_RATE:
             probabilities = self._calc_probabilities(edges)
@@ -104,11 +113,6 @@ class Ant:
             ]
             G[start][end]["pheromone"] += 1 / cost if (start, end) in visited else 0
 
-        print(f"ant: {self.id}")
-        for edge in self.route:
-            print(edge)
-        print(cost)
-
     def convert_route_to_transformation_path(self):
         """
         EX)
@@ -137,6 +141,9 @@ class AntColony:
         self.CG.evaluate()
         self.TG = TransformationGraph(CG)
 
+        # TG statistics
+        self.TG.print_stats()
+
     def init_pheromone(self):
         for node in list(self.TG.graph.nodes()):
             self.TG.graph.add_edge("START", node, weight=constants.WEIGHT)
@@ -151,46 +158,70 @@ class AntColony:
 
         fitness = self.CG.fitness
         shortest_path = []
-        best_ant = ants[0]
 
         count = 0
         while count < self.budget:
             count += 1
             start = time.time()
+            best_ant = ants[0]
+            best_ant_fitness = self.CG.fitness
             for ant in ants:
                 ant.traverse(self.TG.graph)
 
                 new_CG = self.CG.copy()
                 transformation_path = ant.convert_route_to_transformation_path()
-                new_CG.transform(transformation_path)
+
+                try:
+                    new_CG.transform(transformation_path)
+                except:
+                    # transformation_path is not valid, do not count this ant.
+                    continue
+
                 new_CG.evaluate()
 
+                if new_CG.fitness > best_ant_fitness:
+                    # Best ant per iteration can update pheromone.
+                    best_ant = ant
+                    best_ant_fitness = new_CG.fitness
+
                 if new_CG.fitness > fitness:
+                    # Best fitness per whole ACO.
                     fitness = new_CG.fitness
                     shortest_path = transformation_path
-                    best_ant = ant
 
             best_ant.update_pheromone_globally(self.TG.graph)
-            print("fitness:", fitness)
+            print("Fitness:", fitness)
 
             for ant in ants:
                 ant.reset()
 
-            print(f"{count}: elasped time: {time.time() - start:.4f}s")
+            print(f"Iteration {count}: elasped time: {time.time() - start:.4f}s")
 
-        print("shortest: ")
-        for edge in shortest_path:
-            print(edge)
+            if count % 5 == 0:
+                print(f"Shortest path in iteration {count}: {shortest_path}")
+
+        print(f"Shortest path: {shortest_path}")
         print(fitness)
         return shortest_path
 
 
 if __name__ == "__main__":
-    CG = ChatbotGraph("lead-homepage")
+    CG = ChatbotGraph("kakaotalk-faq-231129-small-mingled-001")
     ant_colony = AntColony(CG)
 
+    # Show original graph
+    # CG.draw()
+
+    # Run ACO
     shortest_path = ant_colony.aco()
     optimized_CG = CG.copy()
     optimized_CG.transform(shortest_path)
 
+    # Show optimized graph
     Graph.draw_graphs(CG, optimized_CG)
+
+# if __name__ == "__main__":
+# Graph.draw(ChatbotGraph("kakaotalk-faq-231129-small"))
+# Graph.draw(ChatbotGraph("kakaotalk-faq-231129-small-mingled-001"))
+# Graph.draw(ChatbotGraph("kakaotalk-faq-231129-small-mingled-002"))
+# Graph.draw(ChatbotGraph("kakaotalk-faq-231129-small-mingled-003"))

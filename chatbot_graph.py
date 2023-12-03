@@ -56,15 +56,8 @@ class ChatbotGraph(Graph):
                 case _:
                     pass
 
-        try:
-            for path in transformation_paths:
-                execute(path)
-        except:
-            """
-            If a transfrom execution is failed,
-            penalize chatbotGraph by converting empty graph
-            """
-            self.graph = nx.DiGraph()
+        for path in transformation_paths:
+            execute(path)
 
     def evaluate(self):
         from fitness import fitness

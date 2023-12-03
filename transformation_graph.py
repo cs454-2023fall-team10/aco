@@ -2,6 +2,7 @@ from os import system
 import random
 import sys
 import networkx as nx
+
 import constants
 from chatbot_graph import ChatbotGraph
 from graph import Graph
@@ -65,6 +66,31 @@ class TransformationGraph(Graph):
         ]
 
         return list(set(texts))
+
+    def num_nodes(self):
+        return len(self.graph.nodes())
+
+    def num_rm_node(self):
+        return len(
+            [node for node in self.graph.nodes() if node.startswith("REMOVE_NODE")]
+        )
+
+    def num_rm_edge(self):
+        return len(
+            [node for node in self.graph.nodes() if node.startswith("REMOVE_EDGE")]
+        )
+
+    def num_add_edge(self):
+        return len([node for node in self.graph.nodes() if node.startswith("ADD_EDGE")])
+
+    def num_edges(self):
+        return len(self.graph.edges())
+
+    def print_stats(self):
+        print(f"TG: V = {self.num_nodes()}, E = {self.num_edges()}")
+        print(f"TG num_rm_node = {self.num_rm_node()}")
+        print(f"TG num_rm_edge = {self.num_rm_edge()}")
+        print(f"TG num_add_edge = {self.num_add_edge()}")
 
 
 if __name__ == "__main__":
