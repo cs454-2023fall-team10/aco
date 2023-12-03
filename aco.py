@@ -61,7 +61,9 @@ class Ant:
 
     def select(self, G) -> Edge:
         edges = list(G.edges.data(data=True, nbunch=self.current_node))
-        edges = [Edge(*e) for e in edges]
+        edges = [
+            Edge(*e) for e in edges if e[1] != "START"
+        ]  # Exclude edge when end is "START".
 
         if random.random() < constants.RANDOM_CHOICE_RATE:
             probabilities = self._calc_probabilities(edges)
@@ -151,12 +153,13 @@ class AntColony:
 
         fitness = self.CG.fitness
         shortest_path = []
-        best_ant = ants[0]
 
         count = 0
         while count < self.budget:
             count += 1
             start = time.time()
+            best_ant = ants[0]
+            best_ant_fitness = self.CG.fitness
             for ant in ants:
                 ant.traverse(self.TG.graph)
 
@@ -165,10 +168,15 @@ class AntColony:
                 new_CG.transform(transformation_path)
                 new_CG.evaluate()
 
+                if new_CG.fitness > best_ant_fitness:
+                    # Best ant per iteration can update pheromone.
+                    best_ant = ant
+                    best_ant_fitness = new_CG.fitness
+
                 if new_CG.fitness > fitness:
+                    # Best fitness per whole ACO.
                     fitness = new_CG.fitness
                     shortest_path = transformation_path
-                    best_ant = ant
 
             best_ant.update_pheromone_globally(self.TG.graph)
             print("fitness:", fitness)
