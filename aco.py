@@ -189,8 +189,8 @@ class AntColony:
         print("shortest: ")
         for edge in shortest_path:
             print(edge)
-        print(fitness)
-        return shortest_path
+
+        return shortest_path, fitness
 
 
 if __name__ == "__main__":
@@ -201,4 +201,19 @@ if __name__ == "__main__":
     optimized_CG = CG.copy()
     optimized_CG.transform(shortest_path)
 
+    Graph.draw_graphs(CG, optimized_CG)
+
+
+def run_another(file_name) :
+    CG = ChatbotGraph(file_name)
+    ant_colony = AntColony(CG)
+
+    shortest_path, fitness = ant_colony.aco()
+    optimized_CG = CG.copy()
+    optimized_CG.transform(shortest_path)
+
+    return fitness, optimized_CG
+
+def draw_back(file_name, optimized_CG) :
+    CG = ChatbotGraph(file_name)
     Graph.draw_graphs(CG, optimized_CG)
