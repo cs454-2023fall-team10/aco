@@ -20,8 +20,6 @@ def debug(*args):
 
 
 class Ant:
-    alpha = constants.ALPHA
-    beta = constants.BETA
     evaporation_rate = constants.EVAPORATION_RATE
     budget = constants.LENGTH_OF_PATH
 
@@ -57,12 +55,7 @@ class Ant:
         eta: 1 / c_ij
             c_ij: weight of node i to j
         """
-        probabilities = []
-        for edge in edges:
-            pheromone = edge.data["pheromone"]
-            importance = 1 / edge.data["weight"]
-            probabilities.append(pheromone**self.alpha * importance**self.beta)
-
+        probabilities = [1.0 + edge.data["pheromone"] for edge in edges]
         sum_p = sum(probabilities)
         return [p / sum_p for p in probabilities]
 
@@ -73,31 +66,15 @@ class Ant:
         ]  # Exclude edge when end is "START".
 
         if random.random() < constants.RANDOM_CHOICE_RATE:
-            probabilities = self._calc_probabilities(edges)
-
-            next_edge = random.choices(population=edges, weights=probabilities, k=1)[0]
-        else:
+            # Random choice
             next_edge = random.choice(edges)
+            return next_edge
+        else:
+            probabilities = self._calc_probabilities(edges)
+            next_edge = random.choices(population=edges, weights=probabilities, k=1)[0]
+            return next_edge
 
-        self.update_pheromone_locally(G, next_edge)
-
-        return next_edge
-
-    def update_pheromone_locally(self, G, edge):
-        """
-        tau_xy <- (1-rho) * tau_xy + rho * tau_0
-
-        tau_xy: pheromone for node x to y
-        rho: coefficient of evaporation
-        """
-        G[edge.start][edge.end]["pheromone"] = (1 - self.evaporation_rate) * G[
-            edge.start
-        ][edge.end]["pheromone"]
-        G[edge.start][edge.end]["pheromone"] += (
-            self.evaporation_rate * AntColony.initial_pheromone
-        )
-
-    def update_pheromone_globally(self, G):
+    def update_pheromone(self, G, fitness):
         """
         tau_xy <- (1-rho) * tau_xy + delta tau_xy_k
             delta tau_xy_k = Q / L_k
@@ -106,12 +83,9 @@ class Ant:
         rho: coefficient of evaporation
         """
         visited = [(edge.start, edge.end) for edge in self.route]
-        cost = sum([data["weight"] for _, _, data in self.route])
-        for start, end in G.edges():
-            G[start][end]["pheromone"] = (1 - self.evaporation_rate) * G[start][end][
-                "pheromone"
-            ]
-            G[start][end]["pheromone"] += 1 / cost if (start, end) in visited else 0
+
+        for start, end in visited:
+            G[start][end]["pheromone"] += fitness
 
     def convert_route_to_transformation_path(self):
         """
@@ -156,15 +130,16 @@ class AntColony:
 
         ants = [Ant(i) for i in range(constants.ANT_COUNT)]
 
-        fitness = self.CG.fitness
+        best_fitness = self.CG.fitness
         shortest_path = []
 
         count = 0
         while count < self.budget:
             count += 1
             start = time.time()
-            best_ant = ants[0]
-            best_ant_fitness = self.CG.fitness
+
+            fitnesses = []
+
             for ant in ants:
                 ant.traverse(self.TG.graph)
 
@@ -178,36 +153,49 @@ class AntColony:
                     continue
 
                 new_CG.evaluate()
+                fitnesses.append(new_CG.fitness)
 
-                if new_CG.fitness > best_ant_fitness:
-                    # Best ant per iteration can update pheromone.
-                    best_ant = ant
-                    best_ant_fitness = new_CG.fitness
-
-                if new_CG.fitness > fitness:
+                if new_CG.fitness > best_fitness:
                     # Best fitness per whole ACO.
-                    fitness = new_CG.fitness
+                    best_fitness = new_CG.fitness
                     shortest_path = transformation_path
 
-            best_ant.update_pheromone_globally(self.TG.graph)
-            print("Fitness:", fitness)
+            # Update pheromone
+            # normalize fitness values among ants
+            min_fitness = min(fitnesses)
+            max_fitness = max(fitnesses)
+            fitnesses = [
+                (f - min_fitness) / (max_fitness - min_fitness) for f in fitnesses
+            ]
+            for ant, fitness in zip(ants, fitnesses):
+                ant.update_pheromone(self.TG.graph, fitness)
 
             for ant in ants:
                 ant.reset()
 
-            print(f"Iteration {count}: elasped time: {time.time() - start:.4f}s")
+            # Evaporate
+            for s, e in self.TG.graph.edges():
+                self.TG.graph[s][e]["pheromone"] *= 1 - constants.EVAPORATION_RATE
+
+            print(
+                f"Iteration {count}: best_fitness = {best_fitness}, elasped time: {time.time() - start:.4f}s"
+            )
 
             if count % 5 == 0:
                 print(f"Shortest path in iteration {count}: {shortest_path}")
 
         print(f"Shortest path: {shortest_path}")
-        print(fitness)
+        print(best_fitness)
         return shortest_path
 
 
 if __name__ == "__main__":
-    CG = ChatbotGraph("kakaotalk-faq-231129-small-mingled-001")
+    CG = ChatbotGraph("kakaotalk-faq-231129-small-mingled-003")
     ant_colony = AntColony(CG)
+
+    # Starting fitness
+    CG.evaluate()
+    print(f"Initial fitness: {CG.fitness}")
 
     # Show original graph
     # CG.draw()
