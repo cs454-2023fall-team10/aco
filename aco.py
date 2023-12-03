@@ -153,12 +153,13 @@ class AntColony:
 
         fitness = self.CG.fitness
         shortest_path = []
-        best_ant = ants[0]
 
         count = 0
         while count < self.budget:
             count += 1
             start = time.time()
+            best_ant = ants[0]
+            best_ant_fitness = self.CG.fitness
             for ant in ants:
                 ant.traverse(self.TG.graph)
 
@@ -167,10 +168,15 @@ class AntColony:
                 new_CG.transform(transformation_path)
                 new_CG.evaluate()
 
+                if new_CG.fitness > best_ant_fitness:
+                    # Best ant per iteration can update pheromone.
+                    best_ant = ant
+                    best_ant_fitness = new_CG.fitness
+
                 if new_CG.fitness > fitness:
+                    # Best fitness per whole ACO.
                     fitness = new_CG.fitness
                     shortest_path = transformation_path
-                    best_ant = ant
 
             best_ant.update_pheromone_globally(self.TG.graph)
             print("fitness:", fitness)
