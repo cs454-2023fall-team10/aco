@@ -61,7 +61,9 @@ class Ant:
 
     def select(self, G) -> Edge:
         edges = list(G.edges.data(data=True, nbunch=self.current_node))
-        edges = [Edge(*e) for e in edges]
+        edges = [
+            Edge(*e) for e in edges if e[1] != "START"
+        ]  # Exclude edge when end is "START".
 
         if random.random() < constants.RANDOM_CHOICE_RATE:
             probabilities = self._calc_probabilities(edges)
