@@ -1,0 +1,527 @@
+TG: V = 650, E = 210950
+TG num_rm_node = 25
+TG num_rm_edge = 27
+TG num_add_edge = 598
+Initial fitness: 0.39759944677352904
+Iteration 1: best_fitness = 0.39759944677352904, elasped time: 12.3739s
+Min fitness: -0.3486653983592988, Max fitness: 0.3086521744728088, Avg fitness: -0.0746
+TG num edges with pheromone = 100
+TG average pheromone = 0.029147106766700737
+TG max pheromone = 0.06173043489456176
+Iteration 2: best_fitness = 0.39759944677352904, elasped time: 8.1266s
+Min fitness: -0.3899919211864472, Max fitness: 0.3080265045166015, Avg fitness: -0.0467
+TG num edges with pheromone = 187
+TG average pheromone = 0.0249323757319527
+TG max pheromone = 0.14769900226593016
+Iteration 3: best_fitness = 0.39759944677352904, elasped time: 7.6263s
+Min fitness: -0.38064954876899726, Max fitness: 0.3044489741325378, Avg fitness: -0.0230
+TG num edges with pheromone = 266
+TG average pheromone = 0.019229180047386572
+TG max pheromone = 0.2787219627380371
+Iteration 4: best_fitness = 0.39759944677352904, elasped time: 7.0324s
+Min fitness: -0.2871169269084931, Max fitness: 0.3903898477554321, Avg fitness: 0.0037
+TG num edges with pheromone = 324
+TG average pheromone = 0.017665805643870495
+TG max pheromone = 0.34124223171234136
+Iteration 5: best_fitness = 0.40574322938919066, elasped time: 7.6361s
+Min fitness: -0.3753594875335694, Max fitness: 0.40574322938919066, Avg fitness: 0.0271
+TG num edges with pheromone = 327
+TG average pheromone = 0.02023299851862589
+TG max pheromone = 0.5623155049057007
+Shortest path in iteration 5: ['ADD_EDGE E P 오픈채팅', 'ADD_EDGE K S 내가 만든 오픈채팅 대화방 링크는 어디에 공유하면 되나요?', 'REMOVE_NODE P', 'ADD_EDGE M Z 이모티콘 스토어 문의', 'REMOVE_NODE T']
+Iteration 6: best_fitness = 0.4232999324798584, elasped time: 7.3954s
+Min fitness: -0.534664285182953, Max fitness: 0.4232999324798584, Avg fitness: 0.0112
+TG num edges with pheromone = 311
+TG average pheromone = 0.021302268825940694
+TG max pheromone = 0.8581809173339844
+Iteration 7: best_fitness = 0.505785071849823, elasped time: 7.2699s
+Min fitness: -0.2777490735054017, Max fitness: 0.505785071849823, Avg fitness: 0.0286
+TG num edges with pheromone = 298
+TG average pheromone = 0.024737053542497386
+TG max pheromone = 1.180336578097229
+Iteration 8: best_fitness = 0.505785071849823, elasped time: 7.2743s
+Min fitness: -0.34972096681594855, Max fitness: 0.39759944677352904, Avg fitness: 0.0298
+TG num edges with pheromone = 284
+TG average pheromone = 0.022900715392492138
+TG max pheromone = 1.159488007109619
+Iteration 9: best_fitness = 0.505785071849823, elasped time: 7.6960s
+Min fitness: -0.3725879907608033, Max fitness: 0.495384418964386, Avg fitness: 0.0374
+TG num edges with pheromone = 277
+TG average pheromone = 0.027429311703818557
+TG max pheromone = 1.316973492439838
+Iteration 10: best_fitness = 0.505785071849823, elasped time: 7.6755s
+Min fitness: -0.30335168242454535, Max fitness: 0.398436176776886, Avg fitness: 0.0197
+TG num edges with pheromone = 267
+TG average pheromone = 0.025588096777357964
+TG max pheromone = 1.1459987777344884
+Shortest path in iteration 10: ['REMOVE_EDGE B C', 'REMOVE_EDGE H R', 'REMOVE_EDGE V Y', 'REMOVE_EDGE B F', 'REMOVE_NODE S']
+Iteration 11: best_fitness = 0.505785071849823, elasped time: 7.5134s
+Min fitness: -0.3659589111804963, Max fitness: 0.4067467927932739, Avg fitness: 0.0313
+TG num edges with pheromone = 268
+TG average pheromone = 0.02401228839105611
+TG max pheromone = 1.1480942491267618
+Iteration 12: best_fitness = 0.505785071849823, elasped time: 7.6635s
+Min fitness: -0.3763607263565064, Max fitness: 0.3947344899177551, Avg fitness: 0.0336
+TG num edges with pheromone = 270
+TG average pheromone = 0.024914214820621585
+TG max pheromone = 1.3183292484993636
+Iteration 13: best_fitness = 0.505785071849823, elasped time: 7.6677s
+Min fitness: -0.28414959907531745, Max fitness: 0.4080602407455444, Avg fitness: 0.0423
+TG num edges with pheromone = 273
+TG average pheromone = 0.027347743421312423
+TG max pheromone = 1.443846399321455
+Iteration 14: best_fitness = 0.505785071849823, elasped time: 7.7925s
+Min fitness: -0.327795696258545, Max fitness: 0.5027600169181824, Avg fitness: 0.0330
+TG num edges with pheromone = 256
+TG average pheromone = 0.03216892210542647
+TG max pheromone = 1.6382023705510893
+Iteration 15: best_fitness = 0.505785071849823, elasped time: 7.5062s
+Min fitness: -0.40108371973037726, Max fitness: 0.4937970876693726, Avg fitness: 0.0894
+TG num edges with pheromone = 245
+TG average pheromone = 0.036709582274571134
+TG max pheromone = 1.7979010680013614
+Shortest path in iteration 15: ['REMOVE_EDGE B C', 'REMOVE_EDGE H R', 'REMOVE_EDGE V Y', 'REMOVE_EDGE B F', 'REMOVE_NODE S']
+Iteration 16: best_fitness = 0.5092184185981751, elasped time: 7.2895s
+Min fitness: -0.3807204484939576, Max fitness: 0.5092184185981751, Avg fitness: 0.0882
+TG num edges with pheromone = 238
+TG average pheromone = 0.039305780286644255
+TG max pheromone = 1.8715563841401277
+Iteration 17: best_fitness = 0.5149681210517884, elasped time: 7.6128s
+Min fitness: -0.26770768761634833, Max fitness: 0.5149681210517884, Avg fitness: 0.1086
+TG num edges with pheromone = 228
+TG average pheromone = 0.04379982990974018
+TG max pheromone = 1.9982511605369788
+Iteration 18: best_fitness = 0.5231136918067932, elasped time: 7.4127s
+Min fitness: -0.2961213409900666, Max fitness: 0.5231136918067932, Avg fitness: 0.1089
+TG num edges with pheromone = 228
+TG average pheromone = 0.04727396627953225
+TG max pheromone = 1.993984681875463
+Iteration 19: best_fitness = 0.5231136918067932, elasped time: 7.4820s
+Min fitness: -0.39267177581787116, Max fitness: 0.5080602407455445, Avg fitness: 0.0704
+TG num edges with pheromone = 231
+TG average pheromone = 0.04364637564717823
+TG max pheromone = 1.9846340836109626
+Iteration 20: best_fitness = 0.5231136918067932, elasped time: 7.6536s
+Min fitness: -0.23997349739074714, Max fitness: 0.5079621911048889, Avg fitness: 0.1188
+TG num edges with pheromone = 208
+TG average pheromone = 0.05136077856364119
+TG max pheromone = 2.1308777249062447
+Shortest path in iteration 20: ['REMOVE_EDGE B C', 'REMOVE_NODE T', 'REMOVE_EDGE H R', 'ADD_EDGE I V 알림톡', 'REMOVE_EDGE V Y']
+Iteration 21: best_fitness = 0.5873514413833618, elasped time: 7.5432s
+Min fitness: -0.40570814609527595, Max fitness: 0.5873514413833618, Avg fitness: 0.1466
+TG num edges with pheromone = 209
+TG average pheromone = 0.054511412135839724
+TG max pheromone = 2.2776876695196724
+Iteration 22: best_fitness = 0.5873514413833618, elasped time: 7.3092s
+Min fitness: -0.34281111955642707, Max fitness: 0.5095815300941468, Avg fitness: 0.1145
+TG num edges with pheromone = 197
+TG average pheromone = 0.057495323831870185
+TG max pheromone = 2.265356552744726
+Iteration 23: best_fitness = 0.5873514413833618, elasped time: 7.3810s
+Min fitness: -0.3056340336799622, Max fitness: 0.5095815300941468, Avg fitness: 0.1237
+TG num edges with pheromone = 167
+TG average pheromone = 0.06983565810157152
+TG max pheromone = 2.3328449917127343
+Iteration 24: best_fitness = 0.6079366207122803, elasped time: 7.3214s
+Min fitness: -0.2940158963203431, Max fitness: 0.6079366207122803, Avg fitness: 0.1214
+TG num edges with pheromone = 155
+TG average pheromone = 0.08136387020067547
+TG max pheromone = 2.5225599350986823
+Iteration 25: best_fitness = 0.6080602407455444, elasped time: 7.2731s
+Min fitness: -0.27732287049293525, Max fitness: 0.6080602407455444, Avg fitness: 0.1284
+TG num edges with pheromone = 156
+TG average pheromone = 0.08046751428112003
+TG max pheromone = 2.5107935965549553
+Shortest path in iteration 25: ['REMOVE_EDGE B C', 'REMOVE_NODE T', 'REMOVE_EDGE P Q', 'REMOVE_EDGE H K', 'REMOVE_EDGE H N']
+Iteration 26: best_fitness = 0.6080602407455444, elasped time: 7.3051s
+Min fitness: -0.377752435207367, Max fitness: 0.6079366207122803, Avg fitness: 0.1380
+TG num edges with pheromone = 154
+TG average pheromone = 0.083480226926721
+TG max pheromone = 2.5538640986319225
+Iteration 27: best_fitness = 0.6099254488945007, elasped time: 7.1808s
+Min fitness: -0.2376954078674317, Max fitness: 0.6099254488945007, Avg fitness: 0.1343
+TG num edges with pheromone = 149
+TG average pheromone = 0.08729916385632969
+TG max pheromone = 2.598211007325568
+Iteration 28: best_fitness = 0.6099254488945007, elasped time: 7.4979s
+Min fitness: -0.3779980957508088, Max fitness: 0.6080602407455444, Avg fitness: 0.1162
+TG num edges with pheromone = 145
+TG average pheromone = 0.08976471524760044
+TG max pheromone = 2.602670265239224
+Iteration 29: best_fitness = 0.6099254488945007, elasped time: 7.4687s
+Min fitness: -0.3806674301624299, Max fitness: 0.6080602407455444, Avg fitness: 0.1617
+TG num edges with pheromone = 137
+TG average pheromone = 0.0961533801109933
+TG max pheromone = 2.634686680039118
+Iteration 30: best_fitness = 0.6099254488945007, elasped time: 7.2730s
+Min fitness: -0.2779002010822297, Max fitness: 0.6080602407455444, Avg fitness: 0.1242
+TG num edges with pheromone = 124
+TG average pheromone = 0.10717423488031766
+TG max pheromone = 2.6581338110368167
+Shortest path in iteration 30: ['REMOVE_EDGE B C', 'REMOVE_NODE T', 'REMOVE_EDGE P Q', 'ADD_EDGE K Q 오픈채팅은 어떤 서비스인가요?', 'REMOVE_NODE G']
+Iteration 31: best_fitness = 0.6099254488945007, elasped time: 7.2430s
+Min fitness: -0.2772561132907868, Max fitness: 0.6080602407455444, Avg fitness: 0.1663
+TG num edges with pheromone = 114
+TG average pheromone = 0.11511444675801576
+TG max pheromone = 2.624812816437101
+Iteration 32: best_fitness = 0.6099254488945007, elasped time: 7.4902s
+Min fitness: -0.26937518715858466, Max fitness: 0.6080602407455444, Avg fitness: 0.1520
+TG num edges with pheromone = 110
+TG average pheromone = 0.12379864404089073
+TG max pheromone = 2.7237509605995855
+Iteration 33: best_fitness = 0.6099254488945007, elasped time: 7.4443s
+Min fitness: -0.27948166131973273, Max fitness: 0.6080602407455444, Avg fitness: 0.1398
+TG num edges with pheromone = 101
+TG average pheromone = 0.13541044498081828
+TG max pheromone = 2.735471892311416
+Iteration 34: best_fitness = 0.6099254488945007, elasped time: 7.2404s
+Min fitness: -0.31511886119842536, Max fitness: 0.6080602407455444, Avg fitness: 0.1371
+TG num edges with pheromone = 83
+TG average pheromone = 0.16976816002063952
+TG max pheromone = 2.8183484911827734
+Iteration 35: best_fitness = 0.6099254488945007, elasped time: 7.5302s
+Min fitness: -0.3727078557014466, Max fitness: 0.6095815300941467, Avg fitness: 0.1552
+TG num edges with pheromone = 80
+TG average pheromone = 0.17955746137561646
+TG max pheromone = 2.873082575796217
+Shortest path in iteration 35: ['REMOVE_EDGE B C', 'REMOVE_NODE T', 'REMOVE_EDGE P Q', 'ADD_EDGE K Q 오픈채팅은 어떤 서비스인가요?', 'REMOVE_NODE G']
+Iteration 36: best_fitness = 0.6099254488945007, elasped time: 7.6254s
+Min fitness: -0.2561732947826386, Max fitness: 0.6095815300941467, Avg fitness: 0.1749
+TG num edges with pheromone = 70
+TG average pheromone = 0.20642116644189526
+TG max pheromone = 2.8900717062946506
+Iteration 37: best_fitness = 0.6099254488945007, elasped time: 7.4989s
+Min fitness: -0.2840101540088654, Max fitness: 0.6080602407455444, Avg fitness: 0.1893
+TG num edges with pheromone = 57
+TG average pheromone = 0.26238571832791774
+TG max pheromone = 2.991342254543232
+Iteration 38: best_fitness = 0.6099254488945007, elasped time: 7.3688s
+Min fitness: -0.2714168846607209, Max fitness: 0.6080602407455444, Avg fitness: 0.1689
+TG num edges with pheromone = 49
+TG average pheromone = 0.3091866996646096
+TG max pheromone = 3.030124665908799
+Iteration 39: best_fitness = 0.6099254488945007, elasped time: 7.7917s
+Min fitness: -0.2799372792243958, Max fitness: 0.6080602407455444, Avg fitness: 0.1260
+TG num edges with pheromone = 45
+TG average pheromone = 0.3309096429284751
+TG max pheromone = 2.978265896163938
+Iteration 40: best_fitness = 0.6099254488945007, elasped time: 7.5183s
+Min fitness: -0.30520887374877936, Max fitness: 0.6080602407455444, Avg fitness: 0.1901
+TG num edges with pheromone = 31
+TG average pheromone = 0.48834664959493546
+TG max pheromone = 3.0278941422149654
+Shortest path in iteration 40: ['REMOVE_EDGE B C', 'REMOVE_NODE T', 'REMOVE_EDGE P Q', 'ADD_EDGE K Q 오픈채팅은 어떤 서비스인가요?', 'REMOVE_NODE G']
+Iteration 41: best_fitness = 0.6099254488945007, elasped time: 7.3123s
+Min fitness: -0.4005118429660798, Max fitness: 0.6080602407455444, Avg fitness: 0.1771
+TG num edges with pheromone = 20
+TG average pheromone = 0.7594262269316856
+TG max pheromone = 3.037819791425171
+Iteration 42: best_fitness = 0.6099254488945007, elasped time: 7.4361s
+Min fitness: -0.2751217901706696, Max fitness: 0.6080602407455444, Avg fitness: 0.1807
+TG num edges with pheromone = 14
+TG average pheromone = 1.0856198417064031
+TG max pheromone = 3.039804921267212
+Iteration 43: best_fitness = 0.6099254488945007, elasped time: 7.5179s
+Min fitness: -0.37375236749649055, Max fitness: 0.6080602407455444, Avg fitness: 0.1632
+TG num edges with pheromone = 13
+TG average pheromone = 1.1692964513566422
+TG max pheromone = 3.0402019472356203
+Iteration 44: best_fitness = 0.6099254488945007, elasped time: 7.7497s
+Min fitness: -0.3723477542400361, Max fitness: 0.6080602407455444, Avg fitness: 0.1795
+TG num edges with pheromone = 9
+TG average pheromone = 1.6890272805573923
+TG max pheromone = 3.040281352429302
+Iteration 45: best_fitness = 0.6099254488945007, elasped time: 7.6855s
+Min fitness: -0.3853046119213105, Max fitness: 0.6080602407455444, Avg fitness: 0.1663
+TG num edges with pheromone = 7
+TG average pheromone = 2.1716155399056953
+TG max pheromone = 3.0402972334680385
+Shortest path in iteration 45: ['REMOVE_EDGE B C', 'REMOVE_NODE T', 'REMOVE_EDGE P Q', 'ADD_EDGE K Q 오픈채팅은 어떤 서비스인가요?', 'REMOVE_NODE G']
+Iteration 46: best_fitness = 0.6099254488945007, elasped time: 7.3589s
+Min fitness: -0.2837430357933045, Max fitness: 0.6080602407455444, Avg fitness: 0.1483
+TG num edges with pheromone = 10
+TG average pheromone = 1.5135086140387997
+TG max pheromone = 3.0270340369951216
+Iteration 47: best_fitness = 0.6099254488945007, elasped time: 7.5773s
+Min fitness: -0.3013795733451844, Max fitness: 0.6080602407455444, Avg fitness: 0.1867
+TG num edges with pheromone = 10
+TG average pheromone = 1.5188222042988486
+TG max pheromone = 3.037647770381202
+Iteration 48: best_fitness = 0.6099254488945007, elasped time: 7.6464s
+Min fitness: -0.3208599507808686, Max fitness: 0.6080602407455444, Avg fitness: 0.1936
+TG num edges with pheromone = 10
+TG average pheromone = 1.5198849223508586
+TG max pheromone = 3.039770517058418
+Iteration 49: best_fitness = 0.6099254488945007, elasped time: 7.7782s
+Min fitness: -0.2788604319095612, Max fitness: 0.6080602407455444, Avg fitness: 0.1897
+TG num edges with pheromone = 10
+TG average pheromone = 1.5200974659612607
+TG max pheromone = 3.0401950663938617
+Iteration 50: best_fitness = 0.6231136918067932, elasped time: 7.4939s
+Min fitness: -0.29248623251914985, Max fitness: 0.6231136918067932, Avg fitness: 0.1502
+TG num edges with pheromone = 14
+TG average pheromone = 1.0802662860281529
+TG max pheromone = 3.0247456277730964
+Shortest path in iteration 50: ['REMOVE_EDGE B C', 'REMOVE_NODE T', 'REMOVE_EDGE P Q', 'ADD_EDGE V Q 오픈채팅은 어떤 서비스인가요?', 'REMOVE_EDGE V Y']
+Iteration 51: best_fitness = 0.6231136918067932, elasped time: 7.4756s
+Min fitness: -0.2845885574817658, Max fitness: 0.6231136918067932, Avg fitness: 0.2061
+TG num edges with pheromone = 12
+TG average pheromone = 1.2667406522160147
+TG max pheromone = 3.040200778749047
+Iteration 52: best_fitness = 0.6231136918067932, elasped time: 7.2628s
+Min fitness: -0.37371118068695075, Max fitness: 0.6231136918067932, Avg fitness: 0.1751
+TG num edges with pheromone = 12
+TG average pheromone = 1.2705452277844225
+TG max pheromone = 3.0493131893687364
+Iteration 53: best_fitness = 0.6231136918067932, elasped time: 7.2554s
+Min fitness: -0.2797609388828278, Max fitness: 0.6231136918067932, Avg fitness: 0.1799
+TG num edges with pheromone = 13
+TG average pheromone = 1.1746713204491153
+TG max pheromone = 3.054146361704924
+Iteration 54: best_fitness = 0.6231136918067932, elasped time: 7.5946s
+Min fitness: -0.2725879907608033, Max fitness: 0.6231136918067932, Avg fitness: 0.1748
+TG num edges with pheromone = 13
+TG average pheromone = 1.1773560472304152
+TG max pheromone = 3.061134376596661
+Iteration 55: best_fitness = 0.6231136918067932, elasped time: 7.7019s
+Min fitness: -0.4020814418792725, Max fitness: 0.6231136918067932, Avg fitness: 0.2163
+TG num edges with pheromone = 10
+TG average pheromone = 1.5402866211462563
+TG max pheromone = 3.080596120848507
+Shortest path in iteration 55: ['REMOVE_EDGE B C', 'REMOVE_NODE T', 'REMOVE_EDGE P Q', 'ADD_EDGE V Q 오픈채팅은 어떤 서비스인가요?', 'REMOVE_EDGE V Y']
+Iteration 56: best_fitness = 0.6231136918067932, elasped time: 7.4844s
+Min fitness: -0.26597319245338447, Max fitness: 0.6231136918067932, Avg fitness: 0.1701
+TG num edges with pheromone = 9
+TG average pheromone = 1.7186156563629695
+TG max pheromone = 3.093520540335626
+Iteration 57: best_fitness = 0.6231136918067932, elasped time: 7.7281s
+Min fitness: -0.32460353970527656, Max fitness: 0.6231136918067932, Avg fitness: 0.2100
+TG num edges with pheromone = 9
+TG average pheromone = 1.728420224176579
+TG max pheromone = 3.111158875294298
+Iteration 58: best_fitness = 0.6231136918067932, elasped time: 7.4795s
+Min fitness: -0.2854328572750092, Max fitness: 0.6231136918067932, Avg fitness: 0.1653
+TG num edges with pheromone = 9
+TG average pheromone = 1.7303811377393006
+TG max pheromone = 3.1146865422860324
+Iteration 59: best_fitness = 0.6231136918067932, elasped time: 7.4593s
+Min fitness: -0.2996232926845551, Max fitness: 0.6231136918067932, Avg fitness: 0.1693
+TG num edges with pheromone = 8
+TG average pheromone = 1.9471151210263997
+TG max pheromone = 3.1153920756843796
+Iteration 60: best_fitness = 0.6231136918067932, elasped time: 7.5973s
+Min fitness: -0.3294229924678803, Max fitness: 0.6231136918067932, Avg fitness: 0.1923
+TG num edges with pheromone = 7
+TG average pheromone = 2.225372451108071
+TG max pheromone = 3.115533182364049
+Shortest path in iteration 60: ['REMOVE_EDGE B C', 'REMOVE_NODE T', 'REMOVE_EDGE P Q', 'ADD_EDGE V Q 오픈채팅은 어떤 서비스인가요?', 'REMOVE_EDGE V Y']
+Iteration 61: best_fitness = 0.6231136918067932, elasped time: 7.5400s
+Min fitness: -0.27997885346412665, Max fitness: 0.6231136918067932, Avg fitness: 0.1627
+TG num edges with pheromone = 6
+TG average pheromone = 2.596289819588089
+TG max pheromone = 3.115561403699983
+Iteration 62: best_fitness = 0.6231136918067932, elasped time: 7.2967s
+Min fitness: -0.2407549440860749, Max fitness: 0.6231136918067932, Avg fitness: 0.1770
+TG num edges with pheromone = 5
+TG average pheromone = 3.115555648949657
+TG max pheromone = 3.1155670479671698
+Iteration 63: best_fitness = 0.6231136918067932, elasped time: 7.5267s
+Min fitness: -0.2765648782253266, Max fitness: 0.6231136918067932, Avg fitness: 0.2017
+TG num edges with pheromone = 5
+TG average pheromone = 3.1155658970171047
+TG max pheromone = 3.115568176820607
+Iteration 64: best_fitness = 0.6231136918067932, elasped time: 7.4267s
+Min fitness: -0.27962723970413217, Max fitness: 0.6231136918067932, Avg fitness: 0.1734
+TG num edges with pheromone = 5
+TG average pheromone = 3.115567946630594
+TG max pheromone = 3.1155684025912946
+Iteration 65: best_fitness = 0.6231136918067932, elasped time: 7.5622s
+Min fitness: -0.20998288393020637, Max fitness: 0.6231136918067932, Avg fitness: 0.1846
+TG num edges with pheromone = 5
+TG average pheromone = 3.115568356553292
+TG max pheromone = 3.115568447745432
+Shortest path in iteration 65: ['REMOVE_EDGE B C', 'REMOVE_NODE T', 'REMOVE_EDGE P Q', 'ADD_EDGE V Q 오픈채팅은 어떤 서비스인가요?', 'REMOVE_EDGE V Y']
+Iteration 66: best_fitness = 0.6231136918067932, elasped time: 7.6926s
+Min fitness: -0.3100473403930665, Max fitness: 0.6231136918067932, Avg fitness: 0.1866
+TG num edges with pheromone = 5
+TG average pheromone = 3.115568438537831
+TG max pheromone = 3.115568456776259
+Iteration 67: best_fitness = 0.6231136918067932, elasped time: 7.1528s
+Min fitness: -0.31630785465240485, Max fitness: 0.6231136918067932, Avg fitness: 0.1697
+TG num edges with pheromone = 5
+TG average pheromone = 3.1155684549347393
+TG max pheromone = 3.115568458582425
+Iteration 68: best_fitness = 0.6231136918067932, elasped time: 7.3058s
+Min fitness: -0.3696144342422486, Max fitness: 0.6231136918067932, Avg fitness: 0.1868
+TG num edges with pheromone = 5
+TG average pheromone = 3.1155684582141205
+TG max pheromone = 3.115568458943658
+Iteration 69: best_fitness = 0.6231136918067932, elasped time: 7.4846s
+Min fitness: -0.3449044346809388, Max fitness: 0.6231136918067932, Avg fitness: 0.1939
+TG num edges with pheromone = 5
+TG average pheromone = 3.115568458869997
+TG max pheromone = 3.1155684590159045
+Iteration 70: best_fitness = 0.6231136918067932, elasped time: 7.4398s
+Min fitness: -0.29128856658935554, Max fitness: 0.6231136918067932, Avg fitness: 0.1794
+TG num edges with pheromone = 5
+TG average pheromone = 3.1155684590011723
+TG max pheromone = 3.115568459030354
+Shortest path in iteration 70: ['REMOVE_EDGE B C', 'REMOVE_NODE T', 'REMOVE_EDGE P Q', 'ADD_EDGE V Q 오픈채팅은 어떤 서비스인가요?', 'REMOVE_EDGE V Y']
+Iteration 71: best_fitness = 0.6231136918067932, elasped time: 7.3195s
+Min fitness: -0.37430266737937934, Max fitness: 0.6231136918067932, Avg fitness: 0.1930
+TG num edges with pheromone = 5
+TG average pheromone = 3.1155684590274073
+TG max pheromone = 3.1155684590332435
+Iteration 72: best_fitness = 0.6231136918067932, elasped time: 7.3865s
+Min fitness: -0.28730551600456244, Max fitness: 0.6231136918067932, Avg fitness: 0.2007
+TG num edges with pheromone = 5
+TG average pheromone = 3.1155684590326542
+TG max pheromone = 3.1155684590338217
+Iteration 73: best_fitness = 0.6231136918067932, elasped time: 8.0778s
+Min fitness: -0.38059724569320685, Max fitness: 0.6231136918067932, Avg fitness: 0.1885
+TG num edges with pheromone = 5
+TG average pheromone = 3.115568459033704
+TG max pheromone = 3.1155684590339376
+Iteration 74: best_fitness = 0.6231136918067932, elasped time: 7.3258s
+Min fitness: -0.3468882560729981, Max fitness: 0.6231136918067932, Avg fitness: 0.1675
+TG num edges with pheromone = 5
+TG average pheromone = 3.115568459033914
+TG max pheromone = 3.1155684590339607
+Iteration 75: best_fitness = 0.6231136918067932, elasped time: 7.1645s
+Min fitness: -0.20105404853820807, Max fitness: 0.6231136918067932, Avg fitness: 0.1897
+TG num edges with pheromone = 5
+TG average pheromone = 3.115568459033956
+TG max pheromone = 3.115568459033965
+Shortest path in iteration 75: ['REMOVE_EDGE B C', 'REMOVE_NODE T', 'REMOVE_EDGE P Q', 'ADD_EDGE V Q 오픈채팅은 어떤 서비스인가요?', 'REMOVE_EDGE V Y']
+Iteration 76: best_fitness = 0.6231136918067932, elasped time: 7.1434s
+Min fitness: -0.3736454069614411, Max fitness: 0.6231136918067932, Avg fitness: 0.1764
+TG num edges with pheromone = 5
+TG average pheromone = 3.1155684590339643
+TG max pheromone = 3.115568459033966
+Iteration 77: best_fitness = 0.6231136918067932, elasped time: 7.2404s
+Min fitness: -0.2837430357933045, Max fitness: 0.6231136918067932, Avg fitness: 0.1910
+TG num edges with pheromone = 5
+TG average pheromone = 3.1155684590339656
+TG max pheromone = 3.115568459033966
+Iteration 78: best_fitness = 0.6231136918067932, elasped time: 7.3502s
+Min fitness: -0.376095724105835, Max fitness: 0.6231136918067932, Avg fitness: 0.1630
+TG num edges with pheromone = 5
+TG average pheromone = 3.115568459033966
+TG max pheromone = 3.115568459033966
+Iteration 79: best_fitness = 0.6231136918067932, elasped time: 7.5822s
+Min fitness: -0.27768490910530097, Max fitness: 0.6231136918067932, Avg fitness: 0.1897
+TG num edges with pheromone = 9
+TG average pheromone = 1.690876869360606
+TG max pheromone = 3.043578364849091
+Iteration 80: best_fitness = 0.6231136918067932, elasped time: 7.5023s
+Min fitness: -0.30425266623497016, Max fitness: 0.6231136918067932, Avg fitness: 0.1918
+TG num edges with pheromone = 9
+TG average pheromone = 1.7228724667761064
+TG max pheromone = 3.1011704401969915
+Shortest path in iteration 80: ['REMOVE_EDGE B C', 'REMOVE_NODE T', 'REMOVE_EDGE P Q', 'ADD_EDGE V Q 오픈채팅은 어떤 서비스인가요?', 'REMOVE_EDGE V Y']
+Iteration 81: best_fitness = 0.6231136918067932, elasped time: 7.4133s
+Min fitness: -0.37731443047523505, Max fitness: 0.6231136918067932, Avg fitness: 0.1843
+TG num edges with pheromone = 9
+TG average pheromone = 1.729271586259206
+TG max pheromone = 3.1126888552665712
+Iteration 82: best_fitness = 0.6231136918067932, elasped time: 8.2156s
+Min fitness: -0.2756926834583283, Max fitness: 0.6231136918067932, Avg fitness: 0.1905
+TG num edges with pheromone = 9
+TG average pheromone = 1.7305514101558266
+TG max pheromone = 3.1149925382804873
+Iteration 83: best_fitness = 0.6231136918067932, elasped time: 7.1447s
+Min fitness: -0.4151778638362885, Max fitness: 0.6231136918067932, Avg fitness: 0.1650
+TG num edges with pheromone = 9
+TG average pheromone = 1.7308073749351502
+TG max pheromone = 3.1154532748832704
+Iteration 84: best_fitness = 0.6231136918067932, elasped time: 7.3105s
+Min fitness: -0.39269937276840217, Max fitness: 0.6231136918067932, Avg fitness: 0.1922
+TG num edges with pheromone = 5
+TG average pheromone = 3.1155181261488343
+TG max pheromone = 3.115545422203827
+Iteration 85: best_fitness = 0.6231136918067932, elasped time: 7.5809s
+Min fitness: -0.28410629630088813, Max fitness: 0.6231136918067932, Avg fitness: 0.1874
+TG num edges with pheromone = 5
+TG average pheromone = 3.11555839245694
+TG max pheromone = 3.1155638516679383
+Shortest path in iteration 85: ['REMOVE_EDGE B C', 'REMOVE_NODE T', 'REMOVE_EDGE P Q', 'ADD_EDGE V Q 오픈채팅은 어떤 서비스인가요?', 'REMOVE_EDGE V Y']
+Iteration 86: best_fitness = 0.6231136918067932, elasped time: 7.6170s
+Min fitness: -0.2327028930187226, Max fitness: 0.6231136918067932, Avg fitness: 0.1742
+TG num edges with pheromone = 5
+TG average pheromone = 3.115566445718561
+TG max pheromone = 3.1155675375607608
+Iteration 87: best_fitness = 0.6231136918067932, elasped time: 7.6191s
+Min fitness: -0.29734216332435615, Max fitness: 0.6231136918067932, Avg fitness: 0.2013
+TG num edges with pheromone = 5
+TG average pheromone = 3.1155680563708854
+TG max pheromone = 3.115568274739325
+Iteration 88: best_fitness = 0.6231136918067932, elasped time: 7.2285s
+Min fitness: -0.373069179058075, Max fitness: 0.6231136918067932, Avg fitness: 0.1650
+TG num edges with pheromone = 9
+TG average pheromone = 1.716585249665277
+TG max pheromone = 3.0898534930711867
+Iteration 89: best_fitness = 0.6231136918067932, elasped time: 7.2641s
+Min fitness: -0.28186924457550055, Max fitness: 0.6231136918067932, Avg fitness: 0.1769
+TG num edges with pheromone = 13
+TG average pheromone = 1.1709563499638067
+TG max pheromone = 3.0444865186406354
+Iteration 90: best_fitness = 0.6231136918067932, elasped time: 7.3658s
+Min fitness: -0.312280160188675, Max fitness: 0.6231136918067932, Avg fitness: 0.1584
+TG num edges with pheromone = 13
+TG average pheromone = 1.1915281313464154
+TG max pheromone = 3.097973143247628
+Shortest path in iteration 90: ['REMOVE_EDGE B C', 'REMOVE_NODE T', 'REMOVE_EDGE P Q', 'ADD_EDGE V Q 오픈채팅은 어떤 서비스인가요?', 'REMOVE_EDGE V Y']
+Iteration 91: best_fitness = 0.6231136918067932, elasped time: 7.3801s
+Min fitness: -0.27822218537330634, Max fitness: 0.6231136918067932, Avg fitness: 0.2059
+TG num edges with pheromone = 13
+TG average pheromone = 1.1969420752028113
+TG max pheromone = 3.112049395876699
+Iteration 92: best_fitness = 0.6231136918067932, elasped time: 7.5316s
+Min fitness: -0.2666026175022126, Max fitness: 0.6231136918067932, Avg fitness: 0.1806
+TG num edges with pheromone = 13
+TG average pheromone = 1.1980248639740902
+TG max pheromone = 3.1148646464025127
+Iteration 93: best_fitness = 0.6231136918067932, elasped time: 7.9277s
+Min fitness: -0.2757932662963868, Max fitness: 0.6231136918067932, Avg fitness: 0.1988
+TG num edges with pheromone = 10
+TG average pheromone = 1.5577026964503564
+TG max pheromone = 3.1154276965076755
+Iteration 94: best_fitness = 0.6231136918067932, elasped time: 7.8385s
+Min fitness: -0.34975169301033027, Max fitness: 0.6231136918067932, Avg fitness: 0.1760
+TG num edges with pheromone = 6
+TG average pheromone = 2.5962579451376375
+TG max pheromone = 3.115540306528708
+Iteration 95: best_fitness = 0.6231136918067932, elasped time: 7.8625s
+Min fitness: -0.3903569400310517, Max fitness: 0.6231136918067932, Avg fitness: 0.1930
+TG num edges with pheromone = 5
+TG average pheromone = 3.115548604072169
+TG max pheromone = 3.1155628285329144
+Shortest path in iteration 95: ['REMOVE_EDGE B C', 'REMOVE_NODE T', 'REMOVE_EDGE P Q', 'ADD_EDGE V Q 오픈채팅은 어떤 서비스인가요?', 'REMOVE_EDGE V Y']
+Iteration 96: best_fitness = 0.6231136918067932, elasped time: 7.5044s
+Min fitness: -0.29163945913314826, Max fitness: 0.6231136918067932, Avg fitness: 0.1878
+TG num edges with pheromone = 5
+TG average pheromone = 3.1155644880416067
+TG max pheromone = 3.1155673329337557
+Iteration 97: best_fitness = 0.6231136918067932, elasped time: 7.2041s
+Min fitness: -0.37347911000251777, Max fitness: 0.6231136918067932, Avg fitness: 0.1621
+TG num edges with pheromone = 12
+TG average pheromone = 1.2679837176094624
+TG max pheromone = 3.0431614912411398
+Iteration 98: best_fitness = 0.6231136918067932, elasped time: 59.8714s
+Min fitness: -0.2327661037445069, Max fitness: 0.6231136918067932, Avg fitness: 0.1948
+TG num edges with pheromone = 12
+TG average pheromone = 1.2921195631998812
+TG max pheromone = 3.101087065475401
+Iteration 99: best_fitness = 0.6231136918067932, elasped time: 46.3785s
+Min fitness: -0.3725879907608033, Max fitness: 0.6231136918067932, Avg fitness: 0.1691
+TG num edges with pheromone = 12
+TG average pheromone = 1.296946732317965
+TG max pheromone = 3.112672180322253
+Iteration 100: best_fitness = 0.6231136918067932, elasped time: 7.4490s
+Min fitness: -0.2691691637039185, Max fitness: 0.6231136918067932, Avg fitness: 0.1647
+TG num edges with pheromone = 12
+TG average pheromone = 1.2979121661415818
+TG max pheromone = 3.1149892032916235
+Shortest path in iteration 100: ['REMOVE_EDGE B C', 'REMOVE_NODE T', 'REMOVE_EDGE P Q', 'ADD_EDGE V Q 오픈채팅은 어떤 서비스인가요?', 'REMOVE_EDGE V Y']
+Shortest path: ['REMOVE_EDGE B C', 'REMOVE_NODE T', 'REMOVE_EDGE P Q', 'ADD_EDGE V Q 오픈채팅은 어떤 서비스인가요?', 'REMOVE_EDGE V Y']
+0.6231136918067932

@@ -1,6 +1,4 @@
-from os import system
 import random
-import sys
 import networkx as nx
 
 import constants
@@ -11,9 +9,44 @@ from graph import Graph
 class TransformationGraph(Graph):
     def __init__(self, CG: ChatbotGraph):
         self.graph = self.create(CG)
+        self.pheromones = {}
 
     def __str__(self):
         return f"TG: {self.graph}"
+
+    def add_pheromone(self, s, e, p):
+        if (s, e) not in self.pheromones:
+            self.pheromones[(s, e)] = 0
+        self.pheromones[(s, e)] += p
+
+    def evaporate(self):
+        for (s, e), _ in self.pheromones.items():
+            self.pheromones[(s, e)] *= constants.EVAPORATION_RATE
+
+        keys_to_delete = []
+        for (s, e), p in self.pheromones.items():
+            if p < 1e-4:
+                keys_to_delete.append((s, e))
+
+        for key in keys_to_delete:
+            del self.pheromones[key]
+
+    def get_pheromone(self, s, e):
+        if (s, e) not in self.pheromones:
+            return 0
+        return self.pheromones[(s, e)]
+
+    def report_pheremone_stats(self):
+        print(f"TG num edges with pheromone = {len(self.pheromones)}")
+
+        if len(self.pheromones) > 0:
+            # Average pheromone
+            print(
+                f"TG average pheromone = {sum(self.pheromones.values()) / len(self.pheromones)}"
+            )
+
+            # Max pheromone
+            print(f"TG max pheromone = {max(self.pheromones.values())}")
 
     def create(self, CG: ChatbotGraph):
         """
@@ -22,9 +55,12 @@ class TransformationGraph(Graph):
         2. REMOVE_EDGE <v1> <v2> if has edge
         3. ADD_EDGE <v1> <v2> if has shortest path and not far
         """
-        CG_nodes = CG.graph.nodes.data()
+        # Only consider connected nodes
+        CG_nodes = nx.shortest_path(CG.graph, "A").keys()
         TG_nodes = []
+
         for node1 in CG_nodes:
+            # Skip unconnected nodes
             if node1[0] != "A":
                 # Start Node can not removed
                 TG_nodes.append("REMOVE_NODE " + node1[0])
@@ -34,20 +70,15 @@ class TransformationGraph(Graph):
 
                 if CG.graph.has_edge(node1[0], node2[0]):
                     TG_nodes.append("REMOVE_EDGE " + node1[0] + " " + node2[0])
-                elif nx.has_path(CG.graph, node1[0], node2[0]):
-                    if (
-                        nx.shortest_path_length(CG.graph, node1[0], node2[0])
-                        < constants.NODE_DISTANCE_THRESHOLD
-                    ):
-                        texts = self.get_incoming_texts(CG.graph, node2)
+                else:
+                    texts = self.get_incoming_texts(CG.graph, node2)
+                    if len(texts) > 0:
                         text = random.choice(texts)
                         TG_nodes.append(
                             "ADD_EDGE " + node1[0] + " " + node2[0] + " " + text
                         )
 
         TG = nx.complete_graph(TG_nodes)
-        TG.add_weighted_edges_from([(u, v, constants.WEIGHT) for u, v in TG.edges])
-
         return TG
 
     @staticmethod

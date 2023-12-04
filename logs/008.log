@@ -1,0 +1,527 @@
+TG: V = 1122, E = 628881
+TG num_rm_node = 33
+TG num_rm_edge = 35
+TG num_add_edge = 1054
+Initial fitness: 0.597599446773529
+Iteration 1: best_fitness = 0.6255359649658203, elasped time: 13.2354s
+Min fitness: 0, Max fitness: 0.6255359649658203, Avg fitness: 0.5307
+TG num edges with pheromone = 199
+TG average pheromone = 0.12222493713225557
+TG max pheromone = 0.24106401205062866
+Iteration 2: best_fitness = 0.6255359649658203, elasped time: 8.7452s
+Min fitness: 0, Max fitness: 0.6238871812820435, Avg fitness: 0.5328
+TG num edges with pheromone = 385
+TG average pheromone = 0.0762597777626731
+TG max pheromone = 0.39560966253280644
+Iteration 3: best_fitness = 0.6295666098594666, elasped time: 8.9495s
+Min fitness: 0, Max fitness: 0.6295666098594666, Avg fitness: 0.5324
+TG num edges with pheromone = 568
+TG average pheromone = 0.05343487384453629
+TG max pheromone = 0.8223803849220277
+Iteration 4: best_fitness = 0.6490855813026428, elasped time: 8.6390s
+Min fitness: 0, Max fitness: 0.6490855813026428, Avg fitness: 0.5329
+TG num edges with pheromone = 737
+TG average pheromone = 0.042114440634583895
+TG max pheromone = 1.7891151708602906
+Iteration 5: best_fitness = 0.6490855813026428, elasped time: 8.9505s
+Min fitness: 0, Max fitness: 0.6357040405273438, Avg fitness: 0.5430
+TG num edges with pheromone = 908
+TG average pheromone = 0.03437619758807611
+TG max pheromone = 2.7335765918540957
+Shortest path in iteration 5: ['ADD_EDGE AH P 오픈채팅', 'ADD_EDGE AA AF 이모티콘 탭에서 표시되는 이모티콘 순서를 바꿀 수 있나요?', 'ADD_EDGE Q T 오픈채팅방 알람을 끄고 싶어요.', 'ADD_EDGE Y W 카카오톡 알림톡은 무엇인가요?', 'ADD_EDGE V AC 이전에 구매했던 이모티콘이 스마트폰을 교체하면서 사라졌어요.', 'ADD_EDGE AE R 오픈채팅 대화방 링크는 어디서 만들 수 있나요?', 'ADD_EDGE T X 알림톡을 받지 않으려면 어떻게 해야 하나요?', 'ADD_EDGE F AA 이모티콘은 어디서 구매할 수 있나요?', 'ADD_EDGE V AB 이모티콘은 어떻게 선물할 수 있나요?', 'REMOVE_EDGE B D']
+Iteration 6: best_fitness = 0.6490855813026428, elasped time: 8.6884s
+Min fitness: 0, Max fitness: 0.6372685432434082, Avg fitness: 0.5367
+TG num edges with pheromone = 885
+TG average pheromone = 0.0353530845289543
+TG max pheromone = 3.0519268862495426
+Iteration 7: best_fitness = 0.6490855813026428, elasped time: 8.7818s
+Min fitness: 0, Max fitness: 0.6370348334312439, Avg fitness: 0.5353
+TG num edges with pheromone = 873
+TG average pheromone = 0.03591487343334005
+TG max pheromone = 3.1207078646041873
+Iteration 8: best_fitness = 0.6490855813026428, elasped time: 8.9009s
+Min fitness: 0, Max fitness: 0.6362353563308716, Avg fitness: 0.5527
+TG num edges with pheromone = 862
+TG average pheromone = 0.0364427798107483
+TG max pheromone = 3.0127157082243348
+Iteration 9: best_fitness = 0.6490855813026428, elasped time: 8.9867s
+Min fitness: 0, Max fitness: 0.6376745104789734, Avg fitness: 0.5551
+TG num edges with pheromone = 850
+TG average pheromone = 0.03699142228416165
+TG max pheromone = 2.9940416357931214
+Iteration 10: best_fitness = 0.6490855813026428, elasped time: 9.1013s
+Min fitness: 0, Max fitness: 0.6411390900611877, Avg fitness: 0.5460
+TG num edges with pheromone = 850
+TG average pheromone = 0.03708970452482553
+TG max pheromone = 3.1232550649248902
+Shortest path in iteration 10: ['ADD_EDGE AH P 오픈채팅', 'ADD_EDGE AA AF 이모티콘 탭에서 표시되는 이모티콘 순서를 바꿀 수 있나요?', 'ADD_EDGE Q T 오픈채팅방 알람을 끄고 싶어요.', 'ADD_EDGE Y W 카카오톡 알림톡은 무엇인가요?', 'ADD_EDGE V AC 이전에 구매했던 이모티콘이 스마트폰을 교체하면서 사라졌어요.', 'ADD_EDGE AE R 오픈채팅 대화방 링크는 어디서 만들 수 있나요?', 'ADD_EDGE T X 알림톡을 받지 않으려면 어떻게 해야 하나요?', 'ADD_EDGE F AA 이모티콘은 어디서 구매할 수 있나요?', 'ADD_EDGE V AB 이모티콘은 어떻게 선물할 수 있나요?', 'REMOVE_EDGE B D']
+Iteration 11: best_fitness = 0.6490855813026428, elasped time: 8.8229s
+Min fitness: 0, Max fitness: 0.6375643014907837, Avg fitness: 0.5459
+TG num edges with pheromone = 840
+TG average pheromone = 0.03747055760358815
+TG max pheromone = 3.142340968219506
+Iteration 12: best_fitness = 0.6490855813026428, elasped time: 9.0186s
+Min fitness: 0, Max fitness: 0.6429997682571411, Avg fitness: 0.5467
+TG num edges with pheromone = 831
+TG average pheromone = 0.03789292398024616
+TG max pheromone = 3.0221107383903
+Iteration 13: best_fitness = 0.6490855813026428, elasped time: 8.9264s
+Min fitness: 0, Max fitness: 0.6409121155738831, Avg fitness: 0.5462
+TG num edges with pheromone = 810
+TG average pheromone = 0.03896552504495619
+TG max pheromone = 3.1315375761257833
+Iteration 14: best_fitness = 0.6502360105514526, elasped time: 8.9970s
+Min fitness: 0, Max fitness: 0.6502360105514526, Avg fitness: 0.5517
+TG num edges with pheromone = 800
+TG average pheromone = 0.03973186576884549
+TG max pheromone = 3.174276308140501
+Iteration 15: best_fitness = 0.6502360105514526, elasped time: 8.8777s
+Min fitness: 0, Max fitness: 0.645531177520752, Avg fitness: 0.5383
+TG num edges with pheromone = 784
+TG average pheromone = 0.04052440683306148
+TG max pheromone = 3.1769366057557553
+Shortest path in iteration 15: ['ADD_EDGE T X 알림톡을 받지 않으려면 어떻게 해야 하나요?', 'ADD_EDGE V Z 이모티콘 스토어 문의', 'REMOVE_NODE H', 'REMOVE_EDGE V Y', 'ADD_EDGE U D 카카오톡에 등록된 전화번호를 바꾸고 싶어요', 'ADD_EDGE F T 오픈채팅방 알람을 끄고 싶어요.', 'ADD_EDGE V R 오픈채팅 대화방 링크는 어디서 만들 수 있나요?', 'ADD_EDGE F Y 카카오톡 알림톡을 스미싱 메시지와 구별할 수 있나요?', 'ADD_EDGE A Z 이모티콘 스토어 문의', 'ADD_EDGE AD Q 오픈채팅은 어떤 서비스인가요?']
+Iteration 16: best_fitness = 0.6502360105514526, elasped time: 8.7181s
+Min fitness: 0, Max fitness: 0.6473541855812073, Avg fitness: 0.5208
+TG num edges with pheromone = 776
+TG average pheromone = 0.04100106617612748
+TG max pheromone = 3.1822840410837077
+Iteration 17: best_fitness = 0.6502360105514526, elasped time: 9.4696s
+Min fitness: 0, Max fitness: 0.6443221569061279, Avg fitness: 0.5565
+TG num edges with pheromone = 770
+TG average pheromone = 0.04118101043036403
+TG max pheromone = 3.1717158047034055
+Iteration 18: best_fitness = 0.6502360105514526, elasped time: 9.1108s
+Min fitness: 0, Max fitness: 0.6421319246292114, Avg fitness: 0.5567
+TG num edges with pheromone = 774
+TG average pheromone = 0.041024760337506384
+TG max pheromone = 3.049337138487373
+Iteration 19: best_fitness = 0.6502360105514526, elasped time: 8.9045s
+Min fitness: 0, Max fitness: 0.6445820331573486, Avg fitness: 0.5310
+TG num edges with pheromone = 772
+TG average pheromone = 0.0412773142140117
+TG max pheromone = 3.1620472768452714
+Iteration 20: best_fitness = 0.6502360105514526, elasped time: 9.1007s
+Min fitness: 0, Max fitness: 0.6456392407417297, Avg fitness: 0.5419
+TG num edges with pheromone = 775
+TG average pheromone = 0.04105052345852175
+TG max pheromone = 3.0499034901362054
+Shortest path in iteration 20: ['ADD_EDGE T X 알림톡을 받지 않으려면 어떻게 해야 하나요?', 'ADD_EDGE V Z 이모티콘 스토어 문의', 'REMOVE_NODE H', 'REMOVE_EDGE V Y', 'ADD_EDGE U D 카카오톡에 등록된 전화번호를 바꾸고 싶어요', 'ADD_EDGE F T 오픈채팅방 알람을 끄고 싶어요.', 'ADD_EDGE V R 오픈채팅 대화방 링크는 어디서 만들 수 있나요?', 'ADD_EDGE F Y 카카오톡 알림톡을 스미싱 메시지와 구별할 수 있나요?', 'ADD_EDGE A Z 이모티콘 스토어 문의', 'ADD_EDGE AD Q 오픈채팅은 어떤 서비스인가요?']
+Iteration 21: best_fitness = 0.6502360105514526, elasped time: 9.1155s
+Min fitness: 0, Max fitness: 0.6451560854911804, Avg fitness: 0.5448
+TG num edges with pheromone = 768
+TG average pheromone = 0.04146321626832684
+TG max pheromone = 3.1587095336099744
+Iteration 22: best_fitness = 0.6502360105514526, elasped time: 9.2238s
+Min fitness: 0, Max fitness: 0.6475395560264587, Avg fitness: 0.5448
+TG num edges with pheromone = 764
+TG average pheromone = 0.04173124049503142
+TG max pheromone = 3.1837399020985817
+Iteration 23: best_fitness = 0.6502360105514526, elasped time: 8.9276s
+Min fitness: 0, Max fitness: 0.6408638954162598, Avg fitness: 0.5559
+TG num edges with pheromone = 752
+TG average pheromone = 0.042361716204161244
+TG max pheromone = 3.185323536697945
+Iteration 24: best_fitness = 0.6502360105514526, elasped time: 9.0644s
+Min fitness: 0, Max fitness: 0.643211305141449, Avg fitness: 0.5564
+TG num edges with pheromone = 750
+TG average pheromone = 0.042473794373564855
+TG max pheromone = 3.0580532789834187
+Iteration 25: best_fitness = 0.6502360105514526, elasped time: 8.9747s
+Min fitness: 0, Max fitness: 0.6431792378425598, Avg fitness: 0.5380
+TG num edges with pheromone = 748
+TG average pheromone = 0.0425709329565818
+TG max pheromone = 3.1594237733008037
+Shortest path in iteration 25: ['ADD_EDGE T X 알림톡을 받지 않으려면 어떻게 해야 하나요?', 'ADD_EDGE V Z 이모티콘 스토어 문의', 'REMOVE_NODE H', 'REMOVE_EDGE V Y', 'ADD_EDGE U D 카카오톡에 등록된 전화번호를 바꾸고 싶어요', 'ADD_EDGE F T 오픈채팅방 알람을 끄고 싶어요.', 'ADD_EDGE V R 오픈채팅 대화방 링크는 어디서 만들 수 있나요?', 'ADD_EDGE F Y 카카오톡 알림톡을 스미싱 메시지와 구별할 수 있나요?', 'ADD_EDGE A Z 이모티콘 스토어 문의', 'ADD_EDGE AD Q 오픈채팅은 어떤 서비스인가요?']
+Iteration 26: best_fitness = 0.6502360105514526, elasped time: 8.9084s
+Min fitness: 0, Max fitness: 0.6402662992477417, Avg fitness: 0.5492
+TG num edges with pheromone = 750
+TG average pheromone = 0.04237647466134711
+TG max pheromone = 3.173832620146306
+Iteration 27: best_fitness = 0.6502360105514526, elasped time: 8.8401s
+Min fitness: 0, Max fitness: 0.642172634601593, Avg fitness: 0.5509
+TG num edges with pheromone = 753
+TG average pheromone = 0.04226894349404236
+TG max pheromone = 3.1825671841626235
+Iteration 28: best_fitness = 0.6502360105514526, elasped time: 8.9715s
+Min fitness: 0, Max fitness: 0.6467903852462769, Avg fitness: 0.5507
+TG num edges with pheromone = 752
+TG average pheromone = 0.042438873192924526
+TG max pheromone = 3.1919401655579582
+Iteration 29: best_fitness = 0.6502360105514526, elasped time: 8.7014s
+Min fitness: 0, Max fitness: 0.6470513343811035, Avg fitness: 0.5386
+TG num edges with pheromone = 741
+TG average pheromone = 0.04310264570087161
+TG max pheromone = 3.194621355731984
+Iteration 30: best_fitness = 0.6565259695053101, elasped time: 9.1879s
+Min fitness: 0, Max fitness: 0.6565259695053101, Avg fitness: 0.5720
+TG num edges with pheromone = 733
+TG average pheromone = 0.043563000954520426
+TG max pheromone = 3.1939253154197735
+Shortest path in iteration 30: ['ADD_EDGE T X 알림톡을 받지 않으려면 어떻게 해야 하나요?', 'ADD_EDGE V AH 선물 받은 이모티콘을 받고 싶지 않아요. 돌려줄 수 있나요?', 'ADD_EDGE Y P 오픈채팅', 'ADD_EDGE AA G 해외번호로 카카오톡을 사용하고 싶어요. 어떻게 하나요?', 'ADD_EDGE G K 프로필 사진, 배경사진은 어떻게 변경하나요?', 'ADD_EDGE AG Q 오픈채팅은 어떤 서비스인가요?', 'ADD_EDGE W P 오픈채팅', 'ADD_EDGE Q H 프로필', 'ADD_EDGE R K 프로필 사진, 배경사진은 어떻게 변경하나요?', 'ADD_EDGE AF Z 이모티콘 스토어 문의']
+Iteration 31: best_fitness = 0.6565259695053101, elasped time: 9.1428s
+Min fitness: 0, Max fitness: 0.6489628553390503, Avg fitness: 0.5578
+TG num edges with pheromone = 725
+TG average pheromone = 0.043997393465418866
+TG max pheromone = 3.190567814167329
+Iteration 32: best_fitness = 0.6565259695053101, elasped time: 8.9057s
+Min fitness: 0, Max fitness: 0.6396154761314392, Avg fitness: 0.5527
+TG num edges with pheromone = 724
+TG average pheromone = 0.043953476229332426
+TG max pheromone = 3.182987169992127
+Iteration 33: best_fitness = 0.6565259695053101, elasped time: 9.1546s
+Min fitness: 0, Max fitness: 0.6464828848838806, Avg fitness: 0.5632
+TG num edges with pheromone = 722
+TG average pheromone = 0.04418939819098784
+TG max pheromone = 3.1911894235156377
+Iteration 34: best_fitness = 0.6565259695053101, elasped time: 8.5818s
+Min fitness: 0, Max fitness: 0.6455819606781006, Avg fitness: 0.5403
+TG num edges with pheromone = 722
+TG average pheromone = 0.044155730362960416
+TG max pheromone = 3.188786783876864
+Iteration 35: best_fitness = 0.6565259695053101, elasped time: 8.6710s
+Min fitness: 0, Max fitness: 0.6448865532875061, Avg fitness: 0.5332
+TG num edges with pheromone = 728
+TG average pheromone = 0.04376244718144991
+TG max pheromone = 3.1866130668049752
+Shortest path in iteration 35: ['ADD_EDGE T X 알림톡을 받지 않으려면 어떻게 해야 하나요?', 'ADD_EDGE V AH 선물 받은 이모티콘을 받고 싶지 않아요. 돌려줄 수 있나요?', 'ADD_EDGE Y P 오픈채팅', 'ADD_EDGE AA G 해외번호로 카카오톡을 사용하고 싶어요. 어떻게 하나요?', 'ADD_EDGE G K 프로필 사진, 배경사진은 어떻게 변경하나요?', 'ADD_EDGE AG Q 오픈채팅은 어떤 서비스인가요?', 'ADD_EDGE W P 오픈채팅', 'ADD_EDGE Q H 프로필', 'ADD_EDGE R K 프로필 사진, 배경사진은 어떻게 변경하나요?', 'ADD_EDGE AF Z 이모티콘 스토어 문의']
+Iteration 36: best_fitness = 0.6565259695053101, elasped time: 9.0221s
+Min fitness: 0, Max fitness: 0.6456884741783142, Avg fitness: 0.5639
+TG num edges with pheromone = 729
+TG average pheromone = 0.04384353990060925
+TG max pheromone = 3.1969299880291167
+Iteration 37: best_fitness = 0.6565259695053101, elasped time: 8.8863s
+Min fitness: 0, Max fitness: 0.6463255286216736, Avg fitness: 0.5458
+TG num edges with pheromone = 733
+TG average pheromone = 0.04353970149171437
+TG max pheromone = 3.1921832793479195
+Iteration 38: best_fitness = 0.6565259695053101, elasped time: 9.0882s
+Min fitness: 0, Max fitness: 0.6443774700164795, Avg fitness: 0.5508
+TG num edges with pheromone = 733
+TG average pheromone = 0.043488870572791875
+TG max pheromone = 3.0612724231387185
+Iteration 39: best_fitness = 0.6565259695053101, elasped time: 8.9873s
+Min fitness: 0, Max fitness: 0.6473362445831299, Avg fitness: 0.5489
+TG num edges with pheromone = 732
+TG average pheromone = 0.04366955973935939
+TG max pheromone = 3.171906705830594
+Iteration 40: best_fitness = 0.6565259695053101, elasped time: 8.9344s
+Min fitness: 0, Max fitness: 0.6493632197380066, Avg fitness: 0.5547
+TG num edges with pheromone = 734
+TG average pheromone = 0.04346881634380407
+TG max pheromone = 3.1862639777132076
+Shortest path in iteration 40: ['ADD_EDGE T X 알림톡을 받지 않으려면 어떻게 해야 하나요?', 'ADD_EDGE V AH 선물 받은 이모티콘을 받고 싶지 않아요. 돌려줄 수 있나요?', 'ADD_EDGE Y P 오픈채팅', 'ADD_EDGE AA G 해외번호로 카카오톡을 사용하고 싶어요. 어떻게 하나요?', 'ADD_EDGE G K 프로필 사진, 배경사진은 어떻게 변경하나요?', 'ADD_EDGE AG Q 오픈채팅은 어떤 서비스인가요?', 'ADD_EDGE W P 오픈채팅', 'ADD_EDGE Q H 프로필', 'ADD_EDGE R K 프로필 사진, 배경사진은 어떻게 변경하나요?', 'ADD_EDGE AF Z 이모티콘 스토어 문의']
+Iteration 41: best_fitness = 0.6565259695053101, elasped time: 8.8788s
+Min fitness: 0, Max fitness: 0.6463289260864258, Avg fitness: 0.5453
+TG num edges with pheromone = 740
+TG average pheromone = 0.04301248953067127
+TG max pheromone = 3.182643818701669
+Iteration 42: best_fitness = 0.6565259695053101, elasped time: 8.6981s
+Min fitness: 0, Max fitness: 0.644461452960968, Avg fitness: 0.5414
+TG num edges with pheromone = 743
+TG average pheromone = 0.04271099303158389
+TG max pheromone = 3.1739494180372088
+Iteration 43: best_fitness = 0.6565259695053101, elasped time: 9.2693s
+Min fitness: 0, Max fitness: 0.6452802419662476, Avg fitness: 0.5658
+TG num edges with pheromone = 745
+TG average pheromone = 0.04274270596632773
+TG max pheromone = 3.0574174995360917
+Iteration 44: best_fitness = 0.6565259695053101, elasped time: 9.1644s
+Min fitness: 0, Max fitness: 0.6477519869804382, Avg fitness: 0.5650
+TG num edges with pheromone = 747
+TG average pheromone = 0.04265841839848402
+TG max pheromone = 3.161789545916282
+Iteration 45: best_fitness = 0.6565259695053101, elasped time: 8.5470s
+Min fitness: 0, Max fitness: 0.6474515199661255, Avg fitness: 0.5277
+TG num edges with pheromone = 743
+TG average pheromone = 0.042842524425936286
+TG max pheromone = 3.178840805988066
+Shortest path in iteration 45: ['ADD_EDGE T X 알림톡을 받지 않으려면 어떻게 해야 하나요?', 'ADD_EDGE V AH 선물 받은 이모티콘을 받고 싶지 않아요. 돌려줄 수 있나요?', 'ADD_EDGE Y P 오픈채팅', 'ADD_EDGE AA G 해외번호로 카카오톡을 사용하고 싶어요. 어떻게 하나요?', 'ADD_EDGE G K 프로필 사진, 배경사진은 어떻게 변경하나요?', 'ADD_EDGE AG Q 오픈채팅은 어떤 서비스인가요?', 'ADD_EDGE W P 오픈채팅', 'ADD_EDGE Q H 프로필', 'ADD_EDGE R K 프로필 사진, 배경사진은 어떻게 변경하나요?', 'ADD_EDGE AF Z 이모티콘 스토어 문의']
+Iteration 46: best_fitness = 0.6565259695053101, elasped time: 9.1357s
+Min fitness: 0, Max fitness: 0.6394640803337097, Avg fitness: 0.5443
+TG num edges with pheromone = 745
+TG average pheromone = 0.04263537243754156
+TG max pheromone = 3.176071105380963
+Iteration 47: best_fitness = 0.6565259695053101, elasped time: 9.1595s
+Min fitness: 0, Max fitness: 0.6461941003799438, Avg fitness: 0.5606
+TG num edges with pheromone = 739
+TG average pheromone = 0.043061233950501494
+TG max pheromone = 3.182771169737997
+Iteration 48: best_fitness = 0.6565259695053101, elasped time: 8.7884s
+Min fitness: 0, Max fitness: 0.6451109647750854, Avg fitness: 0.5354
+TG num edges with pheromone = 748
+TG average pheromone = 0.04263966310318057
+TG max pheromone = 3.1240495921473364
+Iteration 49: best_fitness = 0.6565259695053101, elasped time: 8.8521s
+Min fitness: 0, Max fitness: 0.6415174603462219, Avg fitness: 0.5531
+TG num edges with pheromone = 749
+TG average pheromone = 0.042451973558476824
+TG max pheromone = 3.027844801886719
+Iteration 50: best_fitness = 0.6565259695053101, elasped time: 9.1289s
+Min fitness: 0, Max fitness: 0.642041027545929, Avg fitness: 0.5585
+TG num edges with pheromone = 748
+TG average pheromone = 0.0425683787484108
+TG max pheromone = 3.1543528825727787
+Shortest path in iteration 50: ['ADD_EDGE T X 알림톡을 받지 않으려면 어떻게 해야 하나요?', 'ADD_EDGE V AH 선물 받은 이모티콘을 받고 싶지 않아요. 돌려줄 수 있나요?', 'ADD_EDGE Y P 오픈채팅', 'ADD_EDGE AA G 해외번호로 카카오톡을 사용하고 싶어요. 어떻게 하나요?', 'ADD_EDGE G K 프로필 사진, 배경사진은 어떻게 변경하나요?', 'ADD_EDGE AG Q 오픈채팅은 어떤 서비스인가요?', 'ADD_EDGE W P 오픈채팅', 'ADD_EDGE Q H 프로필', 'ADD_EDGE R K 프로필 사진, 배경사진은 어떻게 변경하나요?', 'ADD_EDGE AF Z 이모티콘 스토어 문의']
+Iteration 51: best_fitness = 0.6565259695053101, elasped time: 8.9817s
+Min fitness: 0, Max fitness: 0.6469106078147888, Avg fitness: 0.5552
+TG num edges with pheromone = 746
+TG average pheromone = 0.04274725636670621
+TG max pheromone = 3.1835939127343433
+Iteration 52: best_fitness = 0.6565259695053101, elasped time: 8.9052s
+Min fitness: 0, Max fitness: 0.6449926495552063, Avg fitness: 0.5562
+TG num edges with pheromone = 750
+TG average pheromone = 0.04247952765758493
+TG max pheromone = 3.1855000702170044
+Iteration 53: best_fitness = 0.6565259695053101, elasped time: 8.7444s
+Min fitness: 0, Max fitness: 0.6419299840927124, Avg fitness: 0.5579
+TG num edges with pheromone = 746
+TG average pheromone = 0.04273606573375
+TG max pheromone = 3.288666437965435
+Iteration 54: best_fitness = 0.6565259695053101, elasped time: 9.0175s
+Min fitness: 0, Max fitness: 0.6475143432617188, Avg fitness: 0.5519
+TG num edges with pheromone = 742
+TG average pheromone = 0.04301007266886612
+TG max pheromone = 3.0825586817466823
+Iteration 55: best_fitness = 0.6565259695053101, elasped time: 9.0014s
+Min fitness: 0, Max fitness: 0.6468232274055481, Avg fitness: 0.5553
+TG num edges with pheromone = 741
+TG average pheromone = 0.04300664629980014
+TG max pheromone = 3.162041855690978
+Shortest path in iteration 55: ['ADD_EDGE T X 알림톡을 받지 않으려면 어떻게 해야 하나요?', 'ADD_EDGE V AH 선물 받은 이모티콘을 받고 싶지 않아요. 돌려줄 수 있나요?', 'ADD_EDGE Y P 오픈채팅', 'ADD_EDGE AA G 해외번호로 카카오톡을 사용하고 싶어요. 어떻게 하나요?', 'ADD_EDGE G K 프로필 사진, 배경사진은 어떻게 변경하나요?', 'ADD_EDGE AG Q 오픈채팅은 어떤 서비스인가요?', 'ADD_EDGE W P 오픈채팅', 'ADD_EDGE Q H 프로필', 'ADD_EDGE R K 프로필 사진, 배경사진은 어떻게 변경하나요?', 'ADD_EDGE AF Z 이모티콘 스토어 문의']
+Iteration 56: best_fitness = 0.6565259695053101, elasped time: 8.8575s
+Min fitness: 0, Max fitness: 0.6471322178840637, Avg fitness: 0.5637
+TG num edges with pheromone = 740
+TG average pheromone = 0.04312186728541083
+TG max pheromone = 3.186677375006299
+Iteration 57: best_fitness = 0.6565259695053101, elasped time: 9.0142s
+Min fitness: 0, Max fitness: 0.6498692631721497, Avg fitness: 0.5518
+TG num edges with pheromone = 741
+TG average pheromone = 0.042958332172962
+TG max pheromone = 3.182938809904977
+Iteration 58: best_fitness = 0.6565259695053101, elasped time: 8.9803s
+Min fitness: 0, Max fitness: 0.6429048180580139, Avg fitness: 0.5643
+TG num edges with pheromone = 749
+TG average pheromone = 0.04250199014769485
+TG max pheromone = 3.1839327446050496
+Iteration 59: best_fitness = 0.6565259695053101, elasped time: 8.9882s
+Min fitness: 0, Max fitness: 0.6473362445831299, Avg fitness: 0.5691
+TG num edges with pheromone = 756
+TG average pheromone = 0.04221124655640566
+TG max pheromone = 3.1918725417341207
+Iteration 60: best_fitness = 0.6565259695053101, elasped time: 8.9795s
+Min fitness: 0, Max fitness: 0.6455920934677124, Avg fitness: 0.5626
+TG num edges with pheromone = 752
+TG average pheromone = 0.04241417547407532
+TG max pheromone = 3.190306139911918
+Shortest path in iteration 60: ['ADD_EDGE T X 알림톡을 받지 않으려면 어떻게 해야 하나요?', 'ADD_EDGE V AH 선물 받은 이모티콘을 받고 싶지 않아요. 돌려줄 수 있나요?', 'ADD_EDGE Y P 오픈채팅', 'ADD_EDGE AA G 해외번호로 카카오톡을 사용하고 싶어요. 어떻게 하나요?', 'ADD_EDGE G K 프로필 사진, 배경사진은 어떻게 변경하나요?', 'ADD_EDGE AG Q 오픈채팅은 어떤 서비스인가요?', 'ADD_EDGE W P 오픈채팅', 'ADD_EDGE Q H 프로필', 'ADD_EDGE R K 프로필 사진, 배경사진은 어떻게 변경하나요?', 'ADD_EDGE AF Z 이모티콘 스토어 문의']
+Iteration 61: best_fitness = 0.6565259695053101, elasped time: 8.9024s
+Min fitness: 0, Max fitness: 0.6554576754570007, Avg fitness: 0.5495
+TG num edges with pheromone = 754
+TG average pheromone = 0.04228673430298134
+TG max pheromone = 3.18916902798925
+Iteration 62: best_fitness = 0.6565259695053101, elasped time: 8.6907s
+Min fitness: 0, Max fitness: 0.6541056632995605, Avg fitness: 0.5438
+TG num edges with pheromone = 746
+TG average pheromone = 0.042811090700708966
+TG max pheromone = 3.1944929676423754
+Iteration 63: best_fitness = 0.6565259695053101, elasped time: 8.7704s
+Min fitness: 0, Max fitness: 0.6411170363426208, Avg fitness: 0.5450
+TG num edges with pheromone = 741
+TG average pheromone = 0.042961265897352316
+TG max pheromone = 3.1841831747128624
+Iteration 64: best_fitness = 0.6565259695053101, elasped time: 8.9392s
+Min fitness: 0, Max fitness: 0.6486229300498962, Avg fitness: 0.5500
+TG num edges with pheromone = 750
+TG average pheromone = 0.04247466208722105
+TG max pheromone = 3.1863491404738835
+Iteration 65: best_fitness = 0.6565259695053101, elasped time: 8.5847s
+Min fitness: 0, Max fitness: 0.6434905529022217, Avg fitness: 0.5358
+TG num edges with pheromone = 748
+TG average pheromone = 0.042570233700955334
+TG max pheromone = 3.185022613777455
+Shortest path in iteration 65: ['ADD_EDGE T X 알림톡을 받지 않으려면 어떻게 해야 하나요?', 'ADD_EDGE V AH 선물 받은 이모티콘을 받고 싶지 않아요. 돌려줄 수 있나요?', 'ADD_EDGE Y P 오픈채팅', 'ADD_EDGE AA G 해외번호로 카카오톡을 사용하고 싶어요. 어떻게 하나요?', 'ADD_EDGE G K 프로필 사진, 배경사진은 어떻게 변경하나요?', 'ADD_EDGE AG Q 오픈채팅은 어떤 서비스인가요?', 'ADD_EDGE W P 오픈채팅', 'ADD_EDGE Q H 프로필', 'ADD_EDGE R K 프로필 사진, 배경사진은 어떻게 변경하나요?', 'ADD_EDGE AF Z 이모티콘 스토어 문의']
+Iteration 66: best_fitness = 0.6565259695053101, elasped time: 8.3908s
+Min fitness: 0, Max fitness: 0.6456633806228638, Avg fitness: 0.5463
+TG num edges with pheromone = 747
+TG average pheromone = 0.042730052282564136
+TG max pheromone = 3.192699925377714
+Iteration 67: best_fitness = 0.6565259695053101, elasped time: 8.6902s
+Min fitness: 0, Max fitness: 0.6532093286514282, Avg fitness: 0.5541
+TG num edges with pheromone = 754
+TG average pheromone = 0.04232184890979506
+TG max pheromone = 3.191789189234326
+Iteration 68: best_fitness = 0.6565259695053101, elasped time: 8.7665s
+Min fitness: 0, Max fitness: 0.6426171660423279, Avg fitness: 0.5564
+TG num edges with pheromone = 757
+TG average pheromone = 0.04205247686057198
+TG max pheromone = 3.05717053001224
+Iteration 69: best_fitness = 0.6565259695053101, elasped time: 9.0648s
+Min fitness: 0, Max fitness: 0.6488202214241028, Avg fitness: 0.5605
+TG num edges with pheromone = 745
+TG average pheromone = 0.042696598108471685
+TG max pheromone = 3.156282178531287
+Iteration 70: best_fitness = 0.6565259695053101, elasped time: 8.6493s
+Min fitness: 0, Max fitness: 0.6410320997238159, Avg fitness: 0.5622
+TG num edges with pheromone = 749
+TG average pheromone = 0.042474528043345214
+TG max pheromone = 3.1770267112990616
+Shortest path in iteration 70: ['ADD_EDGE T X 알림톡을 받지 않으려면 어떻게 해야 하나요?', 'ADD_EDGE V AH 선물 받은 이모티콘을 받고 싶지 않아요. 돌려줄 수 있나요?', 'ADD_EDGE Y P 오픈채팅', 'ADD_EDGE AA G 해외번호로 카카오톡을 사용하고 싶어요. 어떻게 하나요?', 'ADD_EDGE G K 프로필 사진, 배경사진은 어떻게 변경하나요?', 'ADD_EDGE AG Q 오픈채팅은 어떤 서비스인가요?', 'ADD_EDGE W P 오픈채팅', 'ADD_EDGE Q H 프로필', 'ADD_EDGE R K 프로필 사진, 배경사진은 어떻게 변경하나요?', 'ADD_EDGE AF Z 이모티콘 스토어 문의']
+Iteration 71: best_fitness = 0.6565259695053101, elasped time: 8.5488s
+Min fitness: 0, Max fitness: 0.6500604748725891, Avg fitness: 0.5514
+TG num edges with pheromone = 750
+TG average pheromone = 0.042477051819108415
+TG max pheromone = 3.1855144664434674
+Iteration 72: best_fitness = 0.6565259695053101, elasped time: 8.6006s
+Min fitness: 0, Max fitness: 0.6416631937026978, Avg fitness: 0.5542
+TG num edges with pheromone = 747
+TG average pheromone = 0.04262809717899661
+TG max pheromone = 3.1848592910128453
+Iteration 73: best_fitness = 0.6565259695053101, elasped time: 8.8299s
+Min fitness: 0, Max fitness: 0.6500608325004578, Avg fitness: 0.5565
+TG num edges with pheromone = 749
+TG average pheromone = 0.042597968833119094
+TG max pheromone = 3.0639848977914976
+Iteration 74: best_fitness = 0.6565259695053101, elasped time: 8.3864s
+Min fitness: 0, Max fitness: 0.6490244269371033, Avg fitness: 0.5559
+TG num edges with pheromone = 750
+TG average pheromone = 0.042486746755019233
+TG max pheromone = 3.1617856913922537
+Iteration 75: best_fitness = 0.6565259695053101, elasped time: 8.4073s
+Min fitness: 0, Max fitness: 0.6436282396316528, Avg fitness: 0.5495
+TG num edges with pheromone = 750
+TG average pheromone = 0.04248234212829628
+TG max pheromone = 3.181847053649392
+Shortest path in iteration 75: ['ADD_EDGE T X 알림톡을 받지 않으려면 어떻게 해야 하나요?', 'ADD_EDGE V AH 선물 받은 이모티콘을 받고 싶지 않아요. 돌려줄 수 있나요?', 'ADD_EDGE Y P 오픈채팅', 'ADD_EDGE AA G 해외번호로 카카오톡을 사용하고 싶어요. 어떻게 하나요?', 'ADD_EDGE G K 프로필 사진, 배경사진은 어떻게 변경하나요?', 'ADD_EDGE AG Q 오픈채팅은 어떤 서비스인가요?', 'ADD_EDGE W P 오픈채팅', 'ADD_EDGE Q H 프로필', 'ADD_EDGE R K 프로필 사진, 배경사진은 어떻게 변경하나요?', 'ADD_EDGE AF Z 이모티콘 스토어 문의']
+Iteration 76: best_fitness = 0.6565259695053101, elasped time: 8.6235s
+Min fitness: 0, Max fitness: 0.6471365094184875, Avg fitness: 0.5542
+TG num edges with pheromone = 758
+TG average pheromone = 0.04198638154926189
+TG max pheromone = 3.182276312089437
+Iteration 77: best_fitness = 0.6565259695053101, elasped time: 8.4967s
+Min fitness: 0, Max fitness: 0.6395196914672852, Avg fitness: 0.5466
+TG num edges with pheromone = 764
+TG average pheromone = 0.041618297972535405
+TG max pheromone = 3.1801747209979045
+Iteration 78: best_fitness = 0.6565259695053101, elasped time: 8.3716s
+Min fitness: 0, Max fitness: 0.6429167985916138, Avg fitness: 0.5623
+TG num edges with pheromone = 756
+TG average pheromone = 0.04204928119891709
+TG max pheromone = 3.179676308774013
+Iteration 79: best_fitness = 0.6565259695053101, elasped time: 8.4074s
+Min fitness: 0, Max fitness: 0.6403107643127441, Avg fitness: 0.5496
+TG num edges with pheromone = 755
+TG average pheromone = 0.04212891048594667
+TG max pheromone = 3.1814832120225947
+Iteration 80: best_fitness = 0.6565259695053101, elasped time: 8.1410s
+Min fitness: 0, Max fitness: 0.649994432926178, Avg fitness: 0.5439
+TG num edges with pheromone = 754
+TG average pheromone = 0.04222653838625466
+TG max pheromone = 3.184629166704141
+Shortest path in iteration 80: ['ADD_EDGE T X 알림톡을 받지 않으려면 어떻게 해야 하나요?', 'ADD_EDGE V AH 선물 받은 이모티콘을 받고 싶지 않아요. 돌려줄 수 있나요?', 'ADD_EDGE Y P 오픈채팅', 'ADD_EDGE AA G 해외번호로 카카오톡을 사용하고 싶어요. 어떻게 하나요?', 'ADD_EDGE G K 프로필 사진, 배경사진은 어떻게 변경하나요?', 'ADD_EDGE AG Q 오픈채팅은 어떤 서비스인가요?', 'ADD_EDGE W P 오픈채팅', 'ADD_EDGE Q H 프로필', 'ADD_EDGE R K 프로필 사진, 배경사진은 어떻게 변경하나요?', 'ADD_EDGE AF Z 이모티콘 스토어 문의']
+Iteration 81: best_fitness = 0.6565259695053101, elasped time: 8.3643s
+Min fitness: 0, Max fitness: 0.6441956162452698, Avg fitness: 0.5503
+TG num edges with pheromone = 742
+TG average pheromone = 0.04286973035964613
+TG max pheromone = 3.181710867997353
+Iteration 82: best_fitness = 0.6565259695053101, elasped time: 8.3442s
+Min fitness: 0, Max fitness: 0.6475775837898254, Avg fitness: 0.5622
+TG num edges with pheromone = 735
+TG average pheromone = 0.04333449258434679
+TG max pheromone = 3.185850649856795
+Iteration 83: best_fitness = 0.6565259695053101, elasped time: 7.7461s
+Min fitness: 0, Max fitness: 0.649994432926178, Avg fitness: 0.5396
+TG num edges with pheromone = 730
+TG average pheromone = 0.04367114199318607
+TG max pheromone = 3.1887743770645596
+Iteration 84: best_fitness = 0.6565259695053101, elasped time: 8.1056s
+Min fitness: 0, Max fitness: 0.6490244269371033, Avg fitness: 0.5472
+TG num edges with pheromone = 732
+TG average pheromone = 0.04355203529059302
+TG max pheromone = 3.188747698060007
+Iteration 85: best_fitness = 0.6585516333580017, elasped time: 8.4371s
+Min fitness: 0, Max fitness: 0.6585516333580017, Avg fitness: 0.5603
+TG num edges with pheromone = 739
+TG average pheromone = 0.043332881597941623
+TG max pheromone = 3.2030226457101763
+Shortest path in iteration 85: ['ADD_EDGE T X 알림톡을 받지 않으려면 어떻게 해야 하나요?', 'ADD_EDGE A S 내가 만든 오픈채팅 대화방 링크는 어디에 공유하면 되나요?', 'ADD_EDGE A Z 이모티콘 스토어 문의', 'ADD_EDGE I AB 이모티콘은 어떻게 선물할 수 있나요?', 'REMOVE_NODE AE', 'ADD_EDGE D I 내 상태 메시지는 어떻게 변경하나요?', 'ADD_EDGE Q T 오픈채팅방 알람을 끄고 싶어요.', 'ADD_EDGE N S 내가 만든 오픈채팅 대화방 링크는 어디에 공유하면 되나요?', 'ADD_EDGE Y T 오픈채팅방 알림을 끄고 싶어요.', 'REMOVE_EDGE V Y']
+Iteration 86: best_fitness = 0.6585516333580017, elasped time: 8.4416s
+Min fitness: 0, Max fitness: 0.6399867534637451, Avg fitness: 0.5635
+TG num edges with pheromone = 736
+TG average pheromone = 0.0432815641247625
+TG max pheromone = 3.1862516853805913
+Iteration 87: best_fitness = 0.6585516333580017, elasped time: 8.1551s
+Min fitness: 0, Max fitness: 0.6465697884559631, Avg fitness: 0.5354
+TG num edges with pheromone = 736
+TG average pheromone = 0.04325774439558702
+TG max pheromone = 3.1845133513926775
+Iteration 88: best_fitness = 0.6585516333580017, elasped time: 7.9978s
+Min fitness: 0, Max fitness: 0.6456193923950195, Avg fitness: 0.5528
+TG num edges with pheromone = 732
+TG average pheromone = 0.04355168578430714
+TG max pheromone = 3.188728038682924
+Iteration 89: best_fitness = 0.6585516333580017, elasped time: 8.5636s
+Min fitness: 0, Max fitness: 0.6541963219642639, Avg fitness: 0.5630
+TG num edges with pheromone = 730
+TG average pheromone = 0.04373368587518578
+TG max pheromone = 3.1933102854518864
+Iteration 90: best_fitness = 0.6585516333580017, elasped time: 8.0834s
+Min fitness: 0, Max fitness: 0.646796464920044, Avg fitness: 0.5434
+TG num edges with pheromone = 733
+TG average pheromone = 0.04343628024997446
+TG max pheromone = 3.1846082021480555
+Shortest path in iteration 90: ['ADD_EDGE T X 알림톡을 받지 않으려면 어떻게 해야 하나요?', 'ADD_EDGE A S 내가 만든 오픈채팅 대화방 링크는 어디에 공유하면 되나요?', 'ADD_EDGE A Z 이모티콘 스토어 문의', 'ADD_EDGE I AB 이모티콘은 어떻게 선물할 수 있나요?', 'REMOVE_NODE AE', 'ADD_EDGE D I 내 상태 메시지는 어떻게 변경하나요?', 'ADD_EDGE Q T 오픈채팅방 알람을 끄고 싶어요.', 'ADD_EDGE N S 내가 만든 오픈채팅 대화방 링크는 어디에 공유하면 되나요?', 'ADD_EDGE Y T 오픈채팅방 알림을 끄고 싶어요.', 'REMOVE_EDGE V Y']
+Iteration 91: best_fitness = 0.6585516333580017, elasped time: 8.2473s
+Min fitness: 0, Max fitness: 0.6456193923950195, Avg fitness: 0.5448
+TG num edges with pheromone = 733
+TG average pheromone = 0.043390607551914234
+TG max pheromone = 3.054055436644669
+Iteration 92: best_fitness = 0.6585516333580017, elasped time: 8.4835s
+Min fitness: 0, Max fitness: 0.6404925584793091, Avg fitness: 0.5587
+TG num edges with pheromone = 734
+TG average pheromone = 0.043357446144539284
+TG max pheromone = 3.157731482226395
+Iteration 93: best_fitness = 0.6585516333580017, elasped time: 7.8505s
+Min fitness: 0, Max fitness: 0.638099193572998, Avg fitness: 0.5392
+TG num edges with pheromone = 733
+TG average pheromone = 0.04339340814749046
+TG max pheromone = 3.176396657792478
+Iteration 94: best_fitness = 0.6585516333580017, elasped time: 8.2709s
+Min fitness: 0, Max fitness: 0.6399399042129517, Avg fitness: 0.5653
+TG num edges with pheromone = 733
+TG average pheromone = 0.043415889317203485
+TG max pheromone = 3.182121072166711
+Iteration 95: best_fitness = 0.6585516333580017, elasped time: 8.2974s
+Min fitness: 0, Max fitness: 0.6481204032897949, Avg fitness: 0.5575
+TG num edges with pheromone = 735
+TG average pheromone = 0.04333485412178661
+TG max pheromone = 3.1856298990952077
+Shortest path in iteration 95: ['ADD_EDGE T X 알림톡을 받지 않으려면 어떻게 해야 하나요?', 'ADD_EDGE A S 내가 만든 오픈채팅 대화방 링크는 어디에 공유하면 되나요?', 'ADD_EDGE A Z 이모티콘 스토어 문의', 'ADD_EDGE I AB 이모티콘은 어떻게 선물할 수 있나요?', 'REMOVE_NODE AE', 'ADD_EDGE D I 내 상태 메시지는 어떻게 변경하나요?', 'ADD_EDGE Q T 오픈채팅방 알람을 끄고 싶어요.', 'ADD_EDGE N S 내가 만든 오픈채팅 대화방 링크는 어디에 공유하면 되나요?', 'ADD_EDGE Y T 오픈채팅방 알림을 끄고 싶어요.', 'REMOVE_EDGE V Y']
+Iteration 96: best_fitness = 0.6585516333580017, elasped time: 8.4280s
+Min fitness: 0, Max fitness: 0.6455769538879395, Avg fitness: 0.5514
+TG num edges with pheromone = 732
+TG average pheromone = 0.04352592621055538
+TG max pheromone = 3.186803947844249
+Iteration 97: best_fitness = 0.6585516333580017, elasped time: 8.1587s
+Min fitness: 0, Max fitness: 0.6469738483428955, Avg fitness: 0.5490
+TG num edges with pheromone = 735
+TG average pheromone = 0.043353007254213906
+TG max pheromone = 3.1871915719823325
+Iteration 98: best_fitness = 0.6585516333580017, elasped time: 7.9301s
+Min fitness: 0, Max fitness: 0.6476641893386841, Avg fitness: 0.5454
+TG num edges with pheromone = 740
+TG average pheromone = 0.04307886338193934
+TG max pheromone = 3.1885651521268743
+Iteration 99: best_fitness = 0.6585516333580017, elasped time: 8.2411s
+Min fitness: 0, Max fitness: 0.6456193923950195, Avg fitness: 0.5550
+TG num edges with pheromone = 751
+TG average pheromone = 0.042396991397956094
+TG max pheromone = 3.184715274421041
+Iteration 100: best_fitness = 0.6585516333580017, elasped time: 7.8935s
+Min fitness: 0, Max fitness: 0.6450039744377136, Avg fitness: 0.5292
+TG num edges with pheromone = 742
+TG average pheromone = 0.0429276192320885
+TG max pheromone = 3.1859844453032147
+Shortest path in iteration 100: ['ADD_EDGE T X 알림톡을 받지 않으려면 어떻게 해야 하나요?', 'ADD_EDGE A S 내가 만든 오픈채팅 대화방 링크는 어디에 공유하면 되나요?', 'ADD_EDGE A Z 이모티콘 스토어 문의', 'ADD_EDGE I AB 이모티콘은 어떻게 선물할 수 있나요?', 'REMOVE_NODE AE', 'ADD_EDGE D I 내 상태 메시지는 어떻게 변경하나요?', 'ADD_EDGE Q T 오픈채팅방 알람을 끄고 싶어요.', 'ADD_EDGE N S 내가 만든 오픈채팅 대화방 링크는 어디에 공유하면 되나요?', 'ADD_EDGE Y T 오픈채팅방 알림을 끄고 싶어요.', 'REMOVE_EDGE V Y']
+Shortest path: ['ADD_EDGE T X 알림톡을 받지 않으려면 어떻게 해야 하나요?', 'ADD_EDGE A S 내가 만든 오픈채팅 대화방 링크는 어디에 공유하면 되나요?', 'ADD_EDGE A Z 이모티콘 스토어 문의', 'ADD_EDGE I AB 이모티콘은 어떻게 선물할 수 있나요?', 'REMOVE_NODE AE', 'ADD_EDGE D I 내 상태 메시지는 어떻게 변경하나요?', 'ADD_EDGE Q T 오픈채팅방 알람을 끄고 싶어요.', 'ADD_EDGE N S 내가 만든 오픈채팅 대화방 링크는 어디에 공유하면 되나요?', 'ADD_EDGE Y T 오픈채팅방 알림을 끄고 싶어요.', 'REMOVE_EDGE V Y']
+0.6585516333580017

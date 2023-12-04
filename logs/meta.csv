@@ -1,4 +1,11 @@
-file_name,dataset,initial_fitness,final_fitness,admin,user,evaporation_rate,length_of_path,random_coice_rate,initial_pheromone,iterations,ants
-001.png,kakaotalk-faq-231129-small-mingled-003,0.597599446773529,0.662323534488678,0,final_similarity,0.4,8,0.3,1,50,300
-002.png,kakaotalk-faq-231129-small-mingled-003,0.5456512570381165,0.6317023634910583,0,final_similarity - path_length * 0.03,0.4,8,0.3,1,50,300
-003.png,kakaotalk-faq-231129-small-mingled-003,0.4763866066932678,0.5912637710571289,0,final_similarity - path_length * 0.07,0.4,8,0.3,1,50,300
+file_name,dataset,initial_fitness,final_fitness,admin,user,evaporation_rate,length_of_path,random_choice_rate,iterations,ants
+001.png,kakaotalk-faq-231129-small-mingled-003,0.597599446773529,0.662323534488678,0,final_similarity,0.4,8,0.3,50,300
+002.png,kakaotalk-faq-231129-small-mingled-003,0.5456512570381165,0.6317023634910583,0,final_similarity - path_length * 0.03,0.4,8,0.3,50,300
+003.png,kakaotalk-faq-231129-small-mingled-003,0.4763866066932678,0.5912637710571289,0,final_similarity - path_length * 0.07,0.4,8,0.3,50,300
+004.png,kakaotalk-faq-231129-small-mingled-003,1.4634054899215698,2.8095719814300537,0,final_similarity + path_length * 0.5,0.2,3,0.2,30,100
+005.png,kakaotalk-faq-231129-small-mingled-003,1.2512776851654053,1.4167460203170776,0,1.0 + final_similarity - path_length * 0.2,0.2,3,0.2,30,100
+006.png,kakaotalk-faq-231129-small-mingled-003,0.597599446773529,0.6632899641990662,0,final_similarity,0.2,8,0.2,100,200
+007,kakaotalk-faq-231129-small-mingled-003,0.6279581189155579,0.6666800379753113,0,final_similarity,0.2,3,0.2,100,200
+008,kakaotalk-faq-231129-small-mingled-003,0.597599446773529,0.6585516333580017,0,final_similarity,0.2,10,0.2,100,200
+009,kakaotalk-faq-231129-small-mingled-003,0.597599446773529,0.6544343829154968,0,final_similarity,0.2,10,0.2,100,200
+010,kakaotalk-faq-231129-small-mingled-003,0.39759944677352904,0.6231136918067932,0,final_similarity - 0.1 * (indeg - 1),0.2,5,0.2,100,200
