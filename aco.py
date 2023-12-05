@@ -147,23 +147,29 @@ class AntColony:
 
 
 if __name__ == "__main__":
-    CG = ChatbotGraph("kakaotalk-faq-231129-small-mingled-003")
-    ant_colony = AntColony(CG)
-
-    # Starting fitness
+    CG = ChatbotGraph("kakaotalk-faq-231204-mini-mingled")
     CG.evaluate()
-    print(f"Initial fitness: {CG.fitness}")
+    print(CG.fitness)
+    # ant_colony = AntColony(CG)
 
-    # Show original graph
-    # CG.draw()
+    # # Starting fitness
+    # CG.evaluate()
+    # print(f"Initial fitness: {CG.fitness}")
 
-    # Run ACO
-    shortest_path = ant_colony.aco()
-    optimized_CG = CG.copy()
-    optimized_CG.transform(shortest_path)
+    # CG_original = ChatbotGraph("kakaotalk-faq-231204-mini")
+    # CG_original.evaluate()
+    # print(f"Original fitness: {CG_original.fitness}")
 
-    # Show optimized graph
-    Graph.draw_graphs(CG, optimized_CG)
+    # # Show original graph
+    # # CG.draw()
+
+    # # Run ACO
+    # shortest_path = ant_colony.aco()
+    # optimized_CG = CG.copy()
+    # optimized_CG.transform(shortest_path)
+
+    # # Show optimized graph
+    # Graph.draw_graphs(CG, optimized_CG)
 
 # if __name__ == "__main__":
 # Graph.draw(ChatbotGraph("kakaotalk-faq-231129-small"))

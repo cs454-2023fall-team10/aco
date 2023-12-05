@@ -1,0 +1,528 @@
+TG: V = 182, E = 16471
+TG num_rm_node = 13
+TG num_rm_edge = 13
+TG num_add_edge = 156
+Initial fitness: 0.5153378963470459
+Original fitness: 0.5131964802742004
+Iteration 1: best_fitness = 0.5833659172058105, elasped time: 8.0831s
+Min fitness: 0, Max fitness: 0.5833659172058105, Avg fitness: 0.4142
+TG num edges with pheromone = 98
+TG average pheromone = 0.11116219576524228
+TG max pheromone = 0.32591962814331055
+Iteration 2: best_fitness = 0.5833659172058105, elasped time: 6.5905s
+Min fitness: 0, Max fitness: 0.5680801868438721, Avg fitness: 0.3937
+TG num edges with pheromone = 146
+TG average pheromone = 0.09122918751141798
+TG max pheromone = 0.46715298652648923
+Iteration 3: best_fitness = 0.5833659172058105, elasped time: 6.5974s
+Min fitness: 0, Max fitness: 0.5775866508483887, Avg fitness: 0.4275
+TG num edges with pheromone = 185
+TG average pheromone = 0.07530783901472347
+TG max pheromone = 0.7451252055168153
+Iteration 4: best_fitness = 0.5833659172058105, elasped time: 6.7989s
+Min fitness: 0, Max fitness: 0.5710672736167908, Avg fitness: 0.4384
+TG num edges with pheromone = 227
+TG average pheromone = 0.062074416697497935
+TG max pheromone = 0.6387998528480531
+Iteration 5: best_fitness = 0.5833659172058105, elasped time: 7.0881s
+Min fitness: 0, Max fitness: 0.5757718682289124, Avg fitness: 0.4692
+TG num edges with pheromone = 264
+TG average pheromone = 0.053524765942168956
+TG max pheromone = 0.5809890164375305
+Shortest path in iteration 5: ['ADD_EDGE A G 오픈채팅은 어떤 서비스인가요?', 'REMOVE_EDGE J D', 'ADD_EDGE E I 오픈채팅방 알림을 끄고 싶어요.', 'ADD_EDGE C N 채팅 중에 친구가 사용한 이모티콘을 스토어에서 보고 싶은데 찾기가 어려워요.', 'REMOVE_EDGE A F']
+Iteration 6: best_fitness = 0.5833659172058105, elasped time: 6.5492s
+Min fitness: 0, Max fitness: 0.5741786956787109, Avg fitness: 0.4460
+TG num edges with pheromone = 239
+TG average pheromone = 0.05919153856707453
+TG max pheromone = 1.0225018050956727
+Iteration 7: best_fitness = 0.5833659172058105, elasped time: 6.7134s
+Min fitness: 0, Max fitness: 0.5744119882583618, Avg fitness: 0.4360
+TG num edges with pheromone = 219
+TG average pheromone = 0.0646701857307999
+TG max pheromone = 1.6767116623458862
+Iteration 8: best_fitness = 0.5833659172058105, elasped time: 6.5235s
+Min fitness: 0, Max fitness: 0.5783573389053345, Avg fitness: 0.4395
+TG num edges with pheromone = 198
+TG average pheromone = 0.07155674997364798
+TG max pheromone = 2.2599649635421755
+Iteration 9: best_fitness = 0.5833659172058105, elasped time: 6.6473s
+Min fitness: 0, Max fitness: 0.5731175541877747, Avg fitness: 0.4553
+TG num edges with pheromone = 164
+TG average pheromone = 0.08641463966878053
+TG max pheromone = 2.491729800054779
+Iteration 10: best_fitness = 0.5833659172058105, elasped time: 6.5500s
+Min fitness: 0, Max fitness: 0.5758660435676575, Avg fitness: 0.4762
+TG num edges with pheromone = 130
+TG average pheromone = 0.10912145823940904
+TG max pheromone = 2.4255706676144104
+Shortest path in iteration 10: ['ADD_EDGE A G 오픈채팅은 어떤 서비스인가요?', 'REMOVE_EDGE J D', 'ADD_EDGE E I 오픈채팅방 알림을 끄고 싶어요.', 'ADD_EDGE C N 채팅 중에 친구가 사용한 이모티콘을 스토어에서 보고 싶은데 찾기가 어려워요.', 'REMOVE_EDGE A F']
+Iteration 11: best_fitness = 0.5833659172058105, elasped time: 6.2674s
+Min fitness: 0, Max fitness: 0.5687662959098816, Avg fitness: 0.4816
+TG num edges with pheromone = 99
+TG average pheromone = 0.14340674617546165
+TG max pheromone = 2.530146408245935
+Iteration 12: best_fitness = 0.5833659172058105, elasped time: 7.0372s
+Min fitness: 0, Max fitness: 0.5732980966567993, Avg fitness: 0.4701
+TG num edges with pheromone = 76
+TG average pheromone = 0.18699284194009075
+TG max pheromone = 2.551398191485003
+Iteration 13: best_fitness = 0.5833659172058105, elasped time: 6.9504s
+Min fitness: 0, Max fitness: 0.5729180574417114, Avg fitness: 0.4736
+TG num edges with pheromone = 63
+TG average pheromone = 0.22559597634695427
+TG max pheromone = 2.524157322988092
+Iteration 14: best_fitness = 0.5833659172058105, elasped time: 6.5269s
+Min fitness: 0, Max fitness: 0.5700708627700806, Avg fitness: 0.4594
+TG num edges with pheromone = 59
+TG average pheromone = 0.24080402465931072
+TG max pheromone = 2.7778907850474477
+Iteration 15: best_fitness = 0.5833659172058105, elasped time: 6.7650s
+Min fitness: 0, Max fitness: 0.5683876872062683, Avg fitness: 0.4715
+TG num edges with pheromone = 53
+TG average pheromone = 0.2680265429461847
+TG max pheromone = 2.828441533150084
+Shortest path in iteration 15: ['ADD_EDGE A G 오픈채팅은 어떤 서비스인가요?', 'REMOVE_EDGE J D', 'ADD_EDGE E I 오픈채팅방 알림을 끄고 싶어요.', 'ADD_EDGE C N 채팅 중에 친구가 사용한 이모티콘을 스토어에서 보고 싶은데 찾기가 어려워요.', 'REMOVE_EDGE A F']
+Iteration 16: best_fitness = 0.5833659172058105, elasped time: 6.3965s
+Min fitness: 0, Max fitness: 0.5683143138885498, Avg fitness: 0.4668
+TG num edges with pheromone = 44
+TG average pheromone = 0.32286253529448244
+TG max pheromone = 2.8387383168343323
+Iteration 17: best_fitness = 0.5833659172058105, elasped time: 6.7664s
+Min fitness: 0, Max fitness: 0.5718183517456055, Avg fitness: 0.4821
+TG num edges with pheromone = 39
+TG average pheromone = 0.3644061288829678
+TG max pheromone = 2.8419555772424463
+Iteration 18: best_fitness = 0.5833659172058105, elasped time: 6.4405s
+Min fitness: 0, Max fitness: 0.5718183517456055, Avg fitness: 0.4615
+TG num edges with pheromone = 27
+TG average pheromone = 0.5265317863662617
+TG max pheromone = 2.843291492245212
+Iteration 19: best_fitness = 0.5833659172058105, elasped time: 7.1760s
+Min fitness: 0, Max fitness: 0.5735288858413696, Avg fitness: 0.4859
+TG num edges with pheromone = 22
+TG average pheromone = 0.6463374459287036
+TG max pheromone = 2.8439335646195443
+Iteration 20: best_fitness = 0.5833659172058105, elasped time: 7.2334s
+Min fitness: 0, Max fitness: 0.5735288858413696, Avg fitness: 0.4886
+TG num edges with pheromone = 18
+TG average pheromone = 0.7906396118348333
+TG max pheromone = 2.846370264330769
+Shortest path in iteration 20: ['ADD_EDGE A G 오픈채팅은 어떤 서비스인가요?', 'REMOVE_EDGE J D', 'ADD_EDGE E I 오픈채팅방 알림을 끄고 싶어요.', 'ADD_EDGE C N 채팅 중에 친구가 사용한 이모티콘을 스토어에서 보고 싶은데 찾기가 어려워요.', 'REMOVE_EDGE A F']
+Iteration 21: best_fitness = 0.5833659172058105, elasped time: 6.7765s
+Min fitness: 0, Max fitness: 0.5699560046195984, Avg fitness: 0.4633
+TG num edges with pheromone = 15
+TG average pheromone = 0.9496850868493836
+TG max pheromone = 2.8490980713445477
+Iteration 22: best_fitness = 0.5833659172058105, elasped time: 7.3966s
+Min fitness: 0, Max fitness: 0.581843912601471, Avg fitness: 0.4650
+TG num edges with pheromone = 20
+TG average pheromone = 0.7130031630460995
+TG max pheromone = 2.7356524318233837
+Iteration 23: best_fitness = 0.5833659172058105, elasped time: 6.9147s
+Min fitness: 0, Max fitness: 0.5788694024085999, Avg fitness: 0.4757
+TG num edges with pheromone = 21
+TG average pheromone = 0.679046627256703
+TG max pheromone = 2.712963303919151
+Iteration 24: best_fitness = 0.5833659172058105, elasped time: 6.9605s
+Min fitness: 0, Max fitness: 0.5785133838653564, Avg fitness: 0.4656
+TG num edges with pheromone = 22
+TG average pheromone = 0.6481640397642533
+TG max pheromone = 2.708425478338304
+Iteration 25: best_fitness = 0.5833659172058105, elasped time: 7.1606s
+Min fitness: 0, Max fitness: 0.5705432295799255, Avg fitness: 0.4671
+TG num edges with pheromone = 19
+TG average pheromone = 0.7500727481768629
+TG max pheromone = 2.707517913222135
+Shortest path in iteration 25: ['ADD_EDGE A G 오픈채팅은 어떤 서비스인가요?', 'REMOVE_EDGE J D', 'ADD_EDGE E I 오픈채팅방 알림을 끄고 싶어요.', 'ADD_EDGE C N 채팅 중에 친구가 사용한 이모티콘을 스토어에서 보고 싶은데 찾기가 어려워요.', 'REMOVE_EDGE A F']
+Iteration 26: best_fitness = 0.5833659172058105, elasped time: 7.6028s
+Min fitness: 0, Max fitness: 0.5699560046195984, Avg fitness: 0.4735
+TG num edges with pheromone = 18
+TG average pheromone = 0.791628461820777
+TG max pheromone = 2.821327601122821
+Iteration 27: best_fitness = 0.5833659172058105, elasped time: 7.4330s
+Min fitness: 0, Max fitness: 0.5699560046195984, Avg fitness: 0.4707
+TG num edges with pheromone = 15
+TG average pheromone = 0.9499247227277029
+TG max pheromone = 2.844089538702958
+Iteration 28: best_fitness = 0.5833659172058105, elasped time: 7.5059s
+Min fitness: 0, Max fitness: 0.5746663212776184, Avg fitness: 0.4855
+TG num edges with pheromone = 15
+TG average pheromone = 0.950243022673338
+TG max pheromone = 2.849606961180686
+Iteration 29: best_fitness = 0.5833659172058105, elasped time: 7.6373s
+Min fitness: 0, Max fitness: 0.5746663212776184, Avg fitness: 0.4772
+TG num edges with pheromone = 12
+TG average pheromone = 1.187908368797823
+TG max pheromone = 2.850779360566521
+Iteration 30: best_fitness = 0.5833659172058105, elasped time: 7.5021s
+Min fitness: 0, Max fitness: 0.5746663212776184, Avg fitness: 0.4742
+TG num edges with pheromone = 11
+TG average pheromone = 1.2971174740190787
+TG max pheromone = 2.853658486605796
+Shortest path in iteration 30: ['ADD_EDGE A G 오픈채팅은 어떤 서비스인가요?', 'REMOVE_EDGE J D', 'ADD_EDGE E I 오픈채팅방 알림을 끄고 싶어요.', 'ADD_EDGE C N 채팅 중에 친구가 사용한 이모티콘을 스토어에서 보고 싶은데 찾기가 어려워요.', 'REMOVE_EDGE A F']
+Iteration 31: best_fitness = 0.5833659172058105, elasped time: 7.3105s
+Min fitness: 0, Max fitness: 0.5746663212776184, Avg fitness: 0.4671
+TG num edges with pheromone = 14
+TG average pheromone = 1.0206831782450991
+TG max pheromone = 2.7432071306707684
+Iteration 32: best_fitness = 0.5833659172058105, elasped time: 7.2056s
+Min fitness: -0.052596673369407654, Max fitness: 0.5746663212776184, Avg fitness: 0.4661
+TG num edges with pheromone = 16
+TG average pheromone = 0.8965970092160876
+TG max pheromone = 2.8461692758083785
+Iteration 33: best_fitness = 0.5833659172058105, elasped time: 7.2962s
+Min fitness: 0, Max fitness: 0.5746663212776184, Avg fitness: 0.4673
+TG num edges with pheromone = 16
+TG average pheromone = 0.8976523034402404
+TG max pheromone = 2.8678991402721494
+Iteration 34: best_fitness = 0.5833659172058105, elasped time: 7.7523s
+Min fitness: 0, Max fitness: 0.5746663212776184, Avg fitness: 0.4883
+TG num edges with pheromone = 16
+TG average pheromone = 0.897863362285071
+TG max pheromone = 2.8722451131649036
+Iteration 35: best_fitness = 0.5833659172058105, elasped time: 7.4056s
+Min fitness: 0, Max fitness: 0.5746663212776184, Avg fitness: 0.4620
+TG num edges with pheromone = 16
+TG average pheromone = 0.897905574054037
+TG max pheromone = 2.873114307743455
+Shortest path in iteration 35: ['ADD_EDGE A G 오픈채팅은 어떤 서비스인가요?', 'REMOVE_EDGE J D', 'ADD_EDGE E I 오픈채팅방 알림을 끄고 싶어요.', 'ADD_EDGE C N 채팅 중에 친구가 사용한 이모티콘을 스토어에서 보고 싶은데 찾기가 어려워요.', 'REMOVE_EDGE A F']
+Iteration 36: best_fitness = 0.5833659172058105, elasped time: 7.7824s
+Min fitness: 0, Max fitness: 0.5746663212776184, Avg fitness: 0.4746
+TG num edges with pheromone = 13
+TG average pheromone = 1.1051164726907081
+TG max pheromone = 2.873288146659165
+Iteration 37: best_fitness = 0.5833659172058105, elasped time: 7.6271s
+Min fitness: 0, Max fitness: 0.5746663212776184, Avg fitness: 0.4800
+TG num edges with pheromone = 9
+TG average pheromone = 1.596270887542898
+TG max pheromone = 2.8733229144423067
+Iteration 38: best_fitness = 0.5833659172058105, elasped time: 7.7106s
+Min fitness: 0, Max fitness: 0.5746663212776184, Avg fitness: 0.4850
+TG num edges with pheromone = 5
+TG average pheromone = 2.8732943796166888
+TG max pheromone = 2.873329867998935
+Iteration 39: best_fitness = 0.5833659172058105, elasped time: 7.8144s
+Min fitness: 0, Max fitness: 0.5746663212776184, Avg fitness: 0.4797
+TG num edges with pheromone = 5
+TG average pheromone = 2.8733241610338114
+TG max pheromone = 2.8733312587102606
+Iteration 40: best_fitness = 0.5833659172058105, elasped time: 7.5893s
+Min fitness: 0, Max fitness: 0.5778789520263672, Avg fitness: 0.4772
+TG num edges with pheromone = 8
+TG average pheromone = 1.7962329021668662
+TG max pheromone = 2.873974063002276
+Shortest path in iteration 40: ['ADD_EDGE A G 오픈채팅은 어떤 서비스인가요?', 'REMOVE_EDGE J D', 'ADD_EDGE E I 오픈채팅방 알림을 끄고 싶어요.', 'ADD_EDGE C N 채팅 중에 친구가 사용한 이모티콘을 스토어에서 보고 싶은데 찾기가 어려워요.', 'REMOVE_EDGE A F']
+Iteration 41: best_fitness = 0.5833659172058105, elasped time: 7.2527s
+Min fitness: 0, Max fitness: 0.5746663212776184, Avg fitness: 0.4650
+TG num edges with pheromone = 8
+TG average pheromone = 1.7959123836274193
+TG max pheromone = 2.873460097710929
+Iteration 42: best_fitness = 0.5833659172058105, elasped time: 7.6352s
+Min fitness: 0, Max fitness: 0.5746663212776184, Avg fitness: 0.4825
+TG num edges with pheromone = 8
+TG average pheromone = 1.7958482799195299
+TG max pheromone = 2.8733573046526595
+Iteration 43: best_fitness = 0.5833659172058105, elasped time: 7.5094s
+Min fitness: 0, Max fitness: 0.5746663212776184, Avg fitness: 0.4674
+TG num edges with pheromone = 8
+TG average pheromone = 1.7958354591779517
+TG max pheromone = 2.8733367460410055
+Iteration 44: best_fitness = 0.5833659172058105, elasped time: 7.4375s
+Min fitness: 0, Max fitness: 0.5786038041114807, Avg fitness: 0.4549
+TG num edges with pheromone = 12
+TG average pheromone = 1.1975500535892458
+TG max pheromone = 2.8741201308854474
+Iteration 45: best_fitness = 0.5833659172058105, elasped time: 7.6956s
+Min fitness: 0, Max fitness: 0.5786038041114807, Avg fitness: 0.4793
+TG num edges with pheromone = 9
+TG average pheromone = 1.5968081204712923
+TG max pheromone = 2.874276807854336
+Shortest path in iteration 45: ['ADD_EDGE A G 오픈채팅은 어떤 서비스인가요?', 'REMOVE_EDGE J D', 'ADD_EDGE E I 오픈채팅방 알림을 끄고 싶어요.', 'ADD_EDGE C N 채팅 중에 친구가 사용한 이모티콘을 스토어에서 보고 싶은데 찾기가 어려워요.', 'REMOVE_EDGE A F']
+Iteration 46: best_fitness = 0.5833659172058105, elasped time: 7.3843s
+Min fitness: 0, Max fitness: 0.5746663212776184, Avg fitness: 0.4807
+TG num edges with pheromone = 9
+TG average pheromone = 1.5963978936000776
+TG max pheromone = 2.873520646681341
+Iteration 47: best_fitness = 0.5833659172058105, elasped time: 7.7408s
+Min fitness: 0, Max fitness: 0.5746663212776184, Avg fitness: 0.4834
+TG num edges with pheromone = 9
+TG average pheromone = 1.5963158482258342
+TG max pheromone = 2.873369414446742
+Iteration 48: best_fitness = 0.5833659172058105, elasped time: 7.5881s
+Min fitness: 0, Max fitness: 0.5746663212776184, Avg fitness: 0.4669
+TG num edges with pheromone = 9
+TG average pheromone = 1.5962994391509855
+TG max pheromone = 2.873339167999822
+Iteration 49: best_fitness = 0.5833659172058105, elasped time: 7.7037s
+Min fitness: 0, Max fitness: 0.5746663212776184, Avg fitness: 0.4871
+TG num edges with pheromone = 9
+TG average pheromone = 1.5962961573360155
+TG max pheromone = 2.873333118710438
+Iteration 50: best_fitness = 0.5833659172058105, elasped time: 7.7455s
+Min fitness: 0, Max fitness: 0.5746663212776184, Avg fitness: 0.4785
+TG num edges with pheromone = 5
+TG average pheromone = 2.873296352333715
+TG max pheromone = 2.8733319088525615
+Shortest path in iteration 50: ['ADD_EDGE A G 오픈채팅은 어떤 서비스인가요?', 'REMOVE_EDGE J D', 'ADD_EDGE E I 오픈채팅방 알림을 끄고 싶어요.', 'ADD_EDGE C N 채팅 중에 친구가 사용한 이모티콘을 스토어에서 보고 싶은데 찾기가 어려워요.', 'REMOVE_EDGE A F']
+Iteration 51: best_fitness = 0.5833659172058105, elasped time: 7.7147s
+Min fitness: 0, Max fitness: 0.5746663212776184, Avg fitness: 0.4919
+TG num edges with pheromone = 7
+TG average pheromone = 2.052374682555155
+TG max pheromone = 2.8733316668809863
+Iteration 52: best_fitness = 0.5833659172058105, elasped time: 7.6908s
+Min fitness: 0, Max fitness: 0.5746663212776184, Avg fitness: 0.4858
+TG num edges with pheromone = 7
+TG average pheromone = 2.0523787115899403
+TG max pheromone = 2.873331618486671
+Iteration 53: best_fitness = 0.5833659172058105, elasped time: 7.4448s
+Min fitness: 0, Max fitness: 0.5746663212776184, Avg fitness: 0.4735
+TG num edges with pheromone = 9
+TG average pheromone = 1.596295180197587
+TG max pheromone = 2.873331608807808
+Iteration 54: best_fitness = 0.5833659172058105, elasped time: 7.7616s
+Min fitness: 0, Max fitness: 0.5746663212776184, Avg fitness: 0.4821
+TG num edges with pheromone = 10
+TG average pheromone = 1.4366657749908027
+TG max pheromone = 2.8733316068720356
+Iteration 55: best_fitness = 0.5893317461013794, elasped time: 7.4625s
+Min fitness: 0, Max fitness: 0.5893317461013794, Avg fitness: 0.4723
+TG num edges with pheromone = 12
+TG average pheromone = 1.1984436166964778
+TG max pheromone = 2.876264691449633
+Shortest path in iteration 55: ['ADD_EDGE D M 구매한 이모티콘을 다운로드 했는데 이모티콘 탭에서 보이지 않아요', 'ADD_EDGE D H 오픈채팅 대화방 링크는 어디서 만들 수 있나요?', 'REMOVE_EDGE J L', 'ADD_EDGE N D 프로필 사진, 배경사진은 어떻게 변경하나요?', 'ADD_EDGE D I 오픈채팅방 알림을 끄고 싶어요.']
+Iteration 56: best_fitness = 0.5893317461013794, elasped time: 7.7982s
+Min fitness: 0, Max fitness: 0.5893317461013794, Avg fitness: 0.4864
+TG num edges with pheromone = 14
+TG average pheromone = 1.0295520753698828
+TG max pheromone = 2.8827605247691137
+Iteration 57: best_fitness = 0.5893317461013794, elasped time: 7.4121s
+Min fitness: 0, Max fitness: 0.5893317461013794, Avg fitness: 0.4716
+TG num edges with pheromone = 15
+TG average pheromone = 0.9642769898765909
+TG max pheromone = 2.892833912376461
+Iteration 58: best_fitness = 0.5893317461013794, elasped time: 7.7058s
+Min fitness: 0, Max fitness: 0.5893317461013794, Avg fitness: 0.4775
+TG num edges with pheromone = 14
+TG average pheromone = 1.0474895536290925
+TG max pheromone = 2.9329786944397087
+Iteration 59: best_fitness = 0.5893317461013794, elasped time: 7.6609s
+Min fitness: 0, Max fitness: 0.5893317461013794, Avg fitness: 0.4828
+TG num edges with pheromone = 13
+TG average pheromone = 1.132274530272653
+TG max pheromone = 2.9439227232934595
+Iteration 60: best_fitness = 0.5893317461013794, elasped time: 7.7908s
+Min fitness: 0, Max fitness: 0.5893317461013794, Avg fitness: 0.4959
+TG num edges with pheromone = 13
+TG average pheromone = 1.1331191308258837
+TG max pheromone = 2.9461115290642095
+Shortest path in iteration 60: ['ADD_EDGE D M 구매한 이모티콘을 다운로드 했는데 이모티콘 탭에서 보이지 않아요', 'ADD_EDGE D H 오픈채팅 대화방 링크는 어디서 만들 수 있나요?', 'REMOVE_EDGE J L', 'ADD_EDGE N D 프로필 사진, 배경사진은 어떻게 변경하나요?', 'ADD_EDGE D I 오픈채팅방 알림을 끄고 싶어요.']
+Iteration 61: best_fitness = 0.5893317461013794, elasped time: 7.6277s
+Min fitness: 0, Max fitness: 0.5893317461013794, Avg fitness: 0.4843
+TG num edges with pheromone = 9
+TG average pheromone = 1.6369552800052105
+TG max pheromone = 2.9465492902183597
+Iteration 62: best_fitness = 0.5893317461013794, elasped time: 7.4729s
+Min fitness: 0, Max fitness: 0.5893317461013794, Avg fitness: 0.4710
+TG num edges with pheromone = 8
+TG average pheromone = 1.8416386025647138
+TG max pheromone = 2.9466368424491898
+Iteration 63: best_fitness = 0.5893317461013794, elasped time: 7.8360s
+Min fitness: 0, Max fitness: 0.5893317461013794, Avg fitness: 0.4786
+TG num edges with pheromone = 7
+TG average pheromone = 2.104744649262978
+TG max pheromone = 2.9466543528953557
+Iteration 64: best_fitness = 0.5893317461013794, elasped time: 7.7839s
+Min fitness: 0, Max fitness: 0.5893317461013794, Avg fitness: 0.4656
+TG num edges with pheromone = 5
+TG average pheromone = 2.9466463589941676
+TG max pheromone = 2.946657854984589
+Iteration 65: best_fitness = 0.5893317461013794, elasped time: 7.9801s
+Min fitness: 0, Max fitness: 0.5893317461013794, Avg fitness: 0.4929
+TG num edges with pheromone = 5
+TG average pheromone = 2.9466562562043515
+TG max pheromone = 2.946658555402436
+Shortest path in iteration 65: ['ADD_EDGE D M 구매한 이모티콘을 다운로드 했는데 이모티콘 탭에서 보이지 않아요', 'ADD_EDGE D H 오픈채팅 대화방 링크는 어디서 만들 수 있나요?', 'REMOVE_EDGE J L', 'ADD_EDGE N D 프로필 사진, 배경사진은 어떻게 변경하나요?', 'ADD_EDGE D I 오픈채팅방 알림을 끄고 싶어요.']
+Iteration 66: best_fitness = 0.5893317461013794, elasped time: 7.6138s
+Min fitness: 0, Max fitness: 0.5893317461013794, Avg fitness: 0.4713
+TG num edges with pheromone = 5
+TG average pheromone = 2.946658235646388
+TG max pheromone = 2.946658695486005
+Iteration 67: best_fitness = 0.5893317461013794, elasped time: 7.8960s
+Min fitness: 0, Max fitness: 0.5893317461013794, Avg fitness: 0.4797
+TG num edges with pheromone = 5
+TG average pheromone = 2.9466586315347953
+TG max pheromone = 2.9466587235027184
+Iteration 68: best_fitness = 0.5893317461013794, elasped time: 7.6106s
+Min fitness: 0, Max fitness: 0.5893317461013794, Avg fitness: 0.4789
+TG num edges with pheromone = 5
+TG average pheromone = 2.9466587107124766
+TG max pheromone = 2.9466587291060615
+Iteration 69: best_fitness = 0.5893317461013794, elasped time: 7.5020s
+Min fitness: 0, Max fitness: 0.5893317461013794, Avg fitness: 0.4694
+TG num edges with pheromone = 5
+TG average pheromone = 2.946658726548013
+TG max pheromone = 2.94665873022673
+Iteration 70: best_fitness = 0.5893317461013794, elasped time: 7.8836s
+Min fitness: 0, Max fitness: 0.5893317461013794, Avg fitness: 0.5006
+TG num edges with pheromone = 5
+TG average pheromone = 2.9466587297151206
+TG max pheromone = 2.9466587304508636
+Shortest path in iteration 70: ['ADD_EDGE D M 구매한 이모티콘을 다운로드 했는데 이모티콘 탭에서 보이지 않아요', 'ADD_EDGE D H 오픈채팅 대화방 링크는 어디서 만들 수 있나요?', 'REMOVE_EDGE J L', 'ADD_EDGE N D 프로필 사진, 배경사진은 어떻게 변경하나요?', 'ADD_EDGE D I 오픈채팅방 알림을 끄고 싶어요.']
+Iteration 71: best_fitness = 0.5893317461013794, elasped time: 7.9749s
+Min fitness: 0, Max fitness: 0.5893317461013794, Avg fitness: 0.4877
+TG num edges with pheromone = 5
+TG average pheromone = 2.946658730348542
+TG max pheromone = 2.9466587304956904
+Iteration 72: best_fitness = 0.5893317461013794, elasped time: 7.4153s
+Min fitness: 0, Max fitness: 0.5893317461013794, Avg fitness: 0.4717
+TG num edges with pheromone = 5
+TG average pheromone = 2.946658730475226
+TG max pheromone = 2.9466587305046557
+Iteration 73: best_fitness = 0.5893317461013794, elasped time: 7.7897s
+Min fitness: 0, Max fitness: 0.5893317461013794, Avg fitness: 0.4824
+TG num edges with pheromone = 5
+TG average pheromone = 2.946658730500563
+TG max pheromone = 2.946658730506449
+Iteration 74: best_fitness = 0.5893317461013794, elasped time: 7.6400s
+Min fitness: 0, Max fitness: 0.5893317461013794, Avg fitness: 0.4807
+TG num edges with pheromone = 5
+TG average pheromone = 2.94665873050563
+TG max pheromone = 2.9466587305068077
+Iteration 75: best_fitness = 0.5893317461013794, elasped time: 7.6539s
+Min fitness: 0, Max fitness: 0.5893317461013794, Avg fitness: 0.4867
+TG num edges with pheromone = 5
+TG average pheromone = 2.946658730506644
+TG max pheromone = 2.946658730506879
+Shortest path in iteration 75: ['ADD_EDGE D M 구매한 이모티콘을 다운로드 했는데 이모티콘 탭에서 보이지 않아요', 'ADD_EDGE D H 오픈채팅 대화방 링크는 어디서 만들 수 있나요?', 'REMOVE_EDGE J L', 'ADD_EDGE N D 프로필 사진, 배경사진은 어떻게 변경하나요?', 'ADD_EDGE D I 오픈채팅방 알림을 끄고 싶어요.']
+Iteration 76: best_fitness = 0.5893317461013794, elasped time: 7.7427s
+Min fitness: 0, Max fitness: 0.5893317461013794, Avg fitness: 0.4746
+TG num edges with pheromone = 5
+TG average pheromone = 2.946658730506847
+TG max pheromone = 2.9466587305068934
+Iteration 77: best_fitness = 0.5893317461013794, elasped time: 7.9176s
+Min fitness: 0, Max fitness: 0.5893317461013794, Avg fitness: 0.4961
+TG num edges with pheromone = 5
+TG average pheromone = 2.946658730506887
+TG max pheromone = 2.9466587305068965
+Iteration 78: best_fitness = 0.5893317461013794, elasped time: 7.9256s
+Min fitness: 0, Max fitness: 0.5893317461013794, Avg fitness: 0.4896
+TG num edges with pheromone = 5
+TG average pheromone = 2.946658730506895
+TG max pheromone = 2.946658730506897
+Iteration 79: best_fitness = 0.5893317461013794, elasped time: 8.0714s
+Min fitness: 0, Max fitness: 0.5893317461013794, Avg fitness: 0.4837
+TG num edges with pheromone = 7
+TG average pheromone = 2.1047562360763545
+TG max pheromone = 2.946658730506897
+Iteration 80: best_fitness = 0.5893317461013794, elasped time: 7.9940s
+Min fitness: 0, Max fitness: 0.5893317461013794, Avg fitness: 0.4919
+TG num edges with pheromone = 7
+TG average pheromone = 2.104756236076355
+TG max pheromone = 2.946658730506897
+Shortest path in iteration 80: ['ADD_EDGE D M 구매한 이모티콘을 다운로드 했는데 이모티콘 탭에서 보이지 않아요', 'ADD_EDGE D H 오픈채팅 대화방 링크는 어디서 만들 수 있나요?', 'REMOVE_EDGE J L', 'ADD_EDGE N D 프로필 사진, 배경사진은 어떻게 변경하나요?', 'ADD_EDGE D I 오픈채팅방 알림을 끄고 싶어요.']
+Iteration 81: best_fitness = 0.5893317461013794, elasped time: 7.6488s
+Min fitness: 0, Max fitness: 0.5893317461013794, Avg fitness: 0.4820
+TG num edges with pheromone = 7
+TG average pheromone = 2.104756236076355
+TG max pheromone = 2.946658730506897
+Iteration 82: best_fitness = 0.5893317461013794, elasped time: 7.8176s
+Min fitness: 0, Max fitness: 0.5893317461013794, Avg fitness: 0.4873
+TG num edges with pheromone = 7
+TG average pheromone = 2.104756236076355
+TG max pheromone = 2.946658730506897
+Iteration 83: best_fitness = 0.5893317461013794, elasped time: 7.7034s
+Min fitness: 0, Max fitness: 0.5893317461013794, Avg fitness: 0.4738
+TG num edges with pheromone = 7
+TG average pheromone = 2.104756236076355
+TG max pheromone = 2.946658730506897
+Iteration 84: best_fitness = 0.5893317461013794, elasped time: 7.6639s
+Min fitness: 0, Max fitness: 0.5893317461013794, Avg fitness: 0.4768
+TG num edges with pheromone = 5
+TG average pheromone = 2.946643643614197
+TG max pheromone = 2.946658730506897
+Iteration 85: best_fitness = 0.5893317461013794, elasped time: 7.7241s
+Min fitness: 0, Max fitness: 0.5893317461013794, Avg fitness: 0.4886
+TG num edges with pheromone = 5
+TG average pheromone = 2.946655713128357
+TG max pheromone = 2.946658730506897
+Shortest path in iteration 85: ['ADD_EDGE D M 구매한 이모티콘을 다운로드 했는데 이모티콘 탭에서 보이지 않아요', 'ADD_EDGE D H 오픈채팅 대화방 링크는 어디서 만들 수 있나요?', 'REMOVE_EDGE J L', 'ADD_EDGE N D 프로필 사진, 배경사진은 어떻게 변경하나요?', 'ADD_EDGE D I 오픈채팅방 알림을 끄고 싶어요.']
+Iteration 86: best_fitness = 0.5893317461013794, elasped time: 7.1774s
+Min fitness: 0, Max fitness: 0.5893317461013794, Avg fitness: 0.4718
+TG num edges with pheromone = 5
+TG average pheromone = 2.9466581270311893
+TG max pheromone = 2.946658730506897
+Iteration 87: best_fitness = 0.5893317461013794, elasped time: 7.8337s
+Min fitness: 0, Max fitness: 0.5893317461013794, Avg fitness: 0.4965
+TG num edges with pheromone = 5
+TG average pheromone = 2.946658609811755
+TG max pheromone = 2.946658730506897
+Iteration 88: best_fitness = 0.5893317461013794, elasped time: 7.5953s
+Min fitness: 0, Max fitness: 0.5893317461013794, Avg fitness: 0.4856
+TG num edges with pheromone = 5
+TG average pheromone = 2.946658706367869
+TG max pheromone = 2.946658730506897
+Iteration 89: best_fitness = 0.5893317461013794, elasped time: 7.7901s
+Min fitness: 0, Max fitness: 0.5893317461013794, Avg fitness: 0.4773
+TG num edges with pheromone = 5
+TG average pheromone = 2.9466587256790917
+TG max pheromone = 2.946658730506897
+Iteration 90: best_fitness = 0.5893317461013794, elasped time: 7.7623s
+Min fitness: 0, Max fitness: 0.5893317461013794, Avg fitness: 0.4776
+TG num edges with pheromone = 5
+TG average pheromone = 2.946658729541336
+TG max pheromone = 2.946658730506897
+Shortest path in iteration 90: ['ADD_EDGE D M 구매한 이모티콘을 다운로드 했는데 이모티콘 탭에서 보이지 않아요', 'ADD_EDGE D H 오픈채팅 대화방 링크는 어디서 만들 수 있나요?', 'REMOVE_EDGE J L', 'ADD_EDGE N D 프로필 사진, 배경사진은 어떻게 변경하나요?', 'ADD_EDGE D I 오픈채팅방 알림을 끄고 싶어요.']
+Iteration 91: best_fitness = 0.5893317461013794, elasped time: 7.8852s
+Min fitness: 0, Max fitness: 0.5893317461013794, Avg fitness: 0.4877
+TG num edges with pheromone = 5
+TG average pheromone = 2.946658730313785
+TG max pheromone = 2.946658730506897
+Iteration 92: best_fitness = 0.5893317461013794, elasped time: 7.9684s
+Min fitness: 0, Max fitness: 0.5893317461013794, Avg fitness: 0.4873
+TG num edges with pheromone = 5
+TG average pheromone = 2.9466587304682745
+TG max pheromone = 2.946658730506897
+Iteration 93: best_fitness = 0.5893317461013794, elasped time: 7.6318s
+Min fitness: 0, Max fitness: 0.5893317461013794, Avg fitness: 0.4702
+TG num edges with pheromone = 5
+TG average pheromone = 2.9466587304991725
+TG max pheromone = 2.946658730506897
+Iteration 94: best_fitness = 0.5893317461013794, elasped time: 8.0447s
+Min fitness: 0, Max fitness: 0.5893317461013794, Avg fitness: 0.4832
+TG num edges with pheromone = 5
+TG average pheromone = 2.9466587305053524
+TG max pheromone = 2.946658730506897
+Iteration 95: best_fitness = 0.5893317461013794, elasped time: 7.9661s
+Min fitness: 0, Max fitness: 0.5893317461013794, Avg fitness: 0.4787
+TG num edges with pheromone = 5
+TG average pheromone = 2.946658730506588
+TG max pheromone = 2.946658730506897
+Shortest path in iteration 95: ['ADD_EDGE D M 구매한 이모티콘을 다운로드 했는데 이모티콘 탭에서 보이지 않아요', 'ADD_EDGE D H 오픈채팅 대화방 링크는 어디서 만들 수 있나요?', 'REMOVE_EDGE J L', 'ADD_EDGE N D 프로필 사진, 배경사진은 어떻게 변경하나요?', 'ADD_EDGE D I 오픈채팅방 알림을 끄고 싶어요.']
+Iteration 96: best_fitness = 0.5893317461013794, elasped time: 7.7510s
+Min fitness: 0, Max fitness: 0.5893317461013794, Avg fitness: 0.4860
+TG num edges with pheromone = 5
+TG average pheromone = 2.9466587305068352
+TG max pheromone = 2.946658730506897
+Iteration 97: best_fitness = 0.5893317461013794, elasped time: 8.1932s
+Min fitness: 0, Max fitness: 0.5893317461013794, Avg fitness: 0.4960
+TG num edges with pheromone = 5
+TG average pheromone = 2.946658730506885
+TG max pheromone = 2.946658730506897
+Iteration 98: best_fitness = 0.5893317461013794, elasped time: 7.8112s
+Min fitness: 0, Max fitness: 0.5893317461013794, Avg fitness: 0.4866
+TG num edges with pheromone = 5
+TG average pheromone = 2.9466587305068948
+TG max pheromone = 2.946658730506897
+Iteration 99: best_fitness = 0.5893317461013794, elasped time: 7.6555s
+Min fitness: 0, Max fitness: 0.5893317461013794, Avg fitness: 0.4875
+TG num edges with pheromone = 5
+TG average pheromone = 2.946658730506897
+TG max pheromone = 2.946658730506897
+Iteration 100: best_fitness = 0.5893317461013794, elasped time: 7.6020s
+Min fitness: 0, Max fitness: 0.5893317461013794, Avg fitness: 0.4906
+TG num edges with pheromone = 5
+TG average pheromone = 2.946658730506897
+TG max pheromone = 2.946658730506897
+Shortest path in iteration 100: ['ADD_EDGE D M 구매한 이모티콘을 다운로드 했는데 이모티콘 탭에서 보이지 않아요', 'ADD_EDGE D H 오픈채팅 대화방 링크는 어디서 만들 수 있나요?', 'REMOVE_EDGE J L', 'ADD_EDGE N D 프로필 사진, 배경사진은 어떻게 변경하나요?', 'ADD_EDGE D I 오픈채팅방 알림을 끄고 싶어요.']
+Shortest path: ['ADD_EDGE D M 구매한 이모티콘을 다운로드 했는데 이모티콘 탭에서 보이지 않아요', 'ADD_EDGE D H 오픈채팅 대화방 링크는 어디서 만들 수 있나요?', 'REMOVE_EDGE J L', 'ADD_EDGE N D 프로필 사진, 배경사진은 어떻게 변경하나요?', 'ADD_EDGE D I 오픈채팅방 알림을 끄고 싶어요.']
+0.5893317461013794

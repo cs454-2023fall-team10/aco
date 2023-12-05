@@ -9,3 +9,9 @@ file_name,dataset,initial_fitness,final_fitness,admin,user,evaporation_rate,leng
 008,kakaotalk-faq-231129-small-mingled-003,0.597599446773529,0.6585516333580017,0,final_similarity,0.2,10,0.2,100,200
 009,kakaotalk-faq-231129-small-mingled-003,0.597599446773529,0.6544343829154968,0,final_similarity,0.2,10,0.2,100,200
 010,kakaotalk-faq-231129-small-mingled-003,0.39759944677352904,0.6231136918067932,0,final_similarity - 0.1 * (indeg - 1),0.2,5,0.2,100,200
+011,kakaotalk-faq-231204-mini-mingled,0.5653378963470459,0.6011770367622375,0,final_similarity,0.2,5,0.2,100,200
+012,kakaotalk-faq-231204-mini-mingled,0.4653378427028656,0.5511858463287354,0,final_similarity - 0.05 * path_length,0.2,5,0.2,100,200
+013,kakaotalk-faq-231204-mini-mingled,0.4153378427028656,0.53447026014328,-0.05 * sum(max(0, outdeg - 3)),final_similarity - 0.05 * path_length,0.2,5,0.2,100,200
+014,kakaotalk-faq-231204-mini-mingled,0.4153378427028656,0.584112286567688,-0.05 * sum(max(0, outdeg - 3)),final_similarity - 0.05 * path_length,0.2,5,0.2,100,200
+015,kakaotalk-faq-231204-mini-mingled,0.5153378963470459,0.5893317461013794,-0.05 * sum(max(0, outdeg - 3)),final_similarity,0.2,5,0.2,100,200
+016,kakaotalk-faq-231204-mini-mingled,0.8499999999999923,1.0,0.05 * max(0, outdeg - 3),1 - 0.05 * path_length,0.2,5,0.2,100,200

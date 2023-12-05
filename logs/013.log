@@ -1,0 +1,528 @@
+TG: V = 182, E = 16471
+TG num_rm_node = 13
+TG num_rm_edge = 13
+TG num_add_edge = 156
+Initial fitness: 0.4153378427028656
+Original fitness: 0.41319642663002015
+Iteration 1: best_fitness = 0.4657514810562134, elasped time: 7.6218s
+Min fitness: 0, Max fitness: 0.4657514810562134, Avg fitness: 0.2761
+TG num edges with pheromone = 98
+TG average pheromone = 0.08667197811360262
+TG max pheromone = 0.17817608118057252
+Iteration 2: best_fitness = 0.4683740854263306, elasped time: 6.9889s
+Min fitness: 0, Max fitness: 0.4683740854263306, Avg fitness: 0.3225
+TG num edges with pheromone = 167
+TG average pheromone = 0.06349175057011451
+TG max pheromone = 0.20018474149703983
+Iteration 3: best_fitness = 0.4683740854263306, elasped time: 6.6089s
+Min fitness: -0.008334397524595263, Max fitness: 0.4683740854263306, Avg fitness: 0.2962
+TG num edges with pheromone = 220
+TG average pheromone = 0.04980611174540084
+TG max pheromone = 0.4755166009426117
+Iteration 4: best_fitness = 0.5183740854263306, elasped time: 6.7046s
+Min fitness: 0, Max fitness: 0.5183740854263306, Avg fitness: 0.3181
+TG num edges with pheromone = 270
+TG average pheromone = 0.04176667433632751
+TG max pheromone = 0.40261069178581244
+Iteration 5: best_fitness = 0.5183740854263306, elasped time: 6.2746s
+Min fitness: 0, Max fitness: 0.5183740854263306, Avg fitness: 0.3054
+TG num edges with pheromone = 325
+TG average pheromone = 0.035141743791081356
+TG max pheromone = 0.42817390379905707
+Shortest path in iteration 5: ['REMOVE_NODE F', 'REMOVE_EDGE J D', 'ADD_EDGE A H 오픈채팅 대화방 링크는 어디서 만들 수 있나요?', 'ADD_EDGE N L 이모티콘은 어떻게 선물할 수 있나요?', 'ADD_EDGE A H 오픈채팅 대화방 링크는 어디서 만들 수 있나요?']
+Iteration 6: best_fitness = 0.5183740854263306, elasped time: 6.7499s
+Min fitness: 0, Max fitness: 0.5007227659225464, Avg fitness: 0.3337
+TG num edges with pheromone = 304
+TG average pheromone = 0.03790553496657798
+TG max pheromone = 0.5221322615146636
+Iteration 7: best_fitness = 0.5183740854263306, elasped time: 6.4305s
+Min fitness: 0, Max fitness: 0.46694129705429077, Avg fitness: 0.3120
+TG num edges with pheromone = 283
+TG average pheromone = 0.0405166514741918
+TG max pheromone = 0.5597865549564361
+Iteration 8: best_fitness = 0.5183740854263306, elasped time: 6.3388s
+Min fitness: -0.008458101749420188, Max fitness: 0.4757956564426422, Avg fitness: 0.3088
+TG num edges with pheromone = 274
+TG average pheromone = 0.041953088898891315
+TG max pheromone = 0.6504527968883514
+Iteration 9: best_fitness = 0.5183740854263306, elasped time: 6.1635s
+Min fitness: 0, Max fitness: 0.5005278587341309, Avg fitness: 0.3033
+TG num edges with pheromone = 253
+TG average pheromone = 0.04577441746930101
+TG max pheromone = 0.949008180343985
+Iteration 10: best_fitness = 0.5183740854263306, elasped time: 6.2005s
+Min fitness: 0, Max fitness: 0.49433276057243347, Avg fitness: 0.3021
+TG num edges with pheromone = 232
+TG average pheromone = 0.0499504054101555
+TG max pheromone = 1.1986008671211958
+Shortest path in iteration 10: ['REMOVE_NODE F', 'REMOVE_EDGE J D', 'ADD_EDGE A H 오픈채팅 대화방 링크는 어디서 만들 수 있나요?', 'ADD_EDGE N L 이모티콘은 어떻게 선물할 수 있나요?', 'ADD_EDGE A H 오픈채팅 대화방 링크는 어디서 만들 수 있나요?']
+Iteration 11: best_fitness = 0.5183740854263306, elasped time: 5.9998s
+Min fitness: -0.0023513503372669248, Max fitness: 0.5013956427574158, Avg fitness: 0.3277
+TG num edges with pheromone = 228
+TG average pheromone = 0.051589775687151396
+TG max pheromone = 0.8689437241893769
+Iteration 12: best_fitness = 0.5183740854263306, elasped time: 5.5336s
+Min fitness: 0, Max fitness: 0.49433276057243347, Avg fitness: 0.2858
+TG num edges with pheromone = 229
+TG average pheromone = 0.05125500920266026
+TG max pheromone = 0.8261711842127991
+Iteration 13: best_fitness = 0.5221525430679321, elasped time: 6.0123s
+Min fitness: 0, Max fitness: 0.5221525430679321, Avg fitness: 0.3311
+TG num edges with pheromone = 220
+TG average pheromone = 0.05388495247693367
+TG max pheromone = 0.7280659068884126
+Iteration 14: best_fitness = 0.5221525430679321, elasped time: 5.8485s
+Min fitness: 0, Max fitness: 0.49433276057243347, Avg fitness: 0.3075
+TG num edges with pheromone = 222
+TG average pheromone = 0.05369190870268114
+TG max pheromone = 1.0162985822429658
+Iteration 15: best_fitness = 0.5221525430679321, elasped time: 5.5050s
+Min fitness: 0, Max fitness: 0.5197750329971313, Avg fitness: 0.3157
+TG num edges with pheromone = 224
+TG average pheromone = 0.05449713255754984
+TG max pheromone = 1.9778692571495053
+Shortest path in iteration 15: ['ADD_EDGE A L 이모티콘은 어떻게 선물할 수 있나요?', 'REMOVE_NODE J', 'ADD_EDGE C E 프로필 변경내용을 공유하고 싶지 않아요.', 'REMOVE_EDGE A B', 'ADD_EDGE A I 오픈채팅방 알림을 끄고 싶어요.']
+Iteration 16: best_fitness = 0.5221525430679321, elasped time: 4.8921s
+Min fitness: 0, Max fitness: 0.500899076461792, Avg fitness: 0.3145
+TG num edges with pheromone = 209
+TG average pheromone = 0.05900464216363573
+TG max pheromone = 2.273740890585861
+Iteration 17: best_fitness = 0.5221525430679321, elasped time: 4.7672s
+Min fitness: -0.008901318907737737, Max fitness: 0.5020043253898621, Avg fitness: 0.3305
+TG num edges with pheromone = 192
+TG average pheromone = 0.06440834198863497
+TG max pheromone = 2.2342104977296753
+Iteration 18: best_fitness = 0.5221525430679321, elasped time: 5.4866s
+Min fitness: -0.044292999804019934, Max fitness: 0.5019920468330383, Avg fitness: 0.3335
+TG num edges with pheromone = 163
+TG average pheromone = 0.07585861618132507
+TG max pheromone = 2.325076521752814
+Iteration 19: best_fitness = 0.5221525430679321, elasped time: 5.1484s
+Min fitness: 0, Max fitness: 0.49433276057243347, Avg fitness: 0.3303
+TG num edges with pheromone = 145
+TG average pheromone = 0.08522984562320149
+TG max pheromone = 2.442346346640297
+Iteration 20: best_fitness = 0.5221525430679321, elasped time: 4.8058s
+Min fitness: 0, Max fitness: 0.49433276057243347, Avg fitness: 0.3725
+TG num edges with pheromone = 122
+TG average pheromone = 0.10128761598704908
+TG max pheromone = 2.4658003116177936
+Shortest path in iteration 20: ['ADD_EDGE A L 이모티콘은 어떻게 선물할 수 있나요?', 'REMOVE_NODE J', 'ADD_EDGE C E 프로필 변경내용을 공유하고 싶지 않아요.', 'REMOVE_EDGE A B', 'ADD_EDGE A I 오픈채팅방 알림을 끄고 싶어요.']
+Iteration 21: best_fitness = 0.5221525430679321, elasped time: 5.0771s
+Min fitness: -0.08191700130701066, Max fitness: 0.49433276057243347, Avg fitness: 0.3342
+TG num edges with pheromone = 110
+TG average pheromone = 0.11233893389658708
+TG max pheromone = 2.470491104613293
+Iteration 22: best_fitness = 0.5221525430679321, elasped time: 4.9148s
+Min fitness: -0.08578184396028521, Max fitness: 0.49433276057243347, Avg fitness: 0.3297
+TG num edges with pheromone = 108
+TG average pheromone = 0.1144221849008037
+TG max pheromone = 2.471429263212393
+Iteration 23: best_fitness = 0.53447026014328, elasped time: 4.6282s
+Min fitness: -0.012710532546043402, Max fitness: 0.53447026014328, Avg fitness: 0.3421
+TG num edges with pheromone = 105
+TG average pheromone = 0.11807027952101153
+TG max pheromone = 2.4796443948463818
+Iteration 24: best_fitness = 0.53447026014328, elasped time: 4.9517s
+Min fitness: -0.01905579715967179, Max fitness: 0.53447026014328, Avg fitness: 0.3521
+TG num edges with pheromone = 94
+TG average pheromone = 0.13197384722793037
+TG max pheromone = 2.48128742117318
+Iteration 25: best_fitness = 0.53447026014328, elasped time: 4.9272s
+Min fitness: 0, Max fitness: 0.53447026014328, Avg fitness: 0.3350
+TG num edges with pheromone = 93
+TG average pheromone = 0.1334135486040691
+TG max pheromone = 2.481616026438539
+Shortest path in iteration 25: ['ADD_EDGE A L 이모티콘은 어떻게 선물할 수 있나요?', 'REMOVE_NODE J', 'ADD_EDGE M C 내 상태 메시지는 어떻게 변경하나요?', 'ADD_EDGE A H 오픈채팅 대화방 링크는 어디서 만들 수 있나요?', 'REMOVE_EDGE A F']
+Iteration 26: best_fitness = 0.53447026014328, elasped time: 4.6599s
+Min fitness: 0, Max fitness: 0.53447026014328, Avg fitness: 0.3408
+TG num edges with pheromone = 86
+TG average pheromone = 0.1447421495109108
+TG max pheromone = 2.4897092474057807
+Iteration 27: best_fitness = 0.53447026014328, elasped time: 4.5718s
+Min fitness: -0.09836069941520692, Max fitness: 0.53447026014328, Avg fitness: 0.3395
+TG num edges with pheromone = 78
+TG average pheromone = 0.16226513007872065
+TG max pheromone = 2.5314653911700753
+Iteration 28: best_fitness = 0.53447026014328, elasped time: 4.4236s
+Min fitness: 0, Max fitness: 0.53447026014328, Avg fitness: 0.3371
+TG num edges with pheromone = 70
+TG average pheromone = 0.1819787977559069
+TG max pheromone = 2.5478441198371033
+Iteration 29: best_fitness = 0.53447026014328, elasped time: 4.7794s
+Min fitness: -0.0735712066292763, Max fitness: 0.53447026014328, Avg fitness: 0.3604
+TG num edges with pheromone = 59
+TG average pheromone = 0.22435064261536344
+TG max pheromone = 2.647449864540541
+Iteration 30: best_fitness = 0.53447026014328, elasped time: 4.5971s
+Min fitness: -0.006597428023815161, Max fitness: 0.53447026014328, Avg fitness: 0.3666
+TG num edges with pheromone = 45
+TG average pheromone = 0.2963608278468931
+TG max pheromone = 2.6673710134812283
+Shortest path in iteration 30: ['ADD_EDGE A L 이모티콘은 어떻게 선물할 수 있나요?', 'REMOVE_NODE J', 'ADD_EDGE M C 내 상태 메시지는 어떻게 변경하나요?', 'ADD_EDGE A H 오픈채팅 대화방 링크는 어디서 만들 수 있나요?', 'REMOVE_EDGE A F']
+Iteration 31: best_fitness = 0.53447026014328, elasped time: 4.6795s
+Min fitness: 0, Max fitness: 0.53447026014328, Avg fitness: 0.3574
+TG num edges with pheromone = 33
+TG average pheromone = 0.40473474032116086
+TG max pheromone = 2.6713552432693657
+Iteration 32: best_fitness = 0.53447026014328, elasped time: 4.7999s
+Min fitness: 0, Max fitness: 0.53447026014328, Avg fitness: 0.3612
+TG num edges with pheromone = 27
+TG average pheromone = 0.494829039018324
+TG max pheromone = 2.6721520892269934
+Iteration 33: best_fitness = 0.53447026014328, elasped time: 4.8280s
+Min fitness: 0, Max fitness: 0.53447026014328, Avg fitness: 0.3612
+TG num edges with pheromone = 11
+TG average pheromone = 1.214628027577554
+TG max pheromone = 2.6723114584185192
+Iteration 34: best_fitness = 0.53447026014328, elasped time: 4.5835s
+Min fitness: -0.04559178799390795, Max fitness: 0.53447026014328, Avg fitness: 0.3751
+TG num edges with pheromone = 7
+TG average pheromone = 1.908761847246098
+TG max pheromone = 2.6723433322568244
+Iteration 35: best_fitness = 0.53447026014328, elasped time: 4.3462s
+Min fitness: 0, Max fitness: 0.53447026014328, Avg fitness: 0.3620
+TG num edges with pheromone = 7
+TG average pheromone = 1.908810255572877
+TG max pheromone = 2.6723497070244853
+Shortest path in iteration 35: ['ADD_EDGE A L 이모티콘은 어떻게 선물할 수 있나요?', 'REMOVE_NODE J', 'ADD_EDGE M C 내 상태 메시지는 어떻게 변경하나요?', 'ADD_EDGE A H 오픈채팅 대화방 링크는 어디서 만들 수 있나요?', 'REMOVE_EDGE A F']
+Iteration 36: best_fitness = 0.53447026014328, elasped time: 4.7679s
+Min fitness: -0.012592516094446185, Max fitness: 0.53447026014328, Avg fitness: 0.3785
+TG num edges with pheromone = 7
+TG average pheromone = 1.9088199372382328
+TG max pheromone = 2.6723509819780173
+Iteration 37: best_fitness = 0.53447026014328, elasped time: 5.1054s
+Min fitness: -0.042445877194404624, Max fitness: 0.53447026014328, Avg fitness: 0.3655
+TG num edges with pheromone = 8
+TG average pheromone = 1.6702191393748906
+TG max pheromone = 2.6723512369687237
+Iteration 38: best_fitness = 0.53447026014328, elasped time: 5.2899s
+Min fitness: -0.05413571149110796, Max fitness: 0.53447026014328, Avg fitness: 0.3549
+TG num edges with pheromone = 8
+TG average pheromone = 1.6702194782331785
+TG max pheromone = 2.672351287966865
+Iteration 39: best_fitness = 0.53447026014328, elasped time: 5.3015s
+Min fitness: 0, Max fitness: 0.53447026014328, Avg fitness: 0.3822
+TG num edges with pheromone = 6
+TG average pheromone = 2.2269479926408984
+TG max pheromone = 2.672351298166493
+Iteration 40: best_fitness = 0.53447026014328, elasped time: 4.8174s
+Min fitness: 0, Max fitness: 0.53447026014328, Avg fitness: 0.3407
+TG num edges with pheromone = 6
+TG average pheromone = 2.226957132339113
+TG max pheromone = 2.6723513002064188
+Shortest path in iteration 40: ['ADD_EDGE A L 이모티콘은 어떻게 선물할 수 있나요?', 'REMOVE_NODE J', 'ADD_EDGE M C 내 상태 메시지는 어떻게 변경하나요?', 'ADD_EDGE A H 오픈채팅 대화방 링크는 어디서 만들 수 있나요?', 'REMOVE_EDGE A F']
+Iteration 41: best_fitness = 0.53447026014328, elasped time: 5.3691s
+Min fitness: -0.0457147002220154, Max fitness: 0.53447026014328, Avg fitness: 0.3803
+TG num edges with pheromone = 6
+TG average pheromone = 2.2269589602787563
+TG max pheromone = 2.672351300614404
+Iteration 42: best_fitness = 0.53447026014328, elasped time: 4.9791s
+Min fitness: 0, Max fitness: 0.53447026014328, Avg fitness: 0.3544
+TG num edges with pheromone = 5
+TG average pheromone = 2.672344349820692
+TG max pheromone = 2.672351300696001
+Iteration 43: best_fitness = 0.53447026014328, elasped time: 5.1381s
+Min fitness: 0, Max fitness: 0.53447026014328, Avg fitness: 0.3607
+TG num edges with pheromone = 5
+TG average pheromone = 2.672349910537258
+TG max pheromone = 2.6723513007123203
+Iteration 44: best_fitness = 0.53447026014328, elasped time: 4.8778s
+Min fitness: 0, Max fitness: 0.53447026014328, Avg fitness: 0.3791
+TG num edges with pheromone = 5
+TG average pheromone = 2.672351022680572
+TG max pheromone = 2.6723513007155844
+Iteration 45: best_fitness = 0.53447026014328, elasped time: 4.8397s
+Min fitness: -0.11015696972608569, Max fitness: 0.53447026014328, Avg fitness: 0.3574
+TG num edges with pheromone = 5
+TG average pheromone = 2.6723512451092346
+TG max pheromone = 2.672351300716237
+Shortest path in iteration 45: ['ADD_EDGE A L 이모티콘은 어떻게 선물할 수 있나요?', 'REMOVE_NODE J', 'ADD_EDGE M C 내 상태 메시지는 어떻게 변경하나요?', 'ADD_EDGE A H 오픈채팅 대화방 링크는 어디서 만들 수 있나요?', 'REMOVE_EDGE A F']
+Iteration 46: best_fitness = 0.53447026014328, elasped time: 4.9466s
+Min fitness: 0, Max fitness: 0.53447026014328, Avg fitness: 0.3763
+TG num edges with pheromone = 5
+TG average pheromone = 2.6723512895949675
+TG max pheromone = 2.6723513007163677
+Iteration 47: best_fitness = 0.53447026014328, elasped time: 4.4269s
+Min fitness: 0, Max fitness: 0.53447026014328, Avg fitness: 0.3705
+TG num edges with pheromone = 7
+TG average pheromone = 1.9088223560657958
+TG max pheromone = 2.672351300716394
+Iteration 48: best_fitness = 0.53447026014328, elasped time: 4.7538s
+Min fitness: -0.08517154715955258, Max fitness: 0.53447026014328, Avg fitness: 0.3623
+TG num edges with pheromone = 7
+TG average pheromone = 1.9088223573368164
+TG max pheromone = 2.672351300716399
+Iteration 49: best_fitness = 0.53447026014328, elasped time: 4.4761s
+Min fitness: 0, Max fitness: 0.53447026014328, Avg fitness: 0.3592
+TG num edges with pheromone = 7
+TG average pheromone = 1.9088223575910206
+TG max pheromone = 2.6723513007164
+Iteration 50: best_fitness = 0.53447026014328, elasped time: 4.6969s
+Min fitness: 0, Max fitness: 0.53447026014328, Avg fitness: 0.3733
+TG num edges with pheromone = 7
+TG average pheromone = 1.9088223576418615
+TG max pheromone = 2.6723513007164
+Shortest path in iteration 50: ['ADD_EDGE A L 이모티콘은 어떻게 선물할 수 있나요?', 'REMOVE_NODE J', 'ADD_EDGE M C 내 상태 메시지는 어떻게 변경하나요?', 'ADD_EDGE A H 오픈채팅 대화방 링크는 어디서 만들 수 있나요?', 'REMOVE_EDGE A F']
+Iteration 51: best_fitness = 0.53447026014328, elasped time: 4.6103s
+Min fitness: 0, Max fitness: 0.53447026014328, Avg fitness: 0.3675
+TG num edges with pheromone = 7
+TG average pheromone = 1.9088223576520296
+TG max pheromone = 2.6723513007164
+Iteration 52: best_fitness = 0.53447026014328, elasped time: 4.8108s
+Min fitness: -0.038577871024608634, Max fitness: 0.53447026014328, Avg fitness: 0.3615
+TG num edges with pheromone = 5
+TG average pheromone = 2.672337618277029
+TG max pheromone = 2.6723513007164
+Iteration 53: best_fitness = 0.53447026014328, elasped time: 4.7156s
+Min fitness: -0.055815817415714286, Max fitness: 0.53447026014328, Avg fitness: 0.3666
+TG num edges with pheromone = 5
+TG average pheromone = 2.672348564228526
+TG max pheromone = 2.6723513007164
+Iteration 54: best_fitness = 0.53447026014328, elasped time: 4.5194s
+Min fitness: 0, Max fitness: 0.53447026014328, Avg fitness: 0.3870
+TG num edges with pheromone = 5
+TG average pheromone = 2.6723507534188253
+TG max pheromone = 2.6723513007164
+Iteration 55: best_fitness = 0.53447026014328, elasped time: 5.0278s
+Min fitness: -0.05651983767747881, Max fitness: 0.53447026014328, Avg fitness: 0.3711
+TG num edges with pheromone = 5
+TG average pheromone = 2.6723511912568854
+TG max pheromone = 2.6723513007164
+Shortest path in iteration 55: ['ADD_EDGE A L 이모티콘은 어떻게 선물할 수 있나요?', 'REMOVE_NODE J', 'ADD_EDGE M C 내 상태 메시지는 어떻게 변경하나요?', 'ADD_EDGE A H 오픈채팅 대화방 링크는 어디서 만들 수 있나요?', 'REMOVE_EDGE A F']
+Iteration 56: best_fitness = 0.53447026014328, elasped time: 4.6203s
+Min fitness: 0, Max fitness: 0.53447026014328, Avg fitness: 0.3630
+TG num edges with pheromone = 5
+TG average pheromone = 2.672351278824497
+TG max pheromone = 2.6723513007164
+Iteration 57: best_fitness = 0.53447026014328, elasped time: 4.7783s
+Min fitness: -0.04100810214877129, Max fitness: 0.53447026014328, Avg fitness: 0.3695
+TG num edges with pheromone = 5
+TG average pheromone = 2.6723512963380203
+TG max pheromone = 2.6723513007164
+Iteration 58: best_fitness = 0.53447026014328, elasped time: 4.7241s
+Min fitness: 0, Max fitness: 0.53447026014328, Avg fitness: 0.3555
+TG num edges with pheromone = 5
+TG average pheromone = 2.6723512998407246
+TG max pheromone = 2.6723513007164
+Iteration 59: best_fitness = 0.53447026014328, elasped time: 4.7193s
+Min fitness: 0, Max fitness: 0.53447026014328, Avg fitness: 0.3509
+TG num edges with pheromone = 5
+TG average pheromone = 2.6723513005412647
+TG max pheromone = 2.6723513007164
+Iteration 60: best_fitness = 0.53447026014328, elasped time: 4.6728s
+Min fitness: -0.1388042911887169, Max fitness: 0.53447026014328, Avg fitness: 0.3579
+TG num edges with pheromone = 5
+TG average pheromone = 2.672351300681373
+TG max pheromone = 2.6723513007164
+Shortest path in iteration 60: ['ADD_EDGE A L 이모티콘은 어떻게 선물할 수 있나요?', 'REMOVE_NODE J', 'ADD_EDGE M C 내 상태 메시지는 어떻게 변경하나요?', 'ADD_EDGE A H 오픈채팅 대화방 링크는 어디서 만들 수 있나요?', 'REMOVE_EDGE A F']
+Iteration 61: best_fitness = 0.53447026014328, elasped time: 4.7564s
+Min fitness: 0, Max fitness: 0.53447026014328, Avg fitness: 0.3612
+TG num edges with pheromone = 5
+TG average pheromone = 2.672351300709395
+TG max pheromone = 2.6723513007164
+Iteration 62: best_fitness = 0.53447026014328, elasped time: 4.8361s
+Min fitness: 0, Max fitness: 0.53447026014328, Avg fitness: 0.3580
+TG num edges with pheromone = 5
+TG average pheromone = 2.672351300714999
+TG max pheromone = 2.6723513007164
+Iteration 63: best_fitness = 0.53447026014328, elasped time: 4.8397s
+Min fitness: -0.06336254775524142, Max fitness: 0.53447026014328, Avg fitness: 0.3535
+TG num edges with pheromone = 5
+TG average pheromone = 2.6723513007161204
+TG max pheromone = 2.6723513007164
+Iteration 64: best_fitness = 0.53447026014328, elasped time: 4.7032s
+Min fitness: 0, Max fitness: 0.53447026014328, Avg fitness: 0.3664
+TG num edges with pheromone = 7
+TG average pheromone = 1.9088223576545313
+TG max pheromone = 2.6723513007164
+Iteration 65: best_fitness = 0.53447026014328, elasped time: 4.8539s
+Min fitness: 0, Max fitness: 0.53447026014328, Avg fitness: 0.3666
+TG num edges with pheromone = 7
+TG average pheromone = 1.9088223576545633
+TG max pheromone = 2.6723513007164
+Shortest path in iteration 65: ['ADD_EDGE A L 이모티콘은 어떻게 선물할 수 있나요?', 'REMOVE_NODE J', 'ADD_EDGE M C 내 상태 메시지는 어떻게 변경하나요?', 'ADD_EDGE A H 오픈채팅 대화방 링크는 어디서 만들 수 있나요?', 'REMOVE_EDGE A F']
+Iteration 66: best_fitness = 0.53447026014328, elasped time: 4.5107s
+Min fitness: 0, Max fitness: 0.53447026014328, Avg fitness: 0.3515
+TG num edges with pheromone = 7
+TG average pheromone = 1.90882235765457
+TG max pheromone = 2.6723513007164
+Iteration 67: best_fitness = 0.53447026014328, elasped time: 4.9321s
+Min fitness: 0, Max fitness: 0.53447026014328, Avg fitness: 0.3941
+TG num edges with pheromone = 7
+TG average pheromone = 1.908822357654571
+TG max pheromone = 2.6723513007164
+Iteration 68: best_fitness = 0.53447026014328, elasped time: 4.5874s
+Min fitness: 0, Max fitness: 0.53447026014328, Avg fitness: 0.3523
+TG num edges with pheromone = 7
+TG average pheromone = 1.9088223576545715
+TG max pheromone = 2.6723513007164
+Iteration 69: best_fitness = 0.53447026014328, elasped time: 4.6350s
+Min fitness: 0, Max fitness: 0.53447026014328, Avg fitness: 0.3692
+TG num edges with pheromone = 6
+TG average pheromone = 2.2269480152314505
+TG max pheromone = 2.6723513007164
+Iteration 70: best_fitness = 0.53447026014328, elasped time: 4.7444s
+Min fitness: -0.13389151692390444, Max fitness: 0.53447026014328, Avg fitness: 0.3571
+TG num edges with pheromone = 6
+TG average pheromone = 2.2269571368572234
+TG max pheromone = 2.6723513007164
+Shortest path in iteration 70: ['ADD_EDGE A L 이모티콘은 어떻게 선물할 수 있나요?', 'REMOVE_NODE J', 'ADD_EDGE M C 내 상태 메시지는 어떻게 변경하나요?', 'ADD_EDGE A H 오픈채팅 대화방 링크는 어디서 만들 수 있나요?', 'REMOVE_EDGE A F']
+Iteration 71: best_fitness = 0.53447026014328, elasped time: 4.5965s
+Min fitness: -0.01009382158517838, Max fitness: 0.53447026014328, Avg fitness: 0.3755
+TG num edges with pheromone = 6
+TG average pheromone = 2.2269589611823783
+TG max pheromone = 2.6723513007164
+Iteration 72: best_fitness = 0.53447026014328, elasped time: 4.7868s
+Min fitness: 0, Max fitness: 0.53447026014328, Avg fitness: 0.3574
+TG num edges with pheromone = 6
+TG average pheromone = 2.226959326047409
+TG max pheromone = 2.6723513007164
+Iteration 73: best_fitness = 0.53447026014328, elasped time: 4.8608s
+Min fitness: -0.04655670523643496, Max fitness: 0.53447026014328, Avg fitness: 0.3465
+TG num edges with pheromone = 6
+TG average pheromone = 2.2269593990204153
+TG max pheromone = 2.6723513007164
+Iteration 74: best_fitness = 0.53447026014328, elasped time: 4.8627s
+Min fitness: -0.009711769223213207, Max fitness: 0.53447026014328, Avg fitness: 0.3618
+TG num edges with pheromone = 6
+TG average pheromone = 2.226959413615017
+TG max pheromone = 2.6723513007164
+Iteration 75: best_fitness = 0.53447026014328, elasped time: 4.9425s
+Min fitness: -0.0588467136025429, Max fitness: 0.53447026014328, Avg fitness: 0.3567
+TG num edges with pheromone = 6
+TG average pheromone = 2.226959416533937
+TG max pheromone = 2.6723513007164
+Shortest path in iteration 75: ['ADD_EDGE A L 이모티콘은 어떻게 선물할 수 있나요?', 'REMOVE_NODE J', 'ADD_EDGE M C 내 상태 메시지는 어떻게 변경하나요?', 'ADD_EDGE A H 오픈채팅 대화방 링크는 어디서 만들 수 있나요?', 'REMOVE_EDGE A F']
+Iteration 76: best_fitness = 0.53447026014328, elasped time: 4.5882s
+Min fitness: 0, Max fitness: 0.53447026014328, Avg fitness: 0.3518
+TG num edges with pheromone = 6
+TG average pheromone = 2.2269594171177207
+TG max pheromone = 2.6723513007164
+Iteration 77: best_fitness = 0.53447026014328, elasped time: 4.5859s
+Min fitness: -0.003215366601943992, Max fitness: 0.53447026014328, Avg fitness: 0.3626
+TG num edges with pheromone = 6
+TG average pheromone = 2.2269594172344775
+TG max pheromone = 2.6723513007164
+Iteration 78: best_fitness = 0.53447026014328, elasped time: 4.8978s
+Min fitness: 0, Max fitness: 0.53447026014328, Avg fitness: 0.3626
+TG num edges with pheromone = 6
+TG average pheromone = 2.2269594172578295
+TG max pheromone = 2.6723513007164
+Iteration 79: best_fitness = 0.53447026014328, elasped time: 5.1143s
+Min fitness: -0.12260925173759463, Max fitness: 0.53447026014328, Avg fitness: 0.3474
+TG num edges with pheromone = 6
+TG average pheromone = 2.226959417262499
+TG max pheromone = 2.6723513007164
+Iteration 80: best_fitness = 0.53447026014328, elasped time: 4.5835s
+Min fitness: 0, Max fitness: 0.53447026014328, Avg fitness: 0.3743
+TG num edges with pheromone = 6
+TG average pheromone = 2.2269594172634335
+TG max pheromone = 2.6723513007164
+Shortest path in iteration 80: ['ADD_EDGE A L 이모티콘은 어떻게 선물할 수 있나요?', 'REMOVE_NODE J', 'ADD_EDGE M C 내 상태 메시지는 어떻게 변경하나요?', 'ADD_EDGE A H 오픈채팅 대화방 링크는 어디서 만들 수 있나요?', 'REMOVE_EDGE A F']
+Iteration 81: best_fitness = 0.53447026014328, elasped time: 5.0781s
+Min fitness: -0.0483731269836426, Max fitness: 0.53447026014328, Avg fitness: 0.3611
+TG num edges with pheromone = 6
+TG average pheromone = 2.22695941726362
+TG max pheromone = 2.6723513007164
+Iteration 82: best_fitness = 0.53447026014328, elasped time: 4.6992s
+Min fitness: -0.04515015929937363, Max fitness: 0.53447026014328, Avg fitness: 0.3774
+TG num edges with pheromone = 6
+TG average pheromone = 2.2269594172636573
+TG max pheromone = 2.6723513007164
+Iteration 83: best_fitness = 0.53447026014328, elasped time: 4.3431s
+Min fitness: -0.061493325233459475, Max fitness: 0.53447026014328, Avg fitness: 0.3809
+TG num edges with pheromone = 6
+TG average pheromone = 2.226959417263665
+TG max pheromone = 2.6723513007164
+Iteration 84: best_fitness = 0.53447026014328, elasped time: 4.6886s
+Min fitness: 0, Max fitness: 0.53447026014328, Avg fitness: 0.3750
+TG num edges with pheromone = 6
+TG average pheromone = 2.2269594172636666
+TG max pheromone = 2.6723513007164
+Iteration 85: best_fitness = 0.53447026014328, elasped time: 4.7893s
+Min fitness: 0, Max fitness: 0.53447026014328, Avg fitness: 0.3620
+TG num edges with pheromone = 6
+TG average pheromone = 2.2269594172636666
+TG max pheromone = 2.6723513007164
+Shortest path in iteration 85: ['ADD_EDGE A L 이모티콘은 어떻게 선물할 수 있나요?', 'REMOVE_NODE J', 'ADD_EDGE M C 내 상태 메시지는 어떻게 변경하나요?', 'ADD_EDGE A H 오픈채팅 대화방 링크는 어디서 만들 수 있나요?', 'REMOVE_EDGE A F']
+Iteration 86: best_fitness = 0.53447026014328, elasped time: 4.7662s
+Min fitness: 0, Max fitness: 0.53447026014328, Avg fitness: 0.3449
+TG num edges with pheromone = 6
+TG average pheromone = 2.2269594172636666
+TG max pheromone = 2.6723513007164
+Iteration 87: best_fitness = 0.53447026014328, elasped time: 4.7574s
+Min fitness: -0.008066519349813464, Max fitness: 0.53447026014328, Avg fitness: 0.3507
+TG num edges with pheromone = 6
+TG average pheromone = 2.2269594172636666
+TG max pheromone = 2.6723513007164
+Iteration 88: best_fitness = 0.53447026014328, elasped time: 4.5526s
+Min fitness: -0.14135869592428207, Max fitness: 0.53447026014328, Avg fitness: 0.3342
+TG num edges with pheromone = 6
+TG average pheromone = 2.2269594172636666
+TG max pheromone = 2.6723513007164
+Iteration 89: best_fitness = 0.53447026014328, elasped time: 4.4322s
+Min fitness: 0, Max fitness: 0.53447026014328, Avg fitness: 0.3270
+TG num edges with pheromone = 6
+TG average pheromone = 2.2269594172636666
+TG max pheromone = 2.6723513007164
+Iteration 90: best_fitness = 0.53447026014328, elasped time: 4.7265s
+Min fitness: -0.06251443326473238, Max fitness: 0.53447026014328, Avg fitness: 0.3739
+TG num edges with pheromone = 6
+TG average pheromone = 2.2269594172636666
+TG max pheromone = 2.6723513007164
+Shortest path in iteration 90: ['ADD_EDGE A L 이모티콘은 어떻게 선물할 수 있나요?', 'REMOVE_NODE J', 'ADD_EDGE M C 내 상태 메시지는 어떻게 변경하나요?', 'ADD_EDGE A H 오픈채팅 대화방 링크는 어디서 만들 수 있나요?', 'REMOVE_EDGE A F']
+Iteration 91: best_fitness = 0.53447026014328, elasped time: 5.0829s
+Min fitness: -0.043547498434782034, Max fitness: 0.53447026014328, Avg fitness: 0.3581
+TG num edges with pheromone = 6
+TG average pheromone = 2.2269594172636666
+TG max pheromone = 2.6723513007164
+Iteration 92: best_fitness = 0.53447026014328, elasped time: 4.9597s
+Min fitness: -0.09485877454280855, Max fitness: 0.53447026014328, Avg fitness: 0.3547
+TG num edges with pheromone = 6
+TG average pheromone = 2.2269594172636666
+TG max pheromone = 2.6723513007164
+Iteration 93: best_fitness = 0.53447026014328, elasped time: 5.1395s
+Min fitness: 0, Max fitness: 0.53447026014328, Avg fitness: 0.3521
+TG num edges with pheromone = 7
+TG average pheromone = 1.9088223576545715
+TG max pheromone = 2.6723513007164
+Iteration 94: best_fitness = 0.53447026014328, elasped time: 4.8371s
+Min fitness: -0.061700241267681144, Max fitness: 0.53447026014328, Avg fitness: 0.3458
+TG num edges with pheromone = 7
+TG average pheromone = 1.9088223576545715
+TG max pheromone = 2.6723513007164
+Iteration 95: best_fitness = 0.53447026014328, elasped time: 4.7876s
+Min fitness: -0.06617643088102343, Max fitness: 0.53447026014328, Avg fitness: 0.3675
+TG num edges with pheromone = 7
+TG average pheromone = 1.9088223576545715
+TG max pheromone = 2.6723513007164
+Shortest path in iteration 95: ['ADD_EDGE A L 이모티콘은 어떻게 선물할 수 있나요?', 'REMOVE_NODE J', 'ADD_EDGE M C 내 상태 메시지는 어떻게 변경하나요?', 'ADD_EDGE A H 오픈채팅 대화방 링크는 어디서 만들 수 있나요?', 'REMOVE_EDGE A F']
+Iteration 96: best_fitness = 0.53447026014328, elasped time: 4.6099s
+Min fitness: -0.004247201979160314, Max fitness: 0.53447026014328, Avg fitness: 0.3575
+TG num edges with pheromone = 7
+TG average pheromone = 1.9088223576545715
+TG max pheromone = 2.6723513007164
+Iteration 97: best_fitness = 0.53447026014328, elasped time: 4.8630s
+Min fitness: 0, Max fitness: 0.53447026014328, Avg fitness: 0.3659
+TG num edges with pheromone = 8
+TG average pheromone = 1.67021956294775
+TG max pheromone = 2.6723513007164
+Iteration 98: best_fitness = 0.53447026014328, elasped time: 4.7329s
+Min fitness: 0, Max fitness: 0.53447026014328, Avg fitness: 0.3249
+TG num edges with pheromone = 8
+TG average pheromone = 1.67021956294775
+TG max pheromone = 2.6723513007164
+Iteration 99: best_fitness = 0.53447026014328, elasped time: 5.0196s
+Min fitness: 0, Max fitness: 0.53447026014328, Avg fitness: 0.3604
+TG num edges with pheromone = 7
+TG average pheromone = 1.908816493752289
+TG max pheromone = 2.6723513007164
+Iteration 100: best_fitness = 0.53447026014328, elasped time: 4.7597s
+Min fitness: 0, Max fitness: 0.53447026014328, Avg fitness: 0.3527
+TG num edges with pheromone = 7
+TG average pheromone = 1.9088211848741152
+TG max pheromone = 2.6723513007164
+Shortest path in iteration 100: ['ADD_EDGE A L 이모티콘은 어떻게 선물할 수 있나요?', 'REMOVE_NODE J', 'ADD_EDGE M C 내 상태 메시지는 어떻게 변경하나요?', 'ADD_EDGE A H 오픈채팅 대화방 링크는 어디서 만들 수 있나요?', 'REMOVE_EDGE A F']
+Shortest path: ['ADD_EDGE A L 이모티콘은 어떻게 선물할 수 있나요?', 'REMOVE_NODE J', 'ADD_EDGE M C 내 상태 메시지는 어떻게 변경하나요?', 'ADD_EDGE A H 오픈채팅 대화방 링크는 어디서 만들 수 있나요?', 'REMOVE_EDGE A F']
+0.53447026014328

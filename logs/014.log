@@ -1,0 +1,528 @@
+TG: V = 182, E = 16471
+TG num_rm_node = 13
+TG num_rm_edge = 13
+TG num_add_edge = 156
+Initial fitness: 0.4153378427028656
+Original fitness: 0.41319642663002015
+Iteration 1: best_fitness = 0.4628225564956665, elasped time: 8.6061s
+Min fitness: 0, Max fitness: 0.4628225564956665, Avg fitness: 0.3062
+TG num edges with pheromone = 99
+TG average pheromone = 0.08713405035962962
+TG max pheromone = 0.1652773189544678
+Iteration 2: best_fitness = 0.46521878242492676, elasped time: 7.3788s
+Min fitness: -0.034007669985294364, Max fitness: 0.46521878242492676, Avg fitness: 0.3268
+TG num edges with pheromone = 155
+TG average pheromone = 0.06933001872801012
+TG max pheromone = 0.20136606931686402
+Iteration 3: best_fitness = 0.501899003982544, elasped time: 7.2910s
+Min fitness: 0, Max fitness: 0.501899003982544, Avg fitness: 0.3371
+TG num edges with pheromone = 206
+TG average pheromone = 0.05501450968135908
+TG max pheromone = 0.40484010515213015
+Iteration 4: best_fitness = 0.501899003982544, elasped time: 7.2382s
+Min fitness: -0.07946802712976933, Max fitness: 0.5010489821434021, Avg fitness: 0.3282
+TG num edges with pheromone = 252
+TG average pheromone = 0.04539593662931804
+TG max pheromone = 0.7248182939243317
+Iteration 5: best_fitness = 0.501899003982544, elasped time: 7.3720s
+Min fitness: 0, Max fitness: 0.501899003982544, Avg fitness: 0.3344
+TG num edges with pheromone = 284
+TG average pheromone = 0.04045279898932281
+TG max pheromone = 0.9687439689388276
+Shortest path in iteration 5: ['REMOVE_EDGE A F', 'REMOVE_EDGE J M', 'REMOVE_EDGE A J', 'ADD_EDGE A G 오픈채팅은 어떤 서비스인가요?', 'REMOVE_NODE C']
+Iteration 6: best_fitness = 0.5023955702781677, elasped time: 7.0792s
+Min fitness: 0, Max fitness: 0.5023955702781677, Avg fitness: 0.3324
+TG num edges with pheromone = 259
+TG average pheromone = 0.04435854135036833
+TG max pheromone = 0.8350927152107239
+Iteration 7: best_fitness = 0.5023955702781677, elasped time: 7.0430s
+Min fitness: 0, Max fitness: 0.46888887882232666, Avg fitness: 0.3492
+TG num edges with pheromone = 234
+TG average pheromone = 0.04910875228582624
+TG max pheromone = 0.8091862364186859
+Iteration 8: best_fitness = 0.5023955702781677, elasped time: 6.6888s
+Min fitness: 0, Max fitness: 0.46888887882232666, Avg fitness: 0.3313
+TG num edges with pheromone = 218
+TG average pheromone = 0.05268914556081987
+TG max pheromone = 0.9870402189805909
+Iteration 9: best_fitness = 0.5023955702781677, elasped time: 6.9712s
+Min fitness: 0, Max fitness: 0.46511006355285645, Avg fitness: 0.3387
+TG num edges with pheromone = 206
+TG average pheromone = 0.055455068065696264
+TG max pheromone = 1.2903609091582855
+Iteration 10: best_fitness = 0.5023955702781677, elasped time: 6.5165s
+Min fitness: 0, Max fitness: 0.46694129705429077, Avg fitness: 0.3256
+TG num edges with pheromone = 206
+TG average pheromone = 0.055793615242372537
+TG max pheromone = 0.9327385796627046
+Shortest path in iteration 10: ['REMOVE_EDGE A F', 'REMOVE_EDGE J M', 'REMOVE_EDGE A J', 'ADD_EDGE A G 오픈채팅은 어떤 서비스인가요?', 'REMOVE_NODE F']
+Iteration 11: best_fitness = 0.5023955702781677, elasped time: 6.4368s
+Min fitness: 0, Max fitness: 0.4653959572315216, Avg fitness: 0.3325
+TG num edges with pheromone = 203
+TG average pheromone = 0.05673436464450559
+TG max pheromone = 1.0025302045713747
+Iteration 12: best_fitness = 0.5023955702781677, elasped time: 6.6485s
+Min fitness: -0.04342759251594544, Max fitness: 0.48115208745002747, Avg fitness: 0.3317
+TG num edges with pheromone = 191
+TG average pheromone = 0.06044626640825997
+TG max pheromone = 1.491658923490264
+Iteration 13: best_fitness = 0.5023955702781677, elasped time: 6.4410s
+Min fitness: 0, Max fitness: 0.47280171513557434, Avg fitness: 0.3524
+TG num edges with pheromone = 196
+TG average pheromone = 0.05903979419378684
+TG max pheromone = 1.5968296701636748
+Iteration 14: best_fitness = 0.5023955702781677, elasped time: 6.5691s
+Min fitness: 0, Max fitness: 0.497114360332489, Avg fitness: 0.3430
+TG num edges with pheromone = 203
+TG average pheromone = 0.057306841227947464
+TG max pheromone = 1.6212841247504324
+Iteration 15: best_fitness = 0.5023955702781677, elasped time: 6.4608s
+Min fitness: 0, Max fitness: 0.5023611783981323, Avg fitness: 0.3582
+TG num edges with pheromone = 219
+TG average pheromone = 0.053545180989606644
+TG max pheromone = 1.7188266868389719
+Shortest path in iteration 15: ['REMOVE_EDGE A F', 'REMOVE_EDGE J M', 'REMOVE_EDGE A J', 'ADD_EDGE A G 오픈채팅은 어떤 서비스인가요?', 'REMOVE_NODE F']
+Iteration 16: best_fitness = 0.5023955702781677, elasped time: 6.7812s
+Min fitness: 0, Max fitness: 0.4979828894138336, Avg fitness: 0.3505
+TG num edges with pheromone = 221
+TG average pheromone = 0.05280017282664427
+TG max pheromone = 1.836943836112759
+Iteration 17: best_fitness = 0.5023955702781677, elasped time: 6.6815s
+Min fitness: 0, Max fitness: 0.5023611783981323, Avg fitness: 0.3699
+TG num edges with pheromone = 218
+TG average pheromone = 0.05355540683802942
+TG max pheromone = 1.5770373167792842
+Iteration 18: best_fitness = 0.5023955702781677, elasped time: 6.4489s
+Min fitness: 0, Max fitness: 0.5023611783981323, Avg fitness: 0.3472
+TG num edges with pheromone = 206
+TG average pheromone = 0.05713151486531832
+TG max pheromone = 1.7184907281835853
+Iteration 19: best_fitness = 0.5023955702781677, elasped time: 6.2662s
+Min fitness: 0, Max fitness: 0.5023611783981323, Avg fitness: 0.3477
+TG num edges with pheromone = 181
+TG average pheromone = 0.06593634645733826
+TG max pheromone = 1.5010476665584243
+Iteration 20: best_fitness = 0.5023955702781677, elasped time: 5.9192s
+Min fitness: 0, Max fitness: 0.5023611783981323, Avg fitness: 0.3268
+TG num edges with pheromone = 164
+TG average pheromone = 0.0739697007235677
+TG max pheromone = 1.3563904455679259
+Shortest path in iteration 20: ['REMOVE_EDGE A F', 'REMOVE_EDGE J M', 'REMOVE_EDGE A J', 'ADD_EDGE A G 오픈채팅은 어떤 서비스인가요?', 'REMOVE_NODE F']
+Iteration 21: best_fitness = 0.5024356842041016, elasped time: 5.5780s
+Min fitness: 0, Max fitness: 0.5024356842041016, Avg fitness: 0.3320
+TG num edges with pheromone = 159
+TG average pheromone = 0.07820118503413165
+TG max pheromone = 1.805139813604355
+Iteration 22: best_fitness = 0.5024356842041016, elasped time: 4.9458s
+Min fitness: -0.005539929866790777, Max fitness: 0.5024356842041016, Avg fitness: 0.3245
+TG num edges with pheromone = 151
+TG average pheromone = 0.08299972441746649
+TG max pheromone = 2.3704428143863683
+Iteration 23: best_fitness = 0.5024356842041016, elasped time: 5.0406s
+Min fitness: 0, Max fitness: 0.5024356842041016, Avg fitness: 0.3460
+TG num edges with pheromone = 129
+TG average pheromone = 0.09731142625407019
+TG max pheromone = 2.48363758459816
+Iteration 24: best_fitness = 0.5024356842041016, elasped time: 5.4453s
+Min fitness: 0, Max fitness: 0.5024356842041016, Avg fitness: 0.3472
+TG num edges with pheromone = 121
+TG average pheromone = 0.10378688172168517
+TG max pheromone = 2.506351044446488
+Iteration 25: best_fitness = 0.5024356842041016, elasped time: 4.9328s
+Min fitness: 0, Max fitness: 0.5024356842041016, Avg fitness: 0.3348
+TG num edges with pheromone = 98
+TG average pheromone = 0.12815510362355773
+TG max pheromone = 2.51099804454451
+Shortest path in iteration 25: ['REMOVE_NODE J', 'ADD_EDGE A N 채팅 중에 친구가 사용한 이모티콘을 스토어에서 보고 싶은데 찾기가 어려워요.', 'ADD_EDGE D M 구매한 이모티콘을 다운로드 했는데 이모티콘 탭에서 보이지 않아요', 'ADD_EDGE A N 채팅 중에 친구가 사용한 이모티콘을 스토어에서 보고 싶은데 찾기가 어려워요.', 'REMOVE_EDGE A B']
+Iteration 26: best_fitness = 0.504474401473999, elasped time: 5.4516s
+Min fitness: 0, Max fitness: 0.504474401473999, Avg fitness: 0.3657
+TG num edges with pheromone = 72
+TG average pheromone = 0.1744625662679254
+TG max pheromone = 2.512350089179288
+Iteration 27: best_fitness = 0.504474401473999, elasped time: 5.2276s
+Min fitness: 0, Max fitness: 0.5024356842041016, Avg fitness: 0.3601
+TG num edges with pheromone = 60
+TG average pheromone = 0.20934022823858808
+TG max pheromone = 2.512212754652264
+Iteration 28: best_fitness = 0.504474401473999, elasped time: 4.8937s
+Min fitness: 0, Max fitness: 0.5024356842041016, Avg fitness: 0.3665
+TG num edges with pheromone = 51
+TG average pheromone = 0.24628056668732592
+TG max pheromone = 2.5121852877468593
+Iteration 29: best_fitness = 0.5085869431495667, elasped time: 5.3595s
+Min fitness: 0, Max fitness: 0.5085869431495667, Avg fitness: 0.3707
+TG num edges with pheromone = 44
+TG average pheromone = 0.28560240274029447
+TG max pheromone = 2.5134100461548714
+Iteration 30: best_fitness = 0.5085869431495667, elasped time: 5.4856s
+Min fitness: -0.008256190456449986, Max fitness: 0.5085869431495667, Avg fitness: 0.3614
+TG num edges with pheromone = 38
+TG average pheromone = 0.33137973069070753
+TG max pheromone = 2.5185760049928456
+Shortest path in iteration 30: ['REMOVE_EDGE J L', 'REMOVE_NODE J', 'ADD_EDGE A N 채팅 중에 친구가 사용한 이모티콘을 스토어에서 보고 싶은데 찾기가 어려워요.', 'REMOVE_EDGE A B', 'ADD_EDGE A G 오픈채팅은 어떤 서비스인가요?']
+Iteration 31: best_fitness = 0.5085869431495667, elasped time: 4.9605s
+Min fitness: 0, Max fitness: 0.5085869431495667, Avg fitness: 0.3589
+TG num edges with pheromone = 29
+TG average pheromone = 0.4346136234515694
+TG max pheromone = 2.5208394485495336
+Iteration 32: best_fitness = 0.510337233543396, elasped time: 5.3707s
+Min fitness: 0, Max fitness: 0.510337233543396, Avg fitness: 0.3481
+TG num edges with pheromone = 29
+TG average pheromone = 0.4370941407172514
+TG max pheromone = 2.53517496501966
+Iteration 33: best_fitness = 0.510337233543396, elasped time: 5.5480s
+Min fitness: 0, Max fitness: 0.5085869431495667, Avg fitness: 0.3578
+TG num edges with pheromone = 25
+TG average pheromone = 0.5082683877558604
+TG max pheromone = 2.541382765602199
+Iteration 34: best_fitness = 0.510337233543396, elasped time: 5.2178s
+Min fitness: 0, Max fitness: 0.5085869431495667, Avg fitness: 0.3537
+TG num edges with pheromone = 20
+TG average pheromone = 0.6356456126745081
+TG max pheromone = 2.5426243257187067
+Iteration 35: best_fitness = 0.510337233543396, elasped time: 5.4405s
+Min fitness: 0, Max fitness: 0.5085869431495667, Avg fitness: 0.3211
+TG num edges with pheromone = 16
+TG average pheromone = 0.7946363849422842
+TG max pheromone = 2.542872637742008
+Shortest path in iteration 35: ['REMOVE_NODE J', 'ADD_EDGE A N 채팅 중에 친구가 사용한 이모티콘을 스토어에서 보고 싶은데 찾기가 어려워요.', 'REMOVE_EDGE A B', 'ADD_EDGE E B 프로필', 'ADD_EDGE A M 구매한 이모티콘을 다운로드 했는데 이모티콘 탭에서 보이지 않아요']
+Iteration 36: best_fitness = 0.510337233543396, elasped time: 5.1248s
+Min fitness: 0, Max fitness: 0.5085869431495667, Avg fitness: 0.3465
+TG num edges with pheromone = 13
+TG average pheromone = 0.9780291471071667
+TG max pheromone = 2.5429223001466683
+Iteration 37: best_fitness = 0.510337233543396, elasped time: 5.4715s
+Min fitness: 0, Max fitness: 0.5085869431495667, Avg fitness: 0.3590
+TG num edges with pheromone = 7
+TG average pheromone = 1.8163313213761494
+TG max pheromone = 2.5429322326276003
+Iteration 38: best_fitness = 0.510337233543396, elasped time: 5.2494s
+Min fitness: 0, Max fitness: 0.5085869431495667, Avg fitness: 0.3555
+TG num edges with pheromone = 7
+TG average pheromone = 1.8163671661933687
+TG max pheromone = 2.5429342191237865
+Iteration 39: best_fitness = 0.510337233543396, elasped time: 5.4722s
+Min fitness: 0, Max fitness: 0.5085869431495667, Avg fitness: 0.3613
+TG num edges with pheromone = 7
+TG average pheromone = 1.8163789850945786
+TG max pheromone = 2.542934616423024
+Iteration 40: best_fitness = 0.510337233543396, elasped time: 5.3343s
+Min fitness: 0, Max fitness: 0.5085869431495667, Avg fitness: 0.3591
+TG num edges with pheromone = 9
+TG average pheromone = 1.4127410491248604
+TG max pheromone = 2.5429346958828716
+Shortest path in iteration 40: ['REMOVE_NODE J', 'ADD_EDGE A N 채팅 중에 친구가 사용한 이모티콘을 스토어에서 보고 싶은데 찾기가 어려워요.', 'REMOVE_EDGE A B', 'ADD_EDGE E B 프로필', 'ADD_EDGE A M 구매한 이모티콘을 다운로드 했는데 이모티콘 탭에서 보이지 않아요']
+Iteration 41: best_fitness = 0.5160779356956482, elasped time: 5.4413s
+Min fitness: 0, Max fitness: 0.5160779356956482, Avg fitness: 0.3743
+TG num edges with pheromone = 11
+TG average pheromone = 1.1565603403601967
+TG max pheromone = 2.5444329102840575
+Iteration 42: best_fitness = 0.5160779356956482, elasped time: 5.1707s
+Min fitness: 0, Max fitness: 0.5160779356956482, Avg fitness: 0.3599
+TG num edges with pheromone = 13
+TG average pheromone = 0.9793195074519947
+TG max pheromone = 2.546230751673511
+Iteration 43: best_fitness = 0.5160779356956482, elasped time: 5.1566s
+Min fitness: 0, Max fitness: 0.5085869431495667, Avg fitness: 0.3391
+TG num edges with pheromone = 14
+TG average pheromone = 0.9084263987404653
+TG max pheromone = 2.5435939229329687
+Iteration 44: best_fitness = 0.584112286567688, elasped time: 5.5200s
+Min fitness: 0, Max fitness: 0.584112286567688, Avg fitness: 0.3439
+TG num edges with pheromone = 17
+TG average pheromone = 0.7524034189931035
+TG max pheromone = 2.5282897845522356
+Iteration 45: best_fitness = 0.584112286567688, elasped time: 4.9901s
+Min fitness: 0, Max fitness: 0.510337233543396, Avg fitness: 0.3587
+TG num edges with pheromone = 16
+TG average pheromone = 0.7957242416835967
+TG max pheromone = 2.5403557875874796
+Shortest path in iteration 45: ['REMOVE_EDGE J L', 'REMOVE_NODE J', 'REMOVE_EDGE A B', 'ADD_EDGE K N 채팅 중에 친구가 사용한 이모티콘을 스토어에서 보고 싶은데 찾기가 어려워요.', 'REMOVE_NODE F']
+Iteration 46: best_fitness = 0.584112286567688, elasped time: 4.7293s
+Min fitness: 0, Max fitness: 0.5160779356956482, Avg fitness: 0.3476
+TG num edges with pheromone = 17
+TG average pheromone = 0.7489734465000143
+TG max pheromone = 2.5453173609400426
+Iteration 47: best_fitness = 0.584112286567688, elasped time: 5.1723s
+Min fitness: 0, Max fitness: 0.5160779356956482, Avg fitness: 0.3546
+TG num edges with pheromone = 12
+TG average pheromone = 1.061775541514619
+TG max pheromone = 2.5480599660043843
+Iteration 48: best_fitness = 0.584112286567688, elasped time: 5.3583s
+Min fitness: 0, Max fitness: 0.5160779356956482, Avg fitness: 0.3704
+TG num edges with pheromone = 10
+TG average pheromone = 1.2766407014297043
+TG max pheromone = 2.5532572082353617
+Iteration 49: best_fitness = 0.584112286567688, elasped time: 5.0810s
+Min fitness: 0, Max fitness: 0.5160779356956482, Avg fitness: 0.3780
+TG num edges with pheromone = 7
+TG average pheromone = 1.8269453478470812
+TG max pheromone = 2.5577410779729086
+Iteration 50: best_fitness = 0.584112286567688, elasped time: 5.4314s
+Min fitness: 0, Max fitness: 0.5160779356956482, Avg fitness: 0.3681
+TG num edges with pheromone = 7
+TG average pheromone = 1.8292361532742285
+TG max pheromone = 2.560934132781319
+Shortest path in iteration 50: ['REMOVE_EDGE J L', 'REMOVE_NODE J', 'REMOVE_EDGE A B', 'ADD_EDGE K N 채팅 중에 친구가 사용한 이모티콘을 스토어에서 보고 싶은데 찾기가 어려워요.', 'REMOVE_NODE F']
+Iteration 51: best_fitness = 0.584112286567688, elasped time: 5.2975s
+Min fitness: -0.08977760821580888, Max fitness: 0.5160779356956482, Avg fitness: 0.3805
+TG num edges with pheromone = 7
+TG average pheromone = 1.8395355180492332
+TG max pheromone = 2.5753504289084064
+Iteration 52: best_fitness = 0.584112286567688, elasped time: 5.2934s
+Min fitness: 0, Max fitness: 0.5160779356956482, Avg fitness: 0.3566
+TG num edges with pheromone = 7
+TG average pheromone = 1.842415491311699
+TG max pheromone = 2.5793818285642742
+Iteration 53: best_fitness = 0.584112286567688, elasped time: 5.3769s
+Min fitness: 0, Max fitness: 0.5160779356956482, Avg fitness: 0.3504
+TG num edges with pheromone = 6
+TG average pheromone = 2.1501415966713213
+TG max pheromone = 2.580188108495448
+Iteration 54: best_fitness = 0.584112286567688, elasped time: 5.2217s
+Min fitness: 0, Max fitness: 0.5160779356956482, Avg fitness: 0.3740
+TG num edges with pheromone = 6
+TG average pheromone = 2.150288104986425
+TG max pheromone = 2.5803493644816826
+Iteration 55: best_fitness = 0.584112286567688, elasped time: 5.8366s
+Min fitness: -0.06330161392688752, Max fitness: 0.5160779356956482, Avg fitness: 0.3446
+TG num edges with pheromone = 6
+TG average pheromone = 2.1503174066494455
+TG max pheromone = 2.580381615678929
+Shortest path in iteration 55: ['REMOVE_EDGE J L', 'REMOVE_NODE J', 'REMOVE_EDGE A B', 'ADD_EDGE K N 채팅 중에 친구가 사용한 이모티콘을 스토어에서 보고 싶은데 찾기가 어려워요.', 'REMOVE_NODE F']
+Iteration 56: best_fitness = 0.584112286567688, elasped time: 5.2231s
+Min fitness: -0.024082086235284808, Max fitness: 0.5257552266120911, Avg fitness: 0.3758
+TG num edges with pheromone = 7
+TG average pheromone = 1.8445166989726778
+TG max pheromone = 2.5823235241016675
+Iteration 57: best_fitness = 0.584112286567688, elasped time: 5.2972s
+Min fitness: 0, Max fitness: 0.5257552266120911, Avg fitness: 0.3492
+TG num edges with pheromone = 6
+TG average pheromone = 2.15225515069385
+TG max pheromone = 2.582711905786215
+Iteration 58: best_fitness = 0.584112286567688, elasped time: 5.2968s
+Min fitness: -0.04766716286540032, Max fitness: 0.5257552266120911, Avg fitness: 0.3687
+TG num edges with pheromone = 6
+TG average pheromone = 2.1555494612491524
+TG max pheromone = 2.5866604984897017
+Iteration 59: best_fitness = 0.584112286567688, elasped time: 5.3404s
+Min fitness: 0, Max fitness: 0.5257552266120911, Avg fitness: 0.3777
+TG num edges with pheromone = 6
+TG average pheromone = 2.162659850637841
+TG max pheromone = 2.595192049763553
+Iteration 60: best_fitness = 0.584112286567688, elasped time: 5.4306s
+Min fitness: 0, Max fitness: 0.5257552266120911, Avg fitness: 0.3692
+TG num edges with pheromone = 6
+TG average pheromone = 2.170533455793208
+TG max pheromone = 2.604640192751478
+Shortest path in iteration 60: ['REMOVE_EDGE J L', 'REMOVE_NODE J', 'REMOVE_EDGE A B', 'ADD_EDGE K N 채팅 중에 친구가 사용한 이모티콘을 스토어에서 보고 싶은데 찾기가 어려워요.', 'REMOVE_NODE F']
+Iteration 61: best_fitness = 0.584112286567688, elasped time: 5.2021s
+Min fitness: 0, Max fitness: 0.5257552266120911, Avg fitness: 0.3738
+TG num edges with pheromone = 6
+TG average pheromone = 2.1866241131989455
+TG max pheromone = 2.62394894499866
+Iteration 62: best_fitness = 0.584112286567688, elasped time: 5.6993s
+Min fitness: -0.003998509794473651, Max fitness: 0.5257552266120911, Avg fitness: 0.3647
+TG num edges with pheromone = 6
+TG average pheromone = 2.1898422446800927
+TG max pheromone = 2.627810695448096
+Iteration 63: best_fitness = 0.584112286567688, elasped time: 5.6584s
+Min fitness: 0, Max fitness: 0.5257552266120911, Avg fitness: 0.3782
+TG num edges with pheromone = 6
+TG average pheromone = 2.1904858709763224
+TG max pheromone = 2.6285830455379835
+Iteration 64: best_fitness = 0.584112286567688, elasped time: 5.2278s
+Min fitness: 0, Max fitness: 0.5257552266120911, Avg fitness: 0.3725
+TG num edges with pheromone = 6
+TG average pheromone = 2.190614596235568
+TG max pheromone = 2.628737515555961
+Iteration 65: best_fitness = 0.584112286567688, elasped time: 5.4282s
+Min fitness: 0, Max fitness: 0.5257552266120911, Avg fitness: 0.3374
+TG num edges with pheromone = 6
+TG average pheromone = 2.1906403412874176
+TG max pheromone = 2.628768409559557
+Shortest path in iteration 65: ['REMOVE_EDGE J L', 'REMOVE_NODE J', 'REMOVE_EDGE A B', 'ADD_EDGE K N 채팅 중에 친구가 사용한 이모티콘을 스토어에서 보고 싶은데 찾기가 어려워요.', 'REMOVE_NODE F']
+Iteration 66: best_fitness = 0.584112286567688, elasped time: 5.6425s
+Min fitness: 0, Max fitness: 0.5257552266120911, Avg fitness: 0.3811
+TG num edges with pheromone = 5
+TG average pheromone = 2.6287581129726885
+TG max pheromone = 2.628774588360276
+Iteration 67: best_fitness = 0.584112286567688, elasped time: 5.5495s
+Min fitness: 0, Max fitness: 0.5257552266120911, Avg fitness: 0.3785
+TG num edges with pheromone = 5
+TG average pheromone = 2.628772529042902
+TG max pheromone = 2.6287758241204195
+Iteration 68: best_fitness = 0.584112286567688, elasped time: 5.4385s
+Min fitness: 0, Max fitness: 0.5257552266120911, Avg fitness: 0.3859
+TG num edges with pheromone = 5
+TG average pheromone = 2.6287754122569447
+TG max pheromone = 2.628776071272448
+Iteration 69: best_fitness = 0.584112286567688, elasped time: 4.9507s
+Min fitness: 0, Max fitness: 0.5257552266120911, Avg fitness: 0.3629
+TG num edges with pheromone = 5
+TG average pheromone = 2.6287759888997533
+TG max pheromone = 2.628776120702854
+Iteration 70: best_fitness = 0.584112286567688, elasped time: 5.5526s
+Min fitness: 0, Max fitness: 0.5257552266120911, Avg fitness: 0.3659
+TG num edges with pheromone = 5
+TG average pheromone = 2.628776104228315
+TG max pheromone = 2.6287761305889354
+Shortest path in iteration 70: ['REMOVE_EDGE J L', 'REMOVE_NODE J', 'REMOVE_EDGE A B', 'ADD_EDGE K N 채팅 중에 친구가 사용한 이모티콘을 스토어에서 보고 싶은데 찾기가 어려워요.', 'REMOVE_NODE F']
+Iteration 71: best_fitness = 0.584112286567688, elasped time: 5.2068s
+Min fitness: -0.08794035911560061, Max fitness: 0.5257552266120911, Avg fitness: 0.3613
+TG num edges with pheromone = 5
+TG average pheromone = 2.6287761272940275
+TG max pheromone = 2.6287761325661516
+Iteration 72: best_fitness = 0.584112286567688, elasped time: 5.1186s
+Min fitness: 0, Max fitness: 0.5257552266120911, Avg fitness: 0.3698
+TG num edges with pheromone = 5
+TG average pheromone = 2.62877613190717
+TG max pheromone = 2.628776132961595
+Iteration 73: best_fitness = 0.584112286567688, elasped time: 5.0123s
+Min fitness: 0, Max fitness: 0.5257552266120911, Avg fitness: 0.3748
+TG num edges with pheromone = 5
+TG average pheromone = 2.628776132829798
+TG max pheromone = 2.628776133040683
+Iteration 74: best_fitness = 0.584112286567688, elasped time: 5.0092s
+Min fitness: 0, Max fitness: 0.5257552266120911, Avg fitness: 0.3635
+TG num edges with pheromone = 5
+TG average pheromone = 2.6287761330143242
+TG max pheromone = 2.628776133056501
+Iteration 75: best_fitness = 0.584112286567688, elasped time: 5.0747s
+Min fitness: 0, Max fitness: 0.5257552266120911, Avg fitness: 0.3758
+TG num edges with pheromone = 5
+TG average pheromone = 2.6287761330512294
+TG max pheromone = 2.628776133059665
+Shortest path in iteration 75: ['REMOVE_EDGE J L', 'REMOVE_NODE J', 'REMOVE_EDGE A B', 'ADD_EDGE K N 채팅 중에 친구가 사용한 이모티콘을 스토어에서 보고 싶은데 찾기가 어려워요.', 'REMOVE_NODE F']
+Iteration 76: best_fitness = 0.584112286567688, elasped time: 4.8939s
+Min fitness: -0.05486324578523638, Max fitness: 0.5257552266120911, Avg fitness: 0.3647
+TG num edges with pheromone = 5
+TG average pheromone = 2.62877613305861
+TG max pheromone = 2.6287761330602972
+Iteration 77: best_fitness = 0.584112286567688, elasped time: 5.0585s
+Min fitness: 0, Max fitness: 0.5257552266120911, Avg fitness: 0.3674
+TG num edges with pheromone = 5
+TG average pheromone = 2.6287761330600867
+TG max pheromone = 2.628776133060424
+Iteration 78: best_fitness = 0.584112286567688, elasped time: 5.4355s
+Min fitness: 0, Max fitness: 0.5257552266120911, Avg fitness: 0.3721
+TG num edges with pheromone = 5
+TG average pheromone = 2.6287761330603816
+TG max pheromone = 2.628776133060449
+Iteration 79: best_fitness = 0.584112286567688, elasped time: 5.0724s
+Min fitness: 0, Max fitness: 0.5257552266120911, Avg fitness: 0.3709
+TG num edges with pheromone = 5
+TG average pheromone = 2.6287761330604402
+TG max pheromone = 2.628776133060454
+Iteration 80: best_fitness = 0.584112286567688, elasped time: 5.4510s
+Min fitness: 0, Max fitness: 0.5257552266120911, Avg fitness: 0.3571
+TG num edges with pheromone = 5
+TG average pheromone = 2.6287761330604527
+TG max pheromone = 2.6287761330604553
+Shortest path in iteration 80: ['REMOVE_EDGE J L', 'REMOVE_NODE J', 'REMOVE_EDGE A B', 'ADD_EDGE K N 채팅 중에 친구가 사용한 이모티콘을 스토어에서 보고 싶은데 찾기가 어려워요.', 'REMOVE_NODE F']
+Iteration 81: best_fitness = 0.584112286567688, elasped time: 5.0724s
+Min fitness: 0, Max fitness: 0.5257552266120911, Avg fitness: 0.3638
+TG num edges with pheromone = 5
+TG average pheromone = 2.6287761330604544
+TG max pheromone = 2.6287761330604553
+Iteration 82: best_fitness = 0.584112286567688, elasped time: 5.2913s
+Min fitness: 0, Max fitness: 0.5257552266120911, Avg fitness: 0.3695
+TG num edges with pheromone = 5
+TG average pheromone = 2.6287761330604553
+TG max pheromone = 2.6287761330604553
+Iteration 83: best_fitness = 0.584112286567688, elasped time: 5.0517s
+Min fitness: 0, Max fitness: 0.5257552266120911, Avg fitness: 0.3625
+TG num edges with pheromone = 5
+TG average pheromone = 2.6287761330604553
+TG max pheromone = 2.6287761330604553
+Iteration 84: best_fitness = 0.584112286567688, elasped time: 5.2480s
+Min fitness: 0, Max fitness: 0.5257552266120911, Avg fitness: 0.3595
+TG num edges with pheromone = 5
+TG average pheromone = 2.6287761330604553
+TG max pheromone = 2.6287761330604553
+Iteration 85: best_fitness = 0.584112286567688, elasped time: 5.0721s
+Min fitness: 0, Max fitness: 0.5257552266120911, Avg fitness: 0.3705
+TG num edges with pheromone = 5
+TG average pheromone = 2.6287761330604553
+TG max pheromone = 2.6287761330604553
+Shortest path in iteration 85: ['REMOVE_EDGE J L', 'REMOVE_NODE J', 'REMOVE_EDGE A B', 'ADD_EDGE K N 채팅 중에 친구가 사용한 이모티콘을 스토어에서 보고 싶은데 찾기가 어려워요.', 'REMOVE_NODE F']
+Iteration 86: best_fitness = 0.584112286567688, elasped time: 5.2025s
+Min fitness: 0, Max fitness: 0.5257552266120911, Avg fitness: 0.4036
+TG num edges with pheromone = 5
+TG average pheromone = 2.6287761330604553
+TG max pheromone = 2.6287761330604553
+Iteration 87: best_fitness = 0.584112286567688, elasped time: 5.1350s
+Min fitness: 0, Max fitness: 0.5257552266120911, Avg fitness: 0.3585
+TG num edges with pheromone = 5
+TG average pheromone = 2.6287761330604553
+TG max pheromone = 2.6287761330604553
+Iteration 88: best_fitness = 0.584112286567688, elasped time: 5.0584s
+Min fitness: 0, Max fitness: 0.5257552266120911, Avg fitness: 0.3437
+TG num edges with pheromone = 5
+TG average pheromone = 2.6287761330604553
+TG max pheromone = 2.6287761330604553
+Iteration 89: best_fitness = 0.584112286567688, elasped time: 5.0573s
+Min fitness: 0, Max fitness: 0.5257552266120911, Avg fitness: 0.3599
+TG num edges with pheromone = 5
+TG average pheromone = 2.6287761330604553
+TG max pheromone = 2.6287761330604553
+Iteration 90: best_fitness = 0.584112286567688, elasped time: 5.2448s
+Min fitness: 0, Max fitness: 0.5257552266120911, Avg fitness: 0.3618
+TG num edges with pheromone = 5
+TG average pheromone = 2.6287761330604553
+TG max pheromone = 2.6287761330604553
+Shortest path in iteration 90: ['REMOVE_EDGE J L', 'REMOVE_NODE J', 'REMOVE_EDGE A B', 'ADD_EDGE K N 채팅 중에 친구가 사용한 이모티콘을 스토어에서 보고 싶은데 찾기가 어려워요.', 'REMOVE_NODE F']
+Iteration 91: best_fitness = 0.584112286567688, elasped time: 4.7995s
+Min fitness: 0, Max fitness: 0.5257552266120911, Avg fitness: 0.3500
+TG num edges with pheromone = 5
+TG average pheromone = 2.6287761330604553
+TG max pheromone = 2.6287761330604553
+Iteration 92: best_fitness = 0.584112286567688, elasped time: 5.1277s
+Min fitness: 0, Max fitness: 0.5257552266120911, Avg fitness: 0.3619
+TG num edges with pheromone = 5
+TG average pheromone = 2.6287761330604553
+TG max pheromone = 2.6287761330604553
+Iteration 93: best_fitness = 0.584112286567688, elasped time: 5.5759s
+Min fitness: 0, Max fitness: 0.5257552266120911, Avg fitness: 0.3771
+TG num edges with pheromone = 5
+TG average pheromone = 2.6287761330604553
+TG max pheromone = 2.6287761330604553
+Iteration 94: best_fitness = 0.584112286567688, elasped time: 5.2406s
+Min fitness: -0.010915952920913699, Max fitness: 0.5257552266120911, Avg fitness: 0.3828
+TG num edges with pheromone = 5
+TG average pheromone = 2.6287761330604553
+TG max pheromone = 2.6287761330604553
+Iteration 95: best_fitness = 0.584112286567688, elasped time: 5.3427s
+Min fitness: 0, Max fitness: 0.5257552266120911, Avg fitness: 0.3667
+TG num edges with pheromone = 5
+TG average pheromone = 2.6287761330604553
+TG max pheromone = 2.6287761330604553
+Shortest path in iteration 95: ['REMOVE_EDGE J L', 'REMOVE_NODE J', 'REMOVE_EDGE A B', 'ADD_EDGE K N 채팅 중에 친구가 사용한 이모티콘을 스토어에서 보고 싶은데 찾기가 어려워요.', 'REMOVE_NODE F']
+Iteration 96: best_fitness = 0.584112286567688, elasped time: 5.3029s
+Min fitness: 0, Max fitness: 0.5257552266120911, Avg fitness: 0.3710
+TG num edges with pheromone = 5
+TG average pheromone = 2.6287761330604553
+TG max pheromone = 2.6287761330604553
+Iteration 97: best_fitness = 0.584112286567688, elasped time: 5.3048s
+Min fitness: 0, Max fitness: 0.5257552266120911, Avg fitness: 0.3928
+TG num edges with pheromone = 5
+TG average pheromone = 2.6287761330604553
+TG max pheromone = 2.6287761330604553
+Iteration 98: best_fitness = 0.584112286567688, elasped time: 5.2992s
+Min fitness: 0, Max fitness: 0.5257552266120911, Avg fitness: 0.3956
+TG num edges with pheromone = 5
+TG average pheromone = 2.6287761330604553
+TG max pheromone = 2.6287761330604553
+Iteration 99: best_fitness = 0.584112286567688, elasped time: 4.8193s
+Min fitness: 0, Max fitness: 0.5257552266120911, Avg fitness: 0.3858
+TG num edges with pheromone = 5
+TG average pheromone = 2.6287761330604553
+TG max pheromone = 2.6287761330604553
+Iteration 100: best_fitness = 0.584112286567688, elasped time: 5.3945s
+Min fitness: -0.008256190456449986, Max fitness: 0.5257552266120911, Avg fitness: 0.3798
+TG num edges with pheromone = 5
+TG average pheromone = 2.6287761330604553
+TG max pheromone = 2.6287761330604553
+Shortest path in iteration 100: ['REMOVE_EDGE J L', 'REMOVE_NODE J', 'REMOVE_EDGE A B', 'ADD_EDGE K N 채팅 중에 친구가 사용한 이모티콘을 스토어에서 보고 싶은데 찾기가 어려워요.', 'REMOVE_NODE F']
+Shortest path: ['REMOVE_EDGE J L', 'REMOVE_NODE J', 'REMOVE_EDGE A B', 'ADD_EDGE K N 채팅 중에 친구가 사용한 이모티콘을 스토어에서 보고 싶은데 찾기가 어려워요.', 'REMOVE_NODE F']
+0.584112286567688

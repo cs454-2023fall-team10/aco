@@ -1,0 +1,528 @@
+TG: V = 182, E = 16471
+TG num_rm_node = 13
+TG num_rm_edge = 13
+TG num_add_edge = 156
+Initial fitness: 0.5653378963470459
+Original fitness: 0.5631964802742004
+Iteration 1: best_fitness = 0.5813535451889038, elasped time: 7.7299s
+Min fitness: 0, Max fitness: 0.5813535451889038, Avg fitness: 0.4722
+TG num edges with pheromone = 99
+TG average pheromone = 0.11557373374399513
+TG max pheromone = 0.22646710872650147
+Iteration 2: best_fitness = 0.5954060554504395, elasped time: 6.4504s
+Min fitness: 0, Max fitness: 0.5954060554504395, Avg fitness: 0.4947
+TG num edges with pheromone = 154
+TG average pheromone = 0.09047679382485234
+TG max pheromone = 0.4917805886268616
+Iteration 3: best_fitness = 0.5954060554504395, elasped time: 7.0359s
+Min fitness: 0, Max fitness: 0.5938822031021118, Avg fitness: 0.5218
+TG num edges with pheromone = 195
+TG average pheromone = 0.0743062069354913
+TG max pheromone = 0.5660802621841431
+Iteration 4: best_fitness = 0.5955025553703308, elasped time: 6.7587s
+Min fitness: 0, Max fitness: 0.5955025553703308, Avg fitness: 0.5204
+TG num edges with pheromone = 229
+TG average pheromone = 0.06388118487570486
+TG max pheromone = 0.7014556626319886
+Iteration 5: best_fitness = 0.5955025553703308, elasped time: 6.9293s
+Min fitness: 0, Max fitness: 0.5955025553703308, Avg fitness: 0.5251
+TG num edges with pheromone = 260
+TG average pheromone = 0.0563686408479397
+TG max pheromone = 1.313619234161377
+Shortest path in iteration 5: ['ADD_EDGE J H 오픈채팅 대화방 링크는 어디서 만들 수 있나요?', 'REMOVE_EDGE J M', 'ADD_EDGE E B 프로필', 'ADD_EDGE J I 오픈채팅방 알림을 끄고 싶어요.', 'ADD_EDGE D H 오픈채팅 대화방 링크는 어디서 만들 수 있나요?']
+Iteration 6: best_fitness = 0.5979372262954712, elasped time: 7.1406s
+Min fitness: 0, Max fitness: 0.5979372262954712, Avg fitness: 0.5230
+TG num edges with pheromone = 222
+TG average pheromone = 0.0662526438203932
+TG max pheromone = 1.6757859901580812
+Iteration 7: best_fitness = 0.5979372262954712, elasped time: 6.8071s
+Min fitness: 0, Max fitness: 0.5979372262954712, Avg fitness: 0.5147
+TG num edges with pheromone = 189
+TG average pheromone = 0.0779361617003627
+TG max pheromone = 1.751925772746277
+Iteration 8: best_fitness = 0.5979372262954712, elasped time: 6.8978s
+Min fitness: 0, Max fitness: 0.5979372262954712, Avg fitness: 0.5111
+TG num edges with pheromone = 167
+TG average pheromone = 0.08837327952546992
+TG max pheromone = 1.7699141514936827
+Iteration 9: best_fitness = 0.5979372262954712, elasped time: 6.9956s
+Min fitness: 0, Max fitness: 0.5978579521179199, Avg fitness: 0.5257
+TG num edges with pheromone = 134
+TG average pheromone = 0.11010108607890065
+TG max pheromone = 1.29782828117688
+Iteration 10: best_fitness = 0.5984551906585693, elasped time: 7.0524s
+Min fitness: 0, Max fitness: 0.5984551906585693, Avg fitness: 0.5282
+TG num edges with pheromone = 125
+TG average pheromone = 0.11802300663762284
+TG max pheromone = 1.7946039248015078
+Shortest path in iteration 10: ['ADD_EDGE N G 오픈채팅은 어떤 서비스인가요?', 'ADD_EDGE F L 이모티콘은 어떻게 선물할 수 있나요?', 'ADD_EDGE J I 오픈채팅방 알림을 끄고 싶어요.', 'REMOVE_EDGE F E', 'ADD_EDGE J H 오픈채팅 대화방 링크는 어디서 만들 수 있나요?']
+Iteration 11: best_fitness = 0.5984551906585693, elasped time: 7.1860s
+Min fitness: 0, Max fitness: 0.5984551906585693, Avg fitness: 0.5270
+TG num edges with pheromone = 115
+TG average pheromone = 0.1285478373348406
+TG max pheromone = 2.4898611269097644
+Iteration 12: best_fitness = 0.5984551906585693, elasped time: 6.9599s
+Min fitness: 0, Max fitness: 0.5978579521179199, Avg fitness: 0.5241
+TG num edges with pheromone = 107
+TG average pheromone = 0.13821060196561222
+TG max pheromone = 2.8645039073964185
+Iteration 13: best_fitness = 0.5984551906585693, elasped time: 7.0655s
+Min fitness: 0, Max fitness: 0.5984551906585693, Avg fitness: 0.5372
+TG num edges with pheromone = 109
+TG average pheromone = 0.13613089223558572
+TG max pheromone = 2.949142358150884
+Iteration 14: best_fitness = 0.5984551906585693, elasped time: 7.1404s
+Min fitness: 0, Max fitness: 0.5978579521179199, Avg fitness: 0.5375
+TG num edges with pheromone = 109
+TG average pheromone = 0.1366921018436339
+TG max pheromone = 2.9763560099297375
+Iteration 15: best_fitness = 0.6008238792419434, elasped time: 7.2842s
+Min fitness: 0, Max fitness: 0.6008238792419434, Avg fitness: 0.5363
+TG num edges with pheromone = 104
+TG average pheromone = 0.14364385375846667
+TG max pheromone = 2.987219746965043
+Shortest path in iteration 15: ['ADD_EDGE J H 오픈채팅 대화방 링크는 어디서 만들 수 있나요?', 'ADD_EDGE D I 오픈채팅방 알림을 끄고 싶어요.', 'ADD_EDGE J I 오픈채팅방 알림을 끄고 싶어요.', 'REMOVE_EDGE J N', 'REMOVE_EDGE J D']
+Iteration 16: best_fitness = 0.6008238792419434, elasped time: 6.8876s
+Min fitness: 0, Max fitness: 0.6007624268531799, Avg fitness: 0.5242
+TG num edges with pheromone = 93
+TG average pheromone = 0.1608089860948293
+TG max pheromone = 2.9911247484004244
+Iteration 17: best_fitness = 0.6008238792419434, elasped time: 7.1332s
+Min fitness: 0, Max fitness: 0.6008238792419434, Avg fitness: 0.5415
+TG num edges with pheromone = 92
+TG average pheromone = 0.16276701060364276
+TG max pheromone = 2.8754271148068855
+Iteration 18: best_fitness = 0.6008238792419434, elasped time: 6.8917s
+Min fitness: 0, Max fitness: 0.6007624268531799, Avg fitness: 0.5238
+TG num edges with pheromone = 81
+TG average pheromone = 0.18479417256182865
+TG max pheromone = 2.969927964179181
+Iteration 19: best_fitness = 0.6008238792419434, elasped time: 7.2651s
+Min fitness: 0, Max fitness: 0.6007624268531799, Avg fitness: 0.5454
+TG num edges with pheromone = 57
+TG average pheromone = 0.26293327675251665
+TG max pheromone = 2.992914127820425
+Iteration 20: best_fitness = 0.600856602191925, elasped time: 6.8500s
+Min fitness: 0, Max fitness: 0.600856602191925, Avg fitness: 0.5380
+TG num edges with pheromone = 48
+TG average pheromone = 0.3127609219897629
+TG max pheromone = 3.001670203112303
+Shortest path in iteration 20: ['ADD_EDGE J H 오픈채팅 대화방 링크는 어디서 만들 수 있나요?', 'ADD_EDGE C J 이모티콘 스토어 문의', 'ADD_EDGE F L 이모티콘은 어떻게 선물할 수 있나요?', 'ADD_EDGE J I 오픈채팅방 알림을 끄고 싶어요.', 'REMOVE_EDGE J N']
+Iteration 21: best_fitness = 0.600856602191925, elasped time: 7.0599s
+Min fitness: 0, Max fitness: 0.600856602191925, Avg fitness: 0.5452
+TG num edges with pheromone = 38
+TG average pheromone = 0.39520442368887404
+TG max pheromone = 3.0034779233739255
+Iteration 22: best_fitness = 0.600856602191925, elasped time: 6.9875s
+Min fitness: 0, Max fitness: 0.600856602191925, Avg fitness: 0.5444
+TG num edges with pheromone = 27
+TG average pheromone = 0.5562670987272994
+TG max pheromone = 3.003933642764995
+Iteration 23: best_fitness = 0.600856602191925, elasped time: 6.9778s
+Min fitness: 0, Max fitness: 0.600856602191925, Avg fitness: 0.5345
+TG num edges with pheromone = 17
+TG average pheromone = 0.8835383961229949
+TG max pheromone = 3.004137797049703
+Iteration 24: best_fitness = 0.600856602191925, elasped time: 7.3120s
+Min fitness: 0, Max fitness: 0.600856602191925, Avg fitness: 0.5508
+TG num edges with pheromone = 11
+TG average pheromone = 1.3655284129548628
+TG max pheromone = 3.004253968177641
+Iteration 25: best_fitness = 0.600856602191925, elasped time: 7.0819s
+Min fitness: 0, Max fitness: 0.600856602191925, Avg fitness: 0.5355
+TG num edges with pheromone = 9
+TG average pheromone = 1.6690222534361387
+TG max pheromone = 3.0042772024032285
+Shortest path in iteration 25: ['ADD_EDGE J H 오픈채팅 대화방 링크는 어디서 만들 수 있나요?', 'ADD_EDGE C J 이모티콘 스토어 문의', 'ADD_EDGE F L 이모티콘은 어떻게 선물할 수 있나요?', 'ADD_EDGE J I 오픈채팅방 알림을 끄고 싶어요.', 'REMOVE_EDGE J N']
+Iteration 26: best_fitness = 0.600856602191925, elasped time: 7.1214s
+Min fitness: 0, Max fitness: 0.600856602191925, Avg fitness: 0.5412
+TG num edges with pheromone = 9
+TG average pheromone = 1.6690413444470613
+TG max pheromone = 3.004281849248346
+Iteration 27: best_fitness = 0.600856602191925, elasped time: 7.6023s
+Min fitness: 0, Max fitness: 0.600856602191925, Avg fitness: 0.5501
+TG num edges with pheromone = 9
+TG average pheromone = 1.669045162649246
+TG max pheromone = 3.0042827786173696
+Iteration 28: best_fitness = 0.600856602191925, elasped time: 7.0667s
+Min fitness: 0, Max fitness: 0.600856602191925, Avg fitness: 0.5356
+TG num edges with pheromone = 10
+TG average pheromone = 1.5021413336607141
+TG max pheromone = 3.0042829644911744
+Iteration 29: best_fitness = 0.600856602191925, elasped time: 6.7828s
+Min fitness: 0, Max fitness: 0.600856602191925, Avg fitness: 0.5286
+TG num edges with pheromone = 6
+TG average pheromone = 2.5035389290583567
+TG max pheromone = 3.0042830016659354
+Iteration 30: best_fitness = 0.600856602191925, elasped time: 6.9551s
+Min fitness: 0, Max fitness: 0.600856602191925, Avg fitness: 0.5208
+TG num edges with pheromone = 6
+TG average pheromone = 2.503563126451422
+TG max pheromone = 3.0042830091008876
+Shortest path in iteration 30: ['ADD_EDGE J H 오픈채팅 대화방 링크는 어디서 만들 수 있나요?', 'ADD_EDGE C J 이모티콘 스토어 문의', 'ADD_EDGE F L 이모티콘은 어떻게 선물할 수 있나요?', 'ADD_EDGE J I 오픈채팅방 알림을 끄고 싶어요.', 'REMOVE_EDGE J N']
+Iteration 31: best_fitness = 0.600856602191925, elasped time: 7.4977s
+Min fitness: 0, Max fitness: 0.600856602191925, Avg fitness: 0.5509
+TG num edges with pheromone = 6
+TG average pheromone = 2.5035679659300345
+TG max pheromone = 3.004283010587878
+Iteration 32: best_fitness = 0.600856602191925, elasped time: 7.1628s
+Min fitness: 0, Max fitness: 0.600856602191925, Avg fitness: 0.5357
+TG num edges with pheromone = 6
+TG average pheromone = 2.503568933825757
+TG max pheromone = 3.004283010885276
+Iteration 33: best_fitness = 0.600856602191925, elasped time: 7.0805s
+Min fitness: 0, Max fitness: 0.600856602191925, Avg fitness: 0.5231
+TG num edges with pheromone = 8
+TG average pheromone = 1.8776768455536763
+TG max pheromone = 3.0042830109447554
+Iteration 34: best_fitness = 0.600856602191925, elasped time: 7.5670s
+Min fitness: 0, Max fitness: 0.600856602191925, Avg fitness: 0.5417
+TG num edges with pheromone = 11
+TG average pheromone = 1.3655754905558901
+TG max pheromone = 3.0042829942702376
+Iteration 35: best_fitness = 0.6011133790016174, elasped time: 7.5014s
+Min fitness: 0, Max fitness: 0.6011133790016174, Avg fitness: 0.5364
+TG num edges with pheromone = 14
+TG average pheromone = 1.0729753499907968
+TG max pheromone = 3.004317446185818
+Shortest path in iteration 35: ['ADD_EDGE J H 오픈채팅 대화방 링크는 어디서 만들 수 있나요?', 'ADD_EDGE D H 오픈채팅 대화방 링크는 어디서 만들 수 있나요?', 'REMOVE_EDGE F E', 'ADD_EDGE J I 오픈채팅방 알림을 끄고 싶어요.', 'REMOVE_EDGE J N']
+Iteration 36: best_fitness = 0.6011133790016174, elasped time: 7.2623s
+Min fitness: 0, Max fitness: 0.600856602191925, Avg fitness: 0.5388
+TG num edges with pheromone = 15
+TG average pheromone = 1.0014308682541826
+TG max pheromone = 3.004289898004864
+Iteration 37: best_fitness = 0.6011133790016174, elasped time: 7.2529s
+Min fitness: 0, Max fitness: 0.600856602191925, Avg fitness: 0.5308
+TG num edges with pheromone = 15
+TG average pheromone = 1.0014283099067365
+TG max pheromone = 3.004284388368673
+Iteration 38: best_fitness = 0.6011133790016174, elasped time: 6.8602s
+Min fitness: 0, Max fitness: 0.600856602191925, Avg fitness: 0.5137
+TG num edges with pheromone = 14
+TG average pheromone = 1.0729556084811551
+TG max pheromone = 3.004283286441435
+Iteration 39: best_fitness = 0.6011133790016174, elasped time: 6.8119s
+Min fitness: 0, Max fitness: 0.600856602191925, Avg fitness: 0.5125
+TG num edges with pheromone = 10
+TG average pheromone = 1.5021253928295573
+TG max pheromone = 3.0042830660559874
+Iteration 40: best_fitness = 0.6011133790016174, elasped time: 7.0883s
+Min fitness: 0, Max fitness: 0.600856602191925, Avg fitness: 0.5518
+TG num edges with pheromone = 7
+TG average pheromone = 2.145895345104121
+TG max pheromone = 3.004283021978898
+Shortest path in iteration 40: ['ADD_EDGE J H 오픈채팅 대화방 링크는 어디서 만들 수 있나요?', 'ADD_EDGE D H 오픈채팅 대화방 링크는 어디서 만들 수 있나요?', 'REMOVE_EDGE F E', 'ADD_EDGE J I 오픈채팅방 알림을 끄고 싶어요.', 'REMOVE_EDGE J N']
+Iteration 41: best_fitness = 0.6011133790016174, elasped time: 7.1946s
+Min fitness: 0, Max fitness: 0.600856602191925, Avg fitness: 0.5365
+TG num edges with pheromone = 7
+TG average pheromone = 2.145900967358244
+TG max pheromone = 3.00428301316348
+Iteration 42: best_fitness = 0.6011133790016174, elasped time: 7.2203s
+Min fitness: 0, Max fitness: 0.600856602191925, Avg fitness: 0.5398
+TG num edges with pheromone = 7
+TG average pheromone = 2.1459133425914345
+TG max pheromone = 3.004283011400396
+Iteration 43: best_fitness = 0.6011133790016174, elasped time: 7.0588s
+Min fitness: 0, Max fitness: 0.600856602191925, Avg fitness: 0.5438
+TG num edges with pheromone = 7
+TG average pheromone = 2.145915817638073
+TG max pheromone = 3.0042830110477796
+Iteration 44: best_fitness = 0.6011133790016174, elasped time: 7.1235s
+Min fitness: 0, Max fitness: 0.600856602191925, Avg fitness: 0.5403
+TG num edges with pheromone = 7
+TG average pheromone = 2.1459163126474
+TG max pheromone = 3.004283010977256
+Iteration 45: best_fitness = 0.6011133790016174, elasped time: 6.8826s
+Min fitness: 0, Max fitness: 0.600856602191925, Avg fitness: 0.5387
+TG num edges with pheromone = 7
+TG average pheromone = 2.145916411649266
+TG max pheromone = 3.0042830109631513
+Shortest path in iteration 45: ['ADD_EDGE J H 오픈채팅 대화방 링크는 어디서 만들 수 있나요?', 'ADD_EDGE D H 오픈채팅 대화방 링크는 어디서 만들 수 있나요?', 'REMOVE_EDGE F E', 'ADD_EDGE J I 오픈채팅방 알림을 끄고 싶어요.', 'REMOVE_EDGE J N']
+Iteration 46: best_fitness = 0.6011133790016174, elasped time: 6.9065s
+Min fitness: 0, Max fitness: 0.600856602191925, Avg fitness: 0.5269
+TG num edges with pheromone = 5
+TG average pheromone = 3.004267622100479
+TG max pheromone = 3.0042830109603305
+Iteration 47: best_fitness = 0.6011133790016174, elasped time: 6.7970s
+Min fitness: 0, Max fitness: 0.600856602191925, Avg fitness: 0.5355
+TG num edges with pheromone = 5
+TG average pheromone = 3.0042799331877963
+TG max pheromone = 3.0042830109597665
+Iteration 48: best_fitness = 0.6011133790016174, elasped time: 6.9262s
+Min fitness: 0, Max fitness: 0.600856602191925, Avg fitness: 0.5318
+TG num edges with pheromone = 5
+TG average pheromone = 3.0042823954052595
+TG max pheromone = 3.0042830109596537
+Iteration 49: best_fitness = 0.6011133790016174, elasped time: 6.9972s
+Min fitness: 0, Max fitness: 0.600856602191925, Avg fitness: 0.5249
+TG num edges with pheromone = 5
+TG average pheromone = 3.004282887848752
+TG max pheromone = 3.004283010959631
+Iteration 50: best_fitness = 0.6011133790016174, elasped time: 7.4127s
+Min fitness: 0, Max fitness: 0.600856602191925, Avg fitness: 0.5446
+TG num edges with pheromone = 5
+TG average pheromone = 3.0042829863374507
+TG max pheromone = 3.0042830109596266
+Shortest path in iteration 50: ['ADD_EDGE J H 오픈채팅 대화방 링크는 어디서 만들 수 있나요?', 'ADD_EDGE D H 오픈채팅 대화방 링크는 어디서 만들 수 있나요?', 'REMOVE_EDGE F E', 'ADD_EDGE J I 오픈채팅방 알림을 끄고 싶어요.', 'REMOVE_EDGE J N']
+Iteration 51: best_fitness = 0.6011133790016174, elasped time: 7.7844s
+Min fitness: 0, Max fitness: 0.600856602191925, Avg fitness: 0.5512
+TG num edges with pheromone = 6
+TG average pheromone = 2.5035691716959922
+TG max pheromone = 3.0042830109594685
+Iteration 52: best_fitness = 0.6011133790016174, elasped time: 7.6372s
+Min fitness: 0, Max fitness: 0.600856602191925, Avg fitness: 0.5555
+TG num edges with pheromone = 6
+TG average pheromone = 2.503569174978949
+TG max pheromone = 3.004283010959594
+Iteration 53: best_fitness = 0.6011133790016174, elasped time: 7.2158s
+Min fitness: 0, Max fitness: 0.600856602191925, Avg fitness: 0.5363
+TG num edges with pheromone = 6
+TG average pheromone = 2.50356917563554
+TG max pheromone = 3.004283010959619
+Iteration 54: best_fitness = 0.6011133790016174, elasped time: 6.9294s
+Min fitness: 0, Max fitness: 0.600856602191925, Avg fitness: 0.5289
+TG num edges with pheromone = 6
+TG average pheromone = 2.503569175766858
+TG max pheromone = 3.004283010959624
+Iteration 55: best_fitness = 0.6011133790016174, elasped time: 7.1858s
+Min fitness: 0, Max fitness: 0.600856602191925, Avg fitness: 0.5392
+TG num edges with pheromone = 6
+TG average pheromone = 2.5035691757931224
+TG max pheromone = 3.0042830109596252
+Shortest path in iteration 55: ['ADD_EDGE J H 오픈채팅 대화방 링크는 어디서 만들 수 있나요?', 'ADD_EDGE D H 오픈채팅 대화방 링크는 어디서 만들 수 있나요?', 'REMOVE_EDGE F E', 'ADD_EDGE J I 오픈채팅방 알림을 끄고 싶어요.', 'REMOVE_EDGE J N']
+Iteration 56: best_fitness = 0.6011133790016174, elasped time: 7.2885s
+Min fitness: 0, Max fitness: 0.600856602191925, Avg fitness: 0.5514
+TG num edges with pheromone = 6
+TG average pheromone = 2.5035691757983747
+TG max pheromone = 3.0042830109596252
+Iteration 57: best_fitness = 0.6011133790016174, elasped time: 6.9372s
+Min fitness: 0, Max fitness: 0.600856602191925, Avg fitness: 0.5332
+TG num edges with pheromone = 6
+TG average pheromone = 2.5035691757994254
+TG max pheromone = 3.0042830109596252
+Iteration 58: best_fitness = 0.6011770367622375, elasped time: 6.9432s
+Min fitness: 0, Max fitness: 0.6011770367622375, Avg fitness: 0.5341
+TG num edges with pheromone = 8
+TG average pheromone = 1.8777169361710155
+TG max pheromone = 3.004347097873688
+Iteration 59: best_fitness = 0.6011770367622375, elasped time: 7.0925s
+Min fitness: 0, Max fitness: 0.600856602191925, Avg fitness: 0.5441
+TG num edges with pheromone = 10
+TG average pheromone = 1.5021479141712126
+TG max pheromone = 3.0042958283424377
+Iteration 60: best_fitness = 0.6011770367622375, elasped time: 6.9186s
+Min fitness: 0, Max fitness: 0.600856602191925, Avg fitness: 0.5386
+TG num edges with pheromone = 10
+TG average pheromone = 1.5021427872180926
+TG max pheromone = 3.004285574436188
+Shortest path in iteration 60: ['ADD_EDGE J H 오픈채팅 대화방 링크는 어디서 만들 수 있나요?', 'ADD_EDGE C J 이모티콘 스토어 문의', 'REMOVE_EDGE J M', 'ADD_EDGE J I 오픈채팅방 알림을 끄고 싶어요.', 'REMOVE_EDGE J N']
+Iteration 61: best_fitness = 0.6011770367622375, elasped time: 7.0094s
+Min fitness: 0, Max fitness: 0.600856602191925, Avg fitness: 0.5269
+TG num edges with pheromone = 10
+TG average pheromone = 1.502141761827469
+TG max pheromone = 3.004283523654938
+Iteration 62: best_fitness = 0.6011770367622375, elasped time: 7.1340s
+Min fitness: 0, Max fitness: 0.6010829210281372, Avg fitness: 0.5303
+TG num edges with pheromone = 12
+TG average pheromone = 1.2518034905274709
+TG max pheromone = 3.00432837726593
+Iteration 63: best_fitness = 0.6011770367622375, elasped time: 7.4138s
+Min fitness: 0, Max fitness: 0.600856602191925, Avg fitness: 0.5395
+TG num edges with pheromone = 11
+TG average pheromone = 1.3655838132521885
+TG max pheromone = 3.0042920842208862
+Iteration 64: best_fitness = 0.6011770367622375, elasped time: 6.8356s
+Min fitness: 0, Max fitness: 0.6010829210281372, Avg fitness: 0.5451
+TG num edges with pheromone = 12
+TG average pheromone = 1.2517971535153705
+TG max pheromone = 3.00433008937912
+Iteration 65: best_fitness = 0.6011770367622375, elasped time: 6.7630s
+Min fitness: 0, Max fitness: 0.6010829210281372, Avg fitness: 0.5290
+TG num edges with pheromone = 12
+TG average pheromone = 1.251805960925967
+TG max pheromone = 3.004337690410767
+Shortest path in iteration 65: ['ADD_EDGE J H 오픈채팅 대화방 링크는 어디서 만들 수 있나요?', 'ADD_EDGE C J 이모티콘 스토어 문의', 'REMOVE_EDGE J M', 'ADD_EDGE J I 오픈채팅방 알림을 끄고 싶어요.', 'REMOVE_EDGE J N']
+Iteration 66: best_fitness = 0.6011770367622375, elasped time: 6.9119s
+Min fitness: 0, Max fitness: 0.6010829210281372, Avg fitness: 0.5288
+TG num edges with pheromone = 12
+TG average pheromone = 1.2518077224080861
+TG max pheromone = 3.004339210617096
+Iteration 67: best_fitness = 0.6011770367622375, elasped time: 6.7059s
+Min fitness: 0, Max fitness: 0.6010829210281372, Avg fitness: 0.5237
+TG num edges with pheromone = 12
+TG average pheromone = 1.251826934607528
+TG max pheromone = 3.004384778425605
+Iteration 68: best_fitness = 0.6011770367622375, elasped time: 6.9198s
+Min fitness: 0, Max fitness: 0.6010829210281372, Avg fitness: 0.5345
+TG num edges with pheromone = 12
+TG average pheromone = 1.251830777047416
+TG max pheromone = 3.004393891987306
+Iteration 69: best_fitness = 0.6011770367622375, elasped time: 6.7806s
+Min fitness: 0, Max fitness: 0.6010829210281372, Avg fitness: 0.5271
+TG num edges with pheromone = 12
+TG average pheromone = 1.2518692653414292
+TG max pheromone = 3.0044862422341314
+Iteration 70: best_fitness = 0.6011770367622375, elasped time: 6.9388s
+Min fitness: 0, Max fitness: 0.6010829210281372, Avg fitness: 0.5288
+TG num edges with pheromone = 8
+TG average pheromone = 1.877821364666749
+TG max pheromone = 3.004549976050739
+Shortest path in iteration 70: ['ADD_EDGE J H 오픈채팅 대화방 링크는 어디서 만들 수 있나요?', 'ADD_EDGE C J 이모티콘 스토어 문의', 'REMOVE_EDGE J M', 'ADD_EDGE J I 오픈채팅방 알림을 끄고 싶어요.', 'REMOVE_EDGE J N']
+Iteration 71: best_fitness = 0.6011770367622375, elasped time: 7.0767s
+Min fitness: 0, Max fitness: 0.6011770367622375, Avg fitness: 0.5404
+TG num edges with pheromone = 9
+TG average pheromone = 1.6692582860992096
+TG max pheromone = 3.0046720734953656
+Iteration 72: best_fitness = 0.6011770367622375, elasped time: 7.2070s
+Min fitness: 0, Max fitness: 0.6011770367622375, Avg fitness: 0.5425
+TG num edges with pheromone = 9
+TG average pheromone = 1.6695222674887529
+TG max pheromone = 3.0051415131831125
+Iteration 73: best_fitness = 0.6011770367622375, elasped time: 6.8799s
+Min fitness: 0, Max fitness: 0.6011770367622375, Avg fitness: 0.5252
+TG num edges with pheromone = 11
+TG average pheromone = 1.366106814998082
+TG max pheromone = 3.005434955175301
+Iteration 74: best_fitness = 0.6011770367622375, elasped time: 7.0021s
+Min fitness: 0, Max fitness: 0.6011770367622375, Avg fitness: 0.5478
+TG num edges with pheromone = 11
+TG average pheromone = 1.3661678490392115
+TG max pheromone = 3.0055692603221695
+Iteration 75: best_fitness = 0.6011770367622375, elasped time: 6.5545s
+Min fitness: 0, Max fitness: 0.6011770367622375, Avg fitness: 0.5272
+TG num edges with pheromone = 11
+TG average pheromone = 1.3662741715815379
+TG max pheromone = 3.005803175966564
+Shortest path in iteration 75: ['ADD_EDGE J H 오픈채팅 대화방 링크는 어디서 만들 수 있나요?', 'ADD_EDGE C J 이모티콘 스토어 문의', 'REMOVE_EDGE J M', 'ADD_EDGE J I 오픈채팅방 알림을 끄고 싶어요.', 'REMOVE_EDGE J N']
+Iteration 76: best_fitness = 0.6011770367622375, elasped time: 6.5741s
+Min fitness: 0, Max fitness: 0.6011770367622375, Avg fitness: 0.5196
+TG num edges with pheromone = 11
+TG average pheromone = 1.3663039920658304
+TG max pheromone = 3.0058687822422634
+Iteration 77: best_fitness = 0.6011770367622375, elasped time: 6.8379s
+Min fitness: 0, Max fitness: 0.6011770367622375, Avg fitness: 0.5441
+TG num edges with pheromone = 11
+TG average pheromone = 1.3663099561626892
+TG max pheromone = 3.005881903497403
+Iteration 78: best_fitness = 0.6011770367622375, elasped time: 6.6553s
+Min fitness: 0, Max fitness: 0.6011770367622375, Avg fitness: 0.5271
+TG num edges with pheromone = 7
+TG average pheromone = 2.1470332020877345
+TG max pheromone = 3.005884527748431
+Iteration 79: best_fitness = 0.6011770367622375, elasped time: 6.8892s
+Min fitness: 0, Max fitness: 0.6011770367622375, Avg fitness: 0.5282
+TG num edges with pheromone = 8
+TG average pheromone = 1.8786734022709473
+TG max pheromone = 3.005877357553312
+Iteration 80: best_fitness = 0.6011770367622375, elasped time: 6.6273s
+Min fitness: 0, Max fitness: 0.6011770367622375, Avg fitness: 0.5304
+TG num edges with pheromone = 8
+TG average pheromone = 1.8786772723597833
+TG max pheromone = 3.005883618559613
+Shortest path in iteration 80: ['ADD_EDGE J H 오픈채팅 대화방 링크는 어디서 만들 수 있나요?', 'ADD_EDGE C J 이모티콘 스토어 문의', 'REMOVE_EDGE J M', 'ADD_EDGE J I 오픈채팅방 알림을 끄고 싶어요.', 'REMOVE_EDGE J N']
+Iteration 81: best_fitness = 0.6011770367622375, elasped time: 7.0628s
+Min fitness: 0, Max fitness: 0.6011770367622375, Avg fitness: 0.5429
+TG num edges with pheromone = 6
+TG average pheromone = 2.504893404588828
+TG max pheromone = 3.005884870760873
+Iteration 82: best_fitness = 0.6011770367622375, elasped time: 6.8921s
+Min fitness: 0, Max fitness: 0.6011770367622375, Avg fitness: 0.5418
+TG num edges with pheromone = 6
+TG average pheromone = 2.5049021367918907
+TG max pheromone = 3.005885121201125
+Iteration 83: best_fitness = 0.6011770367622375, elasped time: 7.0763s
+Min fitness: 0, Max fitness: 0.6011770367622375, Avg fitness: 0.5466
+TG num edges with pheromone = 6
+TG average pheromone = 2.5049038832325037
+TG max pheromone = 3.0058851712891754
+Iteration 84: best_fitness = 0.6011770367622375, elasped time: 6.9271s
+Min fitness: 0, Max fitness: 0.6011770367622375, Avg fitness: 0.5478
+TG num edges with pheromone = 6
+TG average pheromone = 2.504904232520626
+TG max pheromone = 3.0058851813067857
+Iteration 85: best_fitness = 0.6011770367622375, elasped time: 6.6881s
+Min fitness: 0, Max fitness: 0.6011770367622375, Avg fitness: 0.5279
+TG num edges with pheromone = 6
+TG average pheromone = 2.5049043023782507
+TG max pheromone = 3.0058851833103075
+Shortest path in iteration 85: ['ADD_EDGE J H 오픈채팅 대화방 링크는 어디서 만들 수 있나요?', 'ADD_EDGE C J 이모티콘 스토어 문의', 'REMOVE_EDGE J M', 'ADD_EDGE J I 오픈채팅방 알림을 끄고 싶어요.', 'REMOVE_EDGE J N']
+Iteration 86: best_fitness = 0.6011770367622375, elasped time: 6.5092s
+Min fitness: 0, Max fitness: 0.6011770367622375, Avg fitness: 0.5236
+TG num edges with pheromone = 6
+TG average pheromone = 2.5049043163497755
+TG max pheromone = 3.005885183711012
+Iteration 87: best_fitness = 0.6011770367622375, elasped time: 6.4770s
+Min fitness: 0, Max fitness: 0.6011770367622375, Avg fitness: 0.5332
+TG num edges with pheromone = 6
+TG average pheromone = 2.5049043191440803
+TG max pheromone = 3.0058851837911527
+Iteration 88: best_fitness = 0.6011770367622375, elasped time: 6.7642s
+Min fitness: 0, Max fitness: 0.6011770367622375, Avg fitness: 0.5375
+TG num edges with pheromone = 5
+TG average pheromone = 3.005873844194168
+TG max pheromone = 3.0058851838071807
+Iteration 89: best_fitness = 0.6011770367622375, elasped time: 7.0878s
+Min fitness: 0, Max fitness: 0.6011770367622375, Avg fitness: 0.5342
+TG num edges with pheromone = 5
+TG average pheromone = 3.005882915887784
+TG max pheromone = 3.0058851838103866
+Iteration 90: best_fitness = 0.6011770367622375, elasped time: 6.8995s
+Min fitness: 0, Max fitness: 0.6011770367622375, Avg fitness: 0.5406
+TG num edges with pheromone = 5
+TG average pheromone = 3.0058847302265073
+TG max pheromone = 3.005885183811028
+Shortest path in iteration 90: ['ADD_EDGE J H 오픈채팅 대화방 링크는 어디서 만들 수 있나요?', 'ADD_EDGE C J 이모티콘 스토어 문의', 'REMOVE_EDGE J M', 'ADD_EDGE J I 오픈채팅방 알림을 끄고 싶어요.', 'REMOVE_EDGE J N']
+Iteration 91: best_fitness = 0.6011770367622375, elasped time: 6.9158s
+Min fitness: 0, Max fitness: 0.6011770367622375, Avg fitness: 0.5520
+TG num edges with pheromone = 5
+TG average pheromone = 3.005885093094252
+TG max pheromone = 3.0058851838111558
+Iteration 92: best_fitness = 0.6011770367622375, elasped time: 7.2600s
+Min fitness: 0, Max fitness: 0.6011770367622375, Avg fitness: 0.5409
+TG num edges with pheromone = 5
+TG average pheromone = 3.0058851656678005
+TG max pheromone = 3.0058851838111815
+Iteration 93: best_fitness = 0.6011770367622375, elasped time: 6.7942s
+Min fitness: 0, Max fitness: 0.6011770367622375, Avg fitness: 0.5332
+TG num edges with pheromone = 5
+TG average pheromone = 3.0058851801825104
+TG max pheromone = 3.0058851838111864
+Iteration 94: best_fitness = 0.6011770367622375, elasped time: 6.9241s
+Min fitness: 0, Max fitness: 0.6011770367622375, Avg fitness: 0.5500
+TG num edges with pheromone = 5
+TG average pheromone = 3.0058851830854527
+TG max pheromone = 3.0058851838111877
+Iteration 95: best_fitness = 0.6011770367622375, elasped time: 6.6501s
+Min fitness: 0, Max fitness: 0.6011770367622375, Avg fitness: 0.5267
+TG num edges with pheromone = 5
+TG average pheromone = 3.0058851836660407
+TG max pheromone = 3.0058851838111877
+Shortest path in iteration 95: ['ADD_EDGE J H 오픈채팅 대화방 링크는 어디서 만들 수 있나요?', 'ADD_EDGE C J 이모티콘 스토어 문의', 'REMOVE_EDGE J M', 'ADD_EDGE J I 오픈채팅방 알림을 끄고 싶어요.', 'REMOVE_EDGE J N']
+Iteration 96: best_fitness = 0.6011770367622375, elasped time: 6.7575s
+Min fitness: 0, Max fitness: 0.6011770367622375, Avg fitness: 0.5294
+TG num edges with pheromone = 5
+TG average pheromone = 3.0058851837821585
+TG max pheromone = 3.0058851838111877
+Iteration 97: best_fitness = 0.6011770367622375, elasped time: 6.9776s
+Min fitness: 0, Max fitness: 0.6011770367622375, Avg fitness: 0.5428
+TG num edges with pheromone = 5
+TG average pheromone = 3.0058851838053817
+TG max pheromone = 3.0058851838111877
+Iteration 98: best_fitness = 0.6011770367622375, elasped time: 6.5370s
+Min fitness: 0, Max fitness: 0.6011770367622375, Avg fitness: 0.5242
+TG num edges with pheromone = 5
+TG average pheromone = 3.005885183810027
+TG max pheromone = 3.0058851838111877
+Iteration 99: best_fitness = 0.6011770367622375, elasped time: 6.9178s
+Min fitness: 0, Max fitness: 0.6011770367622375, Avg fitness: 0.5513
+TG num edges with pheromone = 5
+TG average pheromone = 3.0058851838109555
+TG max pheromone = 3.0058851838111877
+Iteration 100: best_fitness = 0.6011770367622375, elasped time: 6.8825s
+Min fitness: 0, Max fitness: 0.6011770367622375, Avg fitness: 0.5491
+TG num edges with pheromone = 5
+TG average pheromone = 3.005885183811141
+TG max pheromone = 3.0058851838111877
+Shortest path in iteration 100: ['ADD_EDGE J H 오픈채팅 대화방 링크는 어디서 만들 수 있나요?', 'ADD_EDGE C J 이모티콘 스토어 문의', 'REMOVE_EDGE J M', 'ADD_EDGE J I 오픈채팅방 알림을 끄고 싶어요.', 'REMOVE_EDGE J N']
+Shortest path: ['ADD_EDGE J H 오픈채팅 대화방 링크는 어디서 만들 수 있나요?', 'ADD_EDGE C J 이모티콘 스토어 문의', 'REMOVE_EDGE J M', 'ADD_EDGE J I 오픈채팅방 알림을 끄고 싶어요.', 'REMOVE_EDGE J N']
+0.6011770367622375

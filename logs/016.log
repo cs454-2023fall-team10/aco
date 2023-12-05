@@ -1,0 +1,528 @@
+TG: V = 182, E = 16471
+TG num_rm_node = 13
+TG num_rm_edge = 13
+TG num_add_edge = 156
+Initial fitness: 0.8499999999999923
+Original fitness: 0.8499999999999923
+Iteration 1: best_fitness = 0.8984095427435318, elasped time: 7.8054s
+Min fitness: 0, Max fitness: 0.8984095427435318, Avg fitness: 0.7149
+TG num edges with pheromone = 98
+TG average pheromone = 0.17735728486225388
+TG max pheromone = 0.3414512922465179
+Iteration 2: best_fitness = 0.8999999999999924, elasped time: 6.4036s
+Min fitness: 0, Max fitness: 0.8999999999999924, Avg fitness: 0.7134
+TG num edges with pheromone = 157
+TG average pheromone = 0.13640045079839333
+TG max pheromone = 0.751208747514905
+Iteration 3: best_fitness = 0.9170974155069544, elasped time: 6.1862s
+Min fitness: 0, Max fitness: 0.9170974155069544, Avg fitness: 0.7304
+TG num edges with pheromone = 190
+TG average pheromone = 0.11727253322172153
+TG max pheromone = 0.9776111332007874
+Iteration 4: best_fitness = 0.9358846918488988, elasped time: 6.4185s
+Min fitness: 0, Max fitness: 0.9358846918488988, Avg fitness: 0.7683
+TG num edges with pheromone = 208
+TG average pheromone = 0.10812860529132805
+TG max pheromone = 1.5993671570576407
+Iteration 5: best_fitness = 0.9499005964214634, elasped time: 6.8391s
+Min fitness: 0, Max fitness: 0.9499005964214634, Avg fitness: 0.8015
+TG num edges with pheromone = 243
+TG average pheromone = 0.09305049898141943
+TG max pheromone = 1.5665199522862692
+Shortest path in iteration 5: ['ADD_EDGE G M 구매한 이모티콘을 다운로드 했는데 이모티콘 탭에서 보이지 않아요', 'REMOVE_EDGE F I', 'REMOVE_NODE F', 'ADD_EDGE A K 이모티콘은 어떻게 선물할 수 있나요?', 'REMOVE_NODE J']
+Iteration 6: best_fitness = 0.9499005964214634, elasped time: 6.4034s
+Min fitness: 0, Max fitness: 0.9499005964214634, Avg fitness: 0.7717
+TG num edges with pheromone = 193
+TG average pheromone = 0.11782178206203121
+TG max pheromone = 1.9596857001987908
+Iteration 7: best_fitness = 0.9499999999999923, elasped time: 6.3163s
+Min fitness: 0, Max fitness: 0.9499999999999923, Avg fitness: 0.7847
+TG num edges with pheromone = 159
+TG average pheromone = 0.14474627944333918
+TG max pheromone = 2.4254759074353673
+Iteration 8: best_fitness = 0.9499999999999923, elasped time: 5.8472s
+Min fitness: 0, Max fitness: 0.9499999999999923, Avg fitness: 0.7438
+TG num edges with pheromone = 137
+TG average pheromone = 0.1701743284475324
+TG max pheromone = 3.1413395838727376
+Iteration 9: best_fitness = 0.9499999999999923, elasped time: 5.7707s
+Min fitness: 0, Max fitness: 0.9499005964214634, Avg fitness: 0.8167
+TG num edges with pheromone = 121
+TG average pheromone = 0.19512159462262318
+TG max pheromone = 3.372552874751463
+Iteration 10: best_fitness = 0.9499999999999923, elasped time: 5.3849s
+Min fitness: 0, Max fitness: 0.9499005964214634, Avg fitness: 0.7969
+TG num edges with pheromone = 98
+TG average pheromone = 0.24174304201552937
+TG max pheromone = 3.899838606759412
+Shortest path in iteration 10: ['REMOVE_EDGE A B', 'REMOVE_NODE F', 'ADD_EDGE A K 이모티콘은 어떻게 선물할 수 있나요?', 'REMOVE_NODE J', 'ADD_EDGE N I 오픈채팅방 알림을 끄고 싶어요.']
+Iteration 11: best_fitness = 0.9499999999999923, elasped time: 5.5248s
+Min fitness: 0, Max fitness: 0.9499005964214634, Avg fitness: 0.8176
+TG num edges with pheromone = 88
+TG average pheromone = 0.269716028688608
+TG max pheromone = 4.579570107037737
+Iteration 12: best_fitness = 0.9499999999999923, elasped time: 4.7977s
+Min fitness: 0, Max fitness: 0.9499005964214634, Avg fitness: 0.7551
+TG num edges with pheromone = 71
+TG average pheromone = 0.3344150127871251
+TG max pheromone = 4.715516407093403
+Iteration 13: best_fitness = 0.9499999999999923, elasped time: 5.0235s
+Min fitness: 0, Max fitness: 0.9499005964214634, Avg fitness: 0.7639
+TG num edges with pheromone = 63
+TG average pheromone = 0.37692390461935393
+TG max pheromone = 4.742705667104536
+Iteration 14: best_fitness = 0.9499999999999923, elasped time: 4.7526s
+Min fitness: 0, Max fitness: 0.9499999999999923, Avg fitness: 0.7435
+TG num edges with pheromone = 53
+TG average pheromone = 0.44804919760328743
+TG max pheromone = 4.748203161253879
+Iteration 15: best_fitness = 0.9499999999999923, elasped time: 5.0865s
+Min fitness: 0, Max fitness: 0.9499999999999923, Avg fitness: 0.8064
+TG num edges with pheromone = 59
+TG average pheromone = 0.40250067253904354
+TG max pheromone = 4.749302660083749
+Shortest path in iteration 15: ['REMOVE_EDGE A B', 'REMOVE_NODE F', 'ADD_EDGE A K 이모티콘은 어떻게 선물할 수 있나요?', 'REMOVE_NODE J', 'ADD_EDGE N I 오픈채팅방 알림을 끄고 싶어요.']
+Iteration 16: best_fitness = 0.9499999999999923, elasped time: 5.2851s
+Min fitness: 0, Max fitness: 0.9499999999999923, Avg fitness: 0.8083
+TG num edges with pheromone = 56
+TG average pheromone = 0.4240713827745936
+TG max pheromone = 4.749641844143958
+Iteration 17: best_fitness = 1.0, elasped time: 4.8240s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.7461
+TG num edges with pheromone = 52
+TG average pheromone = 0.45765872362019766
+TG max pheromone = 4.759789203818824
+Iteration 18: best_fitness = 1.0, elasped time: 4.6143s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.7911
+TG num edges with pheromone = 47
+TG average pheromone = 0.5076445374267549
+TG max pheromone = 4.771957840763737
+Iteration 19: best_fitness = 1.0, elasped time: 4.5211s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.7948
+TG num edges with pheromone = 42
+TG average pheromone = 0.5731290650084107
+TG max pheromone = 4.814391568152725
+Iteration 20: best_fitness = 1.0, elasped time: 4.0302s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.7595
+TG num edges with pheromone = 36
+TG average pheromone = 0.6823327522804427
+TG max pheromone = 4.912878313630538
+Shortest path in iteration 20: ['REMOVE_EDGE A F', 'ADD_EDGE A K 이모티콘은 어떻게 선물할 수 있나요?', 'REMOVE_NODE J', 'REMOVE_EDGE A B', 'REMOVE_NODE K']
+Iteration 21: best_fitness = 1.0, elasped time: 3.8229s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.7918
+TG num edges with pheromone = 27
+TG average pheromone = 0.9226761019096656
+TG max pheromone = 4.9825756627261075
+Iteration 22: best_fitness = 1.0, elasped time: 3.7057s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.8261
+TG num edges with pheromone = 18
+TG average pheromone = 1.387883287129991
+TG max pheromone = 4.9916271036171
+Iteration 23: best_fitness = 1.0, elasped time: 3.6440s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.8110
+TG num edges with pheromone = 16
+TG average pheromone = 1.56226686911417
+TG max pheromone = 4.99832542072342
+Iteration 24: best_fitness = 1.0, elasped time: 3.3951s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.7858
+TG num edges with pheromone = 14
+TG average pheromone = 1.7856504020832389
+TG max pheromone = 4.999665084144684
+Iteration 25: best_fitness = 1.0, elasped time: 3.7387s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.8024
+TG num edges with pheromone = 11
+TG average pheromone = 2.272697461399704
+TG max pheromone = 4.999933016828937
+Shortest path in iteration 25: ['REMOVE_EDGE A F', 'ADD_EDGE A K 이모티콘은 어떻게 선물할 수 있나요?', 'REMOVE_NODE J', 'REMOVE_EDGE A B', 'REMOVE_NODE K']
+Iteration 26: best_fitness = 1.0, elasped time: 3.4374s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.8380
+TG num edges with pheromone = 7
+TG average pheromone = 3.571397100258506
+TG max pheromone = 4.999986603365787
+Iteration 27: best_fitness = 1.0, elasped time: 3.9289s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.8017
+TG num edges with pheromone = 10
+TG average pheromone = 2.49999559403619
+TG max pheromone = 4.999983192432641
+Iteration 28: best_fitness = 1.0, elasped time: 3.9426s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.8278
+TG num edges with pheromone = 13
+TG average pheromone = 1.923076245236337
+TG max pheromone = 4.999996638486529
+Iteration 29: best_fitness = 1.0, elasped time: 3.8556s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.8100
+TG num edges with pheromone = 13
+TG average pheromone = 1.9230724552011131
+TG max pheromone = 4.9999993276973065
+Iteration 30: best_fitness = 1.0, elasped time: 3.7095s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.7929
+TG num edges with pheromone = 13
+TG average pheromone = 1.923076029501761
+TG max pheromone = 4.999999865539461
+Shortest path in iteration 30: ['REMOVE_EDGE A F', 'ADD_EDGE A K 이모티콘은 어떻게 선물할 수 있나요?', 'REMOVE_NODE J', 'REMOVE_EDGE A B', 'REMOVE_NODE K']
+Iteration 31: best_fitness = 1.0, elasped time: 4.0360s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.8121
+TG num edges with pheromone = 15
+TG average pheromone = 1.666666511780305
+TG max pheromone = 4.999999973107893
+Iteration 32: best_fitness = 1.0, elasped time: 3.3475s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.8285
+TG num edges with pheromone = 12
+TG average pheromone = 2.0833172946117426
+TG max pheromone = 4.999999994621579
+Iteration 33: best_fitness = 1.0, elasped time: 3.6637s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.8431
+TG num edges with pheromone = 10
+TG average pheromone = 2.499983350706818
+TG max pheromone = 4.9999999989243165
+Iteration 34: best_fitness = 1.0, elasped time: 3.6724s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.8089
+TG num edges with pheromone = 9
+TG average pheromone = 2.7777669668237372
+TG max pheromone = 4.999999999784864
+Iteration 35: best_fitness = 1.0, elasped time: 3.8400s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.7845
+TG num edges with pheromone = 11
+TG average pheromone = 2.2727255036620657
+TG max pheromone = 4.999999999956973
+Shortest path in iteration 35: ['REMOVE_EDGE A F', 'ADD_EDGE A K 이모티콘은 어떻게 선물할 수 있나요?', 'REMOVE_NODE J', 'REMOVE_EDGE A B', 'REMOVE_NODE K']
+Iteration 36: best_fitness = 1.0, elasped time: 3.7092s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.8164
+TG num edges with pheromone = 10
+TG average pheromone = 2.4999868108056544
+TG max pheromone = 4.999999999991395
+Iteration 37: best_fitness = 1.0, elasped time: 3.4617s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.7664
+TG num edges with pheromone = 10
+TG average pheromone = 2.4999973621611313
+TG max pheromone = 4.99999999999828
+Iteration 38: best_fitness = 1.0, elasped time: 3.2942s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.7867
+TG num edges with pheromone = 10
+TG average pheromone = 2.499999472432226
+TG max pheromone = 4.999999999999656
+Iteration 39: best_fitness = 1.0, elasped time: 4.1693s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.8014
+TG num edges with pheromone = 14
+TG average pheromone = 1.7857142103474606
+TG max pheromone = 4.999999999999932
+Iteration 40: best_fitness = 1.0, elasped time: 3.3842s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.7985
+TG num edges with pheromone = 12
+TG average pheromone = 2.0833226490810737
+TG max pheromone = 4.999999999999987
+Shortest path in iteration 40: ['REMOVE_EDGE A F', 'ADD_EDGE A K 이모티콘은 어떻게 선물할 수 있나요?', 'REMOVE_NODE J', 'REMOVE_EDGE A B', 'REMOVE_NODE K']
+Iteration 41: best_fitness = 1.0, elasped time: 3.8623s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.7926
+TG num edges with pheromone = 11
+TG average pheromone = 2.2727191234358703
+TG max pheromone = 4.999999999999997
+Iteration 42: best_fitness = 1.0, elasped time: 3.7275s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.8021
+TG num edges with pheromone = 11
+TG average pheromone = 2.272725642868993
+TG max pheromone = 5.0
+Iteration 43: best_fitness = 1.0, elasped time: 3.5221s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.7983
+TG num edges with pheromone = 11
+TG average pheromone = 2.2727269467556166
+TG max pheromone = 5.0
+Iteration 44: best_fitness = 1.0, elasped time: 3.6825s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.8184
+TG num edges with pheromone = 6
+TG average pheromone = 4.166607816608405
+TG max pheromone = 5.0
+Iteration 45: best_fitness = 1.0, elasped time: 3.8626s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.8227
+TG num edges with pheromone = 5
+TG average pheromone = 4.999974316074672
+TG max pheromone = 5.0
+Shortest path in iteration 45: ['REMOVE_EDGE A F', 'ADD_EDGE A K 이모티콘은 어떻게 선물할 수 있나요?', 'REMOVE_NODE J', 'REMOVE_EDGE A B', 'REMOVE_NODE K']
+Iteration 46: best_fitness = 1.0, elasped time: 3.5565s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.8328
+TG num edges with pheromone = 5
+TG average pheromone = 4.999994863214935
+TG max pheromone = 5.0
+Iteration 47: best_fitness = 1.0, elasped time: 4.5392s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.8226
+TG num edges with pheromone = 5
+TG average pheromone = 4.999998972642987
+TG max pheromone = 5.0
+Iteration 48: best_fitness = 1.0, elasped time: 3.1742s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.8395
+TG num edges with pheromone = 8
+TG average pheromone = 3.1249998715803735
+TG max pheromone = 5.0
+Iteration 49: best_fitness = 1.0, elasped time: 3.6321s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.8036
+TG num edges with pheromone = 8
+TG average pheromone = 3.1249999743160743
+TG max pheromone = 5.0
+Iteration 50: best_fitness = 1.0, elasped time: 3.6403s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.8261
+TG num edges with pheromone = 11
+TG average pheromone = 2.2727272689914284
+TG max pheromone = 5.0
+Shortest path in iteration 50: ['REMOVE_EDGE A F', 'ADD_EDGE A K 이모티콘은 어떻게 선물할 수 있나요?', 'REMOVE_NODE J', 'REMOVE_EDGE A B', 'REMOVE_NODE K']
+Iteration 51: best_fitness = 1.0, elasped time: 3.6302s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.8151
+TG num edges with pheromone = 13
+TG average pheromone = 1.9230769224447033
+TG max pheromone = 5.0
+Iteration 52: best_fitness = 1.0, elasped time: 4.2529s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.8229
+TG num edges with pheromone = 17
+TG average pheromone = 1.470588235197425
+TG max pheromone = 5.0
+Iteration 53: best_fitness = 1.0, elasped time: 3.9319s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.8200
+TG num edges with pheromone = 17
+TG average pheromone = 1.4705882352747788
+TG max pheromone = 5.0
+Iteration 54: best_fitness = 1.0, elasped time: 3.6652s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.8144
+TG num edges with pheromone = 17
+TG average pheromone = 1.4705882352902493
+TG max pheromone = 5.0
+Iteration 55: best_fitness = 1.0, elasped time: 3.9218s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.8062
+TG num edges with pheromone = 15
+TG average pheromone = 1.6666581333324566
+TG max pheromone = 5.0
+Shortest path in iteration 55: ['REMOVE_EDGE A F', 'ADD_EDGE A K 이모티콘은 어떻게 선물할 수 있나요?', 'REMOVE_NODE J', 'REMOVE_EDGE A B', 'REMOVE_NODE K']
+Iteration 56: best_fitness = 1.0, elasped time: 3.7501s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.8002
+TG num edges with pheromone = 9
+TG average pheromone = 2.777729820444152
+TG max pheromone = 5.0
+Iteration 57: best_fitness = 1.0, elasped time: 3.6342s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.7974
+TG num edges with pheromone = 9
+TG average pheromone = 2.7777539640888307
+TG max pheromone = 5.0
+Iteration 58: best_fitness = 1.0, elasped time: 4.3489s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.8011
+TG num edges with pheromone = 7
+TG average pheromone = 3.5714005050514133
+TG max pheromone = 5.0
+Iteration 59: best_fitness = 1.0, elasped time: 3.3117s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.7728
+TG num edges with pheromone = 7
+TG average pheromone = 3.57142295815314
+TG max pheromone = 5.0
+Iteration 60: best_fitness = 1.0, elasped time: 3.5875s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.7711
+TG num edges with pheromone = 7
+TG average pheromone = 3.571427448773485
+TG max pheromone = 5.0
+Shortest path in iteration 60: ['REMOVE_EDGE A F', 'ADD_EDGE A K 이모티콘은 어떻게 선물할 수 있나요?', 'REMOVE_NODE J', 'REMOVE_EDGE A B', 'REMOVE_NODE K']
+Iteration 61: best_fitness = 1.0, elasped time: 4.3781s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.8288
+TG num edges with pheromone = 7
+TG average pheromone = 3.5714283468975543
+TG max pheromone = 5.0
+Iteration 62: best_fitness = 1.0, elasped time: 3.8798s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.8514
+TG num edges with pheromone = 5
+TG average pheromone = 4.999974337131316
+TG max pheromone = 5.0
+Iteration 63: best_fitness = 1.0, elasped time: 4.0562s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.8014
+TG num edges with pheromone = 5
+TG average pheromone = 4.999994867426262
+TG max pheromone = 5.0
+Iteration 64: best_fitness = 1.0, elasped time: 3.3532s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.8236
+TG num edges with pheromone = 7
+TG average pheromone = 3.571427838203752
+TG max pheromone = 5.0
+Iteration 65: best_fitness = 1.0, elasped time: 3.6738s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.7916
+TG num edges with pheromone = 7
+TG average pheromone = 3.571428424783608
+TG max pheromone = 5.0
+Shortest path in iteration 65: ['REMOVE_EDGE A F', 'ADD_EDGE A K 이모티콘은 어떻게 선물할 수 있나요?', 'REMOVE_NODE J', 'REMOVE_EDGE A B', 'REMOVE_NODE K']
+Iteration 66: best_fitness = 1.0, elasped time: 3.7752s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.7844
+TG num edges with pheromone = 7
+TG average pheromone = 3.5714285420995786
+TG max pheromone = 5.0
+Iteration 67: best_fitness = 1.0, elasped time: 3.4654s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.8291
+TG num edges with pheromone = 7
+TG average pheromone = 3.571428565562773
+TG max pheromone = 5.0
+Iteration 68: best_fitness = 1.0, elasped time: 3.1122s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.8052
+TG num edges with pheromone = 7
+TG average pheromone = 3.5714285702554114
+TG max pheromone = 5.0
+Iteration 69: best_fitness = 1.0, elasped time: 3.8445s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.8288
+TG num edges with pheromone = 5
+TG average pheromone = 4.999974399671516
+TG max pheromone = 5.0
+Iteration 70: best_fitness = 1.0, elasped time: 3.8136s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.8230
+TG num edges with pheromone = 5
+TG average pheromone = 4.999994879934303
+TG max pheromone = 5.0
+Shortest path in iteration 70: ['REMOVE_EDGE A F', 'ADD_EDGE A K 이모티콘은 어떻게 선물할 수 있나요?', 'REMOVE_NODE J', 'REMOVE_EDGE A B', 'REMOVE_NODE K']
+Iteration 71: best_fitness = 1.0, elasped time: 3.5655s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.8467
+TG num edges with pheromone = 5
+TG average pheromone = 4.999998975986861
+TG max pheromone = 5.0
+Iteration 72: best_fitness = 1.0, elasped time: 3.8243s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.8249
+TG num edges with pheromone = 5
+TG average pheromone = 4.999999795197373
+TG max pheromone = 5.0
+Iteration 73: best_fitness = 1.0, elasped time: 3.7070s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.8132
+TG num edges with pheromone = 5
+TG average pheromone = 4.999999959039475
+TG max pheromone = 5.0
+Iteration 74: best_fitness = 1.0, elasped time: 3.4927s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.8260
+TG num edges with pheromone = 5
+TG average pheromone = 4.999999991807895
+TG max pheromone = 5.0
+Iteration 75: best_fitness = 1.0, elasped time: 3.3767s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.7913
+TG num edges with pheromone = 5
+TG average pheromone = 4.999999998361579
+TG max pheromone = 5.0
+Shortest path in iteration 75: ['REMOVE_EDGE A F', 'ADD_EDGE A K 이모티콘은 어떻게 선물할 수 있나요?', 'REMOVE_NODE J', 'REMOVE_EDGE A B', 'REMOVE_NODE K']
+Iteration 76: best_fitness = 1.0, elasped time: 3.7083s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.8164
+TG num edges with pheromone = 7
+TG average pheromone = 3.5714285711945117
+TG max pheromone = 5.0
+Iteration 77: best_fitness = 1.0, elasped time: 4.0056s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.8206
+TG num edges with pheromone = 11
+TG average pheromone = 2.2727272726974834
+TG max pheromone = 5.0
+Iteration 78: best_fitness = 1.0, elasped time: 3.6249s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.8477
+TG num edges with pheromone = 15
+TG average pheromone = 1.6666666666622971
+TG max pheromone = 5.0
+Iteration 79: best_fitness = 1.0, elasped time: 3.5817s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.7814
+TG num edges with pheromone = 18
+TG average pheromone = 1.3888888888881603
+TG max pheromone = 5.0
+Iteration 80: best_fitness = 1.0, elasped time: 3.9575s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.8283
+TG num edges with pheromone = 19
+TG average pheromone = 1.315789473684072
+TG max pheromone = 5.0
+Shortest path in iteration 80: ['REMOVE_EDGE A F', 'ADD_EDGE A K 이모티콘은 어떻게 선물할 수 있나요?', 'REMOVE_NODE J', 'REMOVE_EDGE A B', 'REMOVE_NODE K']
+Iteration 81: best_fitness = 1.0, elasped time: 3.9303s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.7885
+TG num edges with pheromone = 19
+TG average pheromone = 1.3157894736841822
+TG max pheromone = 5.0
+Iteration 82: best_fitness = 1.0, elasped time: 3.9852s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.8291
+TG num edges with pheromone = 16
+TG average pheromone = 1.562487999999993
+TG max pheromone = 5.0
+Iteration 83: best_fitness = 1.0, elasped time: 4.0518s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.7905
+TG num edges with pheromone = 11
+TG average pheromone = 2.272693527272725
+TG max pheromone = 5.0
+Iteration 84: best_fitness = 1.0, elasped time: 3.2452s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.8017
+TG num edges with pheromone = 11
+TG average pheromone = 2.272720523636363
+TG max pheromone = 5.0
+Iteration 85: best_fitness = 1.0, elasped time: 4.1090s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.8437
+TG num edges with pheromone = 7
+TG average pheromone = 3.571384393142857
+TG max pheromone = 5.0
+Shortest path in iteration 85: ['REMOVE_EDGE A F', 'ADD_EDGE A K 이모티콘은 어떻게 선물할 수 있나요?', 'REMOVE_NODE J', 'REMOVE_EDGE A B', 'REMOVE_NODE K']
+Iteration 86: best_fitness = 1.0, elasped time: 3.9670s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.7988
+TG num edges with pheromone = 5
+TG average pheromone = 4.999956512768
+TG max pheromone = 5.0
+Iteration 87: best_fitness = 1.0, elasped time: 3.7777s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.8255
+TG num edges with pheromone = 5
+TG average pheromone = 4.9999913025536005
+TG max pheromone = 5.0
+Iteration 88: best_fitness = 1.0, elasped time: 3.4391s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.8103
+TG num edges with pheromone = 5
+TG average pheromone = 4.99999826051072
+TG max pheromone = 5.0
+Iteration 89: best_fitness = 1.0, elasped time: 3.7102s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.8385
+TG num edges with pheromone = 5
+TG average pheromone = 4.999999652102145
+TG max pheromone = 5.0
+Iteration 90: best_fitness = 1.0, elasped time: 3.8453s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.8120
+TG num edges with pheromone = 5
+TG average pheromone = 4.999999930420429
+TG max pheromone = 5.0
+Shortest path in iteration 90: ['REMOVE_EDGE A F', 'ADD_EDGE A K 이모티콘은 어떻게 선물할 수 있나요?', 'REMOVE_NODE J', 'REMOVE_EDGE A B', 'REMOVE_NODE K']
+Iteration 91: best_fitness = 1.0, elasped time: 3.8997s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.8064
+TG num edges with pheromone = 8
+TG average pheromone = 3.1249999913025537
+TG max pheromone = 5.0
+Iteration 92: best_fitness = 1.0, elasped time: 3.6428s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.8161
+TG num edges with pheromone = 12
+TG average pheromone = 2.083333332173673
+TG max pheromone = 5.0
+Iteration 93: best_fitness = 1.0, elasped time: 3.6201s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.8102
+TG num edges with pheromone = 13
+TG average pheromone = 1.9230769228628317
+TG max pheromone = 5.0
+Iteration 94: best_fitness = 1.0, elasped time: 3.5281s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.8137
+TG num edges with pheromone = 15
+TG average pheromone = 1.6666666666295569
+TG max pheromone = 5.0
+Iteration 95: best_fitness = 1.0, elasped time: 3.9124s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.7900
+TG num edges with pheromone = 17
+TG average pheromone = 1.4705882352875683
+TG max pheromone = 5.0
+Shortest path in iteration 95: ['REMOVE_EDGE A F', 'ADD_EDGE A K 이모티콘은 어떻게 선물할 수 있나요?', 'REMOVE_NODE J', 'REMOVE_EDGE A B', 'REMOVE_NODE K']
+Iteration 96: best_fitness = 1.0, elasped time: 3.0589s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.7986
+TG num edges with pheromone = 26
+TG average pheromone = 0.9615384615376048
+TG max pheromone = 5.0
+Iteration 97: best_fitness = 1.0, elasped time: 3.8397s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.7932
+TG num edges with pheromone = 26
+TG average pheromone = 0.9615246769229054
+TG max pheromone = 4.920000000000001
+Iteration 98: best_fitness = 1.0, elasped time: 3.7655s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.8206
+TG num edges with pheromone = 32
+TG average pheromone = 0.7812477599999718
+TG max pheromone = 4.984000000000001
+Iteration 99: best_fitness = 1.0, elasped time: 3.3237s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.7917
+TG num edges with pheromone = 37
+TG average pheromone = 0.6756735584864813
+TG max pheromone = 4.9968
+Iteration 100: best_fitness = 1.0, elasped time: 3.4851s
+Min fitness: 0, Max fitness: 1.0, Avg fitness: 0.7749
+TG num edges with pheromone = 43
+TG average pheromone = 0.5813920077395336
+TG max pheromone = 4.99936
+Shortest path in iteration 100: ['REMOVE_EDGE A F', 'ADD_EDGE A K 이모티콘은 어떻게 선물할 수 있나요?', 'REMOVE_NODE J', 'REMOVE_EDGE A B', 'REMOVE_NODE K']
+Shortest path: ['REMOVE_EDGE A F', 'ADD_EDGE A K 이모티콘은 어떻게 선물할 수 있나요?', 'REMOVE_NODE J', 'REMOVE_EDGE A B', 'REMOVE_NODE K']
+1.0
